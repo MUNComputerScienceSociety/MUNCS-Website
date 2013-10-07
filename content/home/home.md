@@ -6,7 +6,7 @@ Text:
 
 # Computer Science Society
 
-The Memorial University Computer Science Society offers a wealth of resources to fellow students.
+The Memorial University Computer Science Society offers a wealth of resources to our fellow students.
 Connect with us to find out more.
 
 ## Join us
