@@ -6,7 +6,7 @@ See the site live: [muncompsci.ca](http://muncompsci.ca)
 The content for the site lives in the `content/` folder. Fork this repo and send us (via a pull request)
 
 - New tutorials
-- Spellign fixes
+- Spelling fixes
 - Updated course information
 - Anything you can think of
 
