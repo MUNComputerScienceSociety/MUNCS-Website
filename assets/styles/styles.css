@@ -59,10 +59,10 @@ font-weight:400;
 #logo {
 border:none;
 display:block;
-width:150px;
-height:142px;
-background-image:url(../images/logo.png);
-margin:30px auto 0;
+width:180px;
+height:223px;
+background:url(../images/logo.png) no-repeat;
+margin:5px auto 0;
 }
 
 .imgborder {
@@ -91,7 +91,7 @@ color:#333;
 }
 
 .menu > ul {
-margin:30px 0;
+margin:5px 0;
 }
 
 .menu li {
