@@ -1,0 +1,31 @@
+AddDefaultCharset UTF-8
+# Rewrite rules
+<IfModule mod_rewrite.c>
+	# Enable awesome urls. e.g.: http://yourdomain.com/about-us/team
+	RewriteEngine on
+	# Make sure to set the RewriteBase correctly if you are running the site in a subfolder.
+	# Otherwise links or the entire site will break.
+	#
+	# e.g. If your homepage is http://yourdomain.com/mysite,
+	# Set the RewriteBase to:
+	#
+	#     RewriteBase /mysite
+	#
+	RewriteBase /
+	# Block text files in the content folder from being accessed directly
+	RewriteRule ^content/(.*)\.(txt|md|mdown)$ error [R=301,L]
+	# Block all files in the site folder from being accessed directly
+	RewriteRule ^site/(.*) error [R=301,L]
+	# Block all files in the kirby folder from being accessed directly
+	RewriteRule ^kirby/(.*) error [R=301,L]
+	# Leave robots.txt alone for search engines
+	RewriteRule ^robots.txt robots.txt [L]
+	# Make panel links work
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^panel/(.*) panel/index.php [L]
+	# Make site links work
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*) index.php [L]
+</IfModule>
