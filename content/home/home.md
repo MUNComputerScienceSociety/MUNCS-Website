@@ -22,8 +22,5 @@ The society's official IRC channel is `#muncssociety` on the synIRC Network. You
 
 [The exam schedule for Fall 2013 has been posted.](https://www3.mun.ca/admit/swkgexm.P_Query_Exam?p_term_code=201301&p_internal_campus_code=CAMP_STJ&p_title=STJ_FALL&p_subj_code=COMP)
 
-## Google Calendar
-
-Events organized by the society.
-
+<hr>
 <div id="gcal"></div>
