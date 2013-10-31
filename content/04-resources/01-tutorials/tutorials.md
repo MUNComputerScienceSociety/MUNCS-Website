@@ -6,7 +6,7 @@ Text:
 
 # Tutorials
 
-- Settign up SSH with Garfield (LABnet)
+- [Setting up SSH with Garfield (LABnet)](tutorials/garfield-ssh)
 
 ## Ideas for future articles
 
