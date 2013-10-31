@@ -1,7 +1,6 @@
-Title: Error
-
-----
+Title: Something seems broken
+-----------------------------
 
 Text:
 
-Something seems broken.
+Something seems broken. Maybe you want to [start from the beginning](/).
