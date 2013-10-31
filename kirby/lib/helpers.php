@@ -5,24 +5,24 @@ if(!defined('KIRBY')) die('Direct access is not allowed');
 
 // easy url builder
 function url($uri=false, $lang=false) {
-    
+
   // get the base url of the site
   $baseUrl = c::get('url');
 
   // url() can also be used to link to css, img or js files
   // so we need to make sure that this is not a link to a real
-  // file. Otherwise it will be broken by the rest of the code. 
+  // file. Otherwise it will be broken by the rest of the code.
   if($uri && is_file(c::get('root') . '/' . $uri)) {
-    return $baseUrl . '/' . $uri;          
+    return $baseUrl . '/' . $uri;
   }
-    
+
   // prepare the lang variable for later
   if(c::get('lang.support')) {
     $lang = ($lang) ? $lang : c::get('lang.current');
-    
+
     // prepend the language code to the uri
     $uri = $lang . '/' . ltrim($uri, '/');
-  } 
+  }
 
   // if rewrite is deactivated
   // index.php needs to be prepended
@@ -30,9 +30,9 @@ function url($uri=false, $lang=false) {
   if(!c::get('rewrite') && $uri) {
     $uri = 'index.php/' . $uri;
   }
-  
-  // return the final url and make sure 
-  // we don't get double slashes by triming the uri   
+
+  // return the final url and make sure
+  // we don't get double slashes by triming the uri
   return $baseUrl . '/' . ltrim($uri, '/');
 
 }
@@ -67,9 +67,9 @@ function snippet($snippet, $data=array(), $return=false) {
 function css($url, $media=false) {
   $url = (str::match($url, '~(^\/\/|^https?:\/\/)~'))? $url : url(ltrim($url, '/'));
   if(!empty($media)) {
-    return '<link rel="stylesheet" media="' . $media . '" href="' . $url . '" />' . "\n";
+    return '<link rel="stylesheet" media="' . $media . '" href="' . $url . '">' . "\n";
   } else {
-    return '<link rel="stylesheet" href="' . $url . '" />' . "\n";
+    return '<link rel="stylesheet" href="' . $url . '">' . "\n";
   }
 }
 

@@ -1,8 +1,7 @@
 Title: Home
+-----------
 
-----
-
-Text: 
+Text:
 
 # Computer Science Society
 
@@ -25,4 +24,6 @@ The society's official IRC channel is `#muncssociety` on the synIRC Network. You
 
 ## Google Calendar
 
-<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=muncssociety%40gmail.com&amp;color=%2323164E&amp;ctz=America%2FSt_Johns" style=" border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+Events organized by the society.
+
+<div id="gcal"></div>
