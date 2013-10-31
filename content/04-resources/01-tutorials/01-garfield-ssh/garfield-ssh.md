@@ -77,4 +77,4 @@ debug1: Offering public key: ~/.ssh/id_rsa
 debug1: Authentication succeeded (publickey).
 ```
 
-The -v flag generates verbose output by ssh.
+The `-v` flag generates verbose output by ssh.
