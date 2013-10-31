@@ -9,8 +9,8 @@ height:101%;
 
 body {
 background:#F4F4F4;
-font-family:"Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
-font-size:12px;
+font-family:sans-serif;
+font-size:14px;
 line-height:20px;
 color:#000;
 font-weight:100;
@@ -70,7 +70,7 @@ border:1px solid #f4f4f4;
 }
 
 #wrapper {
-width:1041px;
+width:1170px;
 background:url(../images/background.png) #fff;
 border:1px solid #D9D9D9;
 margin:0 auto;
@@ -155,9 +155,9 @@ color:#2bb5ee;
 }
 
 .content {
-width:670px;
+width:800px;
 float:left;
-padding:30px 50px 100px;
+padding:50px;
 }
 
 .content ul,.content ol {
