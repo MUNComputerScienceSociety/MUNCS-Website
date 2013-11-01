@@ -21,10 +21,10 @@ Adding new course notes
 To add notes (descriptions, resources, past assignments, etc.) for courses:
 
 1. Create a new folder under `content/04-resources/02-courses/` named `x-x`, where `x` is the course number.
-2. Create a new empty text file called `x.md`, where `x` is the course number.
+2. Create a new empty text file in the new folder called `x.md`, where `x` is the course number.
 3. Fill this text file with what ever you see fit.
 
-Is there a format, you ask? Well, yes, but it's Markdown (not much of a format). If you want a starting point or a good outline, see the [notes for COMP 1710](content/04-resources/02-courses/2710-2710/2710.md).
+Is there a format, you ask? Well, yes, but it's Markdown (not much of a format). If you want a starting point or a good outline, see the [notes for COMP 2710](content/04-resources/02-courses/2710-2710/2710.md).
 
 Software credits
 ----------------
