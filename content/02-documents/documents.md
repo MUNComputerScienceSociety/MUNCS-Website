@@ -4,55 +4,9 @@ Title: Documents
 
 Text:
 
-# Documents (via Google Drive)
+# Documents
 
-To gain access to society documents not listed here, send us an email.
+To gain access to society documents available from here, send us an email.
 
-## Meeting notes
-
-Notes and minutes from the weekly society meetings and the semesterly (?) general meetings.
-
-### 2013
-
-- [Mar. 26](https://docs.google.com/document/d/1W6AhcNYuDfhCtiiDudOQgOd8WWurXRKzQNSFviLVdi8/)
-- [Mar. 19](https://docs.google.com/document/d/1-NKVliLu2dTQnQ6Aose1dGNUBAZxT-yAuVHoxRJJ49U/)
-- [Mar. 12](https://docs.google.com/document/d/1GYoYzyzDtw95tbMAPsUmCzLOEyFoRR_HyhnhIRLvNj8/)
-- [Mar. 05](https://docs.google.com/document/d/1SoOfgaybxSNLtRI4V8MnOo6LTLrifDq7ll-rr48QHr4/)
-- [Feb. 28](https://docs.google.com/document/d/1FsKIT6ay4_GDWHmT1J2SiI__RgCOQxNz_U0TWAyh6EU/)
-- [Feb. 12](https://docs.google.com/document/d/1rUHZA8asZ6woT5topGBAP0vGzL5w1izeMWlroW9qOjs/)
-- [Jan. 29](https://docs.google.com/document/d/1OImYq4Fk2pEQ3L_YJoBG_Ele72rmUXb0XGRZb_vN9LA/)
-- [Jan. 22](https://docs.google.com/document/d/1SYAXm4aIjAHK8sfZQQuEdY8IVgeLcAvJVqBBIde_2TI/)
-- [Jan. 15](https://docs.google.com/document/d/1VDOuuEXTfFIMvOscyWAf6imoAMtDMqUYR1-zNb4qTgM/)
-- [Jan. 08](https://docs.google.com/document/d/1WeC_SxhpNZvJ3vuPAI7cMCp8G0Cv1iep8KRf6Z4BzLo/)
-- [Jan. 06](https://docs.google.com/document/d/1pbUWm0HJJtHO8RmQLwtL7PVLSaN0bBhCcNToB8VEafc/) (via IRC)
-- [Jan. 13](https://docs.google.com/document/d/1Xv8YCdURiyzTb3NJ99m3FIjNkbN-V9l16y5-KouAgDA/) (General Mtg.)
-
-### 2012
-
-- [Nov. 22](https://docs.google.com/document/d/1686zdKtNfl1LA8aQgy6bASYfagHq_GZ-cqOVRMVrGXA/)
-- [Nov. 15](https://docs.google.com/document/d/19eGP2VoClwlTvAJInQEXpKDOGM4RsZwJP9_yhHDDyFM/)
-- [Nov. 08](https://docs.google.com/document/d/1phCZyj14-2tuGwu1iExIkuCY2U4qHyX4lchqTYxQT7g/)
-- [Oct. 25](https://docs.google.com/document/d/1Q6J7e_mIN3wt0q4UT7mRfrue19hBRoK_p2VavAE1SLE/)
-- [Oct. 18](https://docs.google.com/document/d/18B_bvD7C-2ckfeBKdcKPxkMBXvPb6QIdkbipSLMnPQQ/)
-- [Oct. 11](https://docs.google.com/document/d/1sY4XU7dz6YQ40kFlq5CuGcyC3AyylkiWzd04bMjLqG4/)
-- [Oct. 04](https://docs.google.com/document/d/1KveDTrG6cEBwqVeAX6qwlmNtjQ5VhvxnCYPxkJL3g1I/)
-- [Sep. 27](https://docs.google.com/document/d/1pCvBgwmv7CZfVXMOa7zyvk-S2oRnBjHXR7rN8aqEJU0/)
-- [Sep. 18](https://docs.google.com/document/d/1cZfFDe4pYmhgvhTbT7YCOV1oMumBTV2TA5HJ5UxJZ4U/) (General Mtg.)
-- [Sep. 13](https://docs.google.com/document/d/1cGmVCtPfF2cIgRShGAidpkaCJpE7MYkag6Yaw4RLnkc/)
-
-## Treasury
-
-Transaction history documents.
-
-### 2013
-
-- [April](https://docs.google.com/file/d/0B2IFyVTemQZnSkZheTlFbGRoUjA/)
-- [March](https://docs.google.com/file/d/0B2IFyVTemQZnYjBzeGtMZGs5TXc/)
-- [February](https://docs.google.com/file/d/0B2IFyVTemQZncWdTdF9jTWgzckU/)
-- [January](https://docs.google.com/file/d/0B2IFyVTemQZnSUtuYXVJSXQ0Tmc/)
-
-### 2012
-
-- [December](https://docs.google.com/file/d/0B2IFyVTemQZnNnFZem9VMUFmWW8/)
-- [November](https://docs.google.com/file/d/0B2IFyVTemQZnY0s2Y0pnVHpzc2M/)
-- [October](https://docs.google.com/file/d/0B2IFyVTemQZnVDI4VnZGa0hUNlE/)
+- [Meetings](documents/meetings)
+- [Treasury](documents/treasury)
