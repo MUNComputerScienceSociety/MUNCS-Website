@@ -12,7 +12,7 @@ Connect with us to find out more.
 
 - [Facebook group](https://www.facebook.com/groups/2202189009/)
 - [@muncssociety](https://twitter.com/muncssociety)
-- Shoot us an email to join our mailing list
+- [Join our mailing list](mailing-list)
 
 ## Internet Relay Chat (IRC)
 
