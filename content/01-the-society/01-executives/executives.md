@@ -8,7 +8,7 @@ Text:
 
 - Tim Oram (President)
 - Ryan Murphy (Vice President)
-- Mark Stacy (Treasurer)
+- Mark Stacey (Treasurer)
 
 ## Public Relations Officer
 
