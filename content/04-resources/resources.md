@@ -6,8 +6,16 @@ Text:
 
 # Resources
 
-* Tutorials
+If you have ideas for tutorials to write or seminars to hold, send them to us.
+
+
+
+* [Tutorials](resources/tutorials)
 * Courses
 * Seminar notes
 
-If you have ideas for tutorials to write or seminars to hold, send them to us.
+## For High School Students
+
+Looking to learn how to program? We have a list of resources just for you (and other people too I guess).
+
+* [A list of resources for those learning how program](resources/learn-to-program)
