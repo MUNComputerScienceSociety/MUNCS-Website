@@ -18,9 +18,5 @@ Connect with us to find out more.
 
 The society's official IRC channel is `#muncssociety` on the synIRC Network. You can connect with an IRC client via `irc.synirc.net` on port `6667` (or port `7001` for SSL).
 
-## Fall 2013 Final Exams
-
-[The exam schedule for Fall 2013 has been posted.](https://www3.mun.ca/admit/swkgexm.P_Query_Exam?p_term_code=201301&p_internal_campus_code=CAMP_STJ&p_title=STJ_FALL&p_subj_code=COMP)
-
 <hr>
 <div id="gcal"></div>
