@@ -8,10 +8,6 @@ Text:
 The Memorial University Computer Science Society offers a wealth of resources to our fellow students.
 Connect with us to find out more.
 
-## Winter 2014 Clothing order
-
-[Check out the details.](clothing-order)
-
 ## Join us
 
 - [Facebook group](https://www.facebook.com/groups/2202189009/)
