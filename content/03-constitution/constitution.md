@@ -46,7 +46,7 @@ The executive positions in the society are as follows:
 - President
 - Vice President
 - Treasurer
-- Public Relations
+- Secretary
 - Social Representative
 - Representative At-large
 
@@ -87,9 +87,9 @@ The Treasurer shall
 - handle society financial matters, and serve as a co-signing authority for all society financial transactions;
 - be accountable to the society and MUNSU for the finances of the society. This includes accounting for all income and expenses on a permanent record.
 
-### 5.5. Public Relation duties
+### 5.5. Duties of the Secretary
 
-The Public Relations Officer shall
+The Secretary shall
 
 - be responsible for taking meeting minutes;
 - keep members informed of events and activities;
