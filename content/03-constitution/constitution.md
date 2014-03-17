@@ -48,9 +48,6 @@ The executive positions in the society are as follows:
 - Treasurer
 - Public Relations
 - Social Representative
-- 2<sup>nd</sup> Year Representative
-- 3<sup>rd</sup> Year Representative
-- 4<sup>th</sup> Year Representative
 - Representative At-large
 
 At minimum, the positions of President and Vice-President must be occupied.
@@ -105,15 +102,7 @@ The Social representative shall
 - organize social events;
 - select bartenders and ensure that they are licensed with Student Affairs and Services.
 
-### 5.7. *n*<sup>th</sup> Year representative duties
-
-The 2<sup>nd</sup>, 3<sup>rd</sup>, and 4<sup>th</sup> year representatives shall
-
-- represent CompSci students of each year respectively;
-- be available to speak to students about their issues with the CompSci program and department;
-- ensure that any issues referred to in paragraph (b) are brought to the attention of the society.
-
-### 5.8. Representative At-large duties
+### 5.7. Representative At-large duties
 
 The Representative At-large executives shall
 
