@@ -134,8 +134,7 @@ The Chief Election Officer shall
 2. Votes shall be cast using a secret ballot.
 3. If there are more than three nominees for any one position, an instant-runoff voting system shall be used.
 4. If a position has only one nominee, the nominee shall win by acclamation.
-5. For all positions aside from the *n*<sup>th</sup> Year Representatives, each member can cast one vote for each position in the election.
-6. For the 2<sup>nd</sup>, 3<sup>rd</sup>, and 4<sup>th</sup> Year Representatives, each member can cast a vote for only one of the three positions.
+5. Each member may cast one vote for each position in the election.
 
 ### 6.4. Transition of the executive
 
