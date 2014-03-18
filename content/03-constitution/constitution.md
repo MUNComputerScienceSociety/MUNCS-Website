@@ -137,7 +137,7 @@ The Chief Election Officer shall
 - must not vote in the upcoming election;
 - shall be responsible for all duties associated with the upcoming election;
 - shall ensure proper notice of the upcoming election has been given to all society members;
-- shall ensure the election is held in accordance with §7.3.
+- shall ensure the election is held in accordance with §6.3.
 
 ### 6.3. Election procedure
 
