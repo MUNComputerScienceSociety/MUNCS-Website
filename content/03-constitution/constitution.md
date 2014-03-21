@@ -46,11 +46,8 @@ The executive positions in the society are as follows:
 - President
 - Vice President
 - Treasurer
-- Public Relations
+- Secretary
 - Social Representative
-- 2<sup>nd</sup> Year Representative
-- 3<sup>rd</sup> Year Representative
-- 4<sup>th</sup> Year Representative
 - Representative At-large
 
 At minimum, the positions of President and Vice-President must be occupied.
@@ -90,9 +87,9 @@ The Treasurer shall
 - handle society financial matters, and serve as a co-signing authority for all society financial transactions;
 - be accountable to the society and MUNSU for the finances of the society. This includes accounting for all income and expenses on a permanent record.
 
-### 5.5. Public Relation duties
+### 5.5. Duties of the Secretary
 
-The Public Relations Officer shall
+The Secretary shall
 
 - be responsible for taking meeting minutes;
 - keep members informed of events and activities;
@@ -105,15 +102,7 @@ The Social representative shall
 - organize social events;
 - select bartenders and ensure that they are licensed with Student Affairs and Services.
 
-### 5.7. *n*<sup>th</sup> Year representative duties
-
-The 2<sup>nd</sup>, 3<sup>rd</sup>, and 4<sup>th</sup> year representatives shall
-
-- represent CompSci students of each year respectively;
-- be available to speak to students about their issues with the CompSci program and department;
-- ensure that any issues referred to in paragraph (b) are brought to the attention of the society.
-
-### 5.8. Representative At-large duties
+### 5.7. Representative At-large duties
 
 The Representative At-large executives shall
 
@@ -145,8 +134,7 @@ The Chief Election Officer shall
 2. Votes shall be cast using a secret ballot.
 3. If there are more than three nominees for any one position, an instant-runoff voting system shall be used.
 4. If a position has only one nominee, the nominee shall win by acclamation.
-5. For all positions aside from the *n*<sup>th</sup> Year Representatives, each member can cast one vote for each position in the election.
-6. For the 2<sup>nd</sup>, 3<sup>rd</sup>, and 4<sup>th</sup> Year Representatives, each member can cast a vote for only one of the three positions.
+5. Each member may cast one vote for each position in the election.
 
 ### 6.4. Transition of the executive
 
