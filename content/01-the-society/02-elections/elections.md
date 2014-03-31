@@ -55,13 +55,13 @@ From Mark Stacey:
 
 >Why should you vote for me? Because of my dedication to improving this society and this department. Both have improved in recent years, but we have a long way to go. A helpful and supportive student community is incredibly important for the success and well-being of CompSci undergraduates. I will to everything in my power to help achieve the following goals before I graduate:
 
-> Stable society with ample resources, and well-understood rules/procedures
+> - Stable society with ample resources, and well-understood rules/procedures
 
-> Stable and useful infrastructure available for use to the student population (i.e. Society server and website. They already exist, but they could be made more useful)
+> - Stable and useful infrastructure available for use to the student population (i.e. Society server and website. They already exist, but they could be made more useful)
 
-> Improved outreach efforts directed at first/second year students
+> - Improved outreach efforts directed at first/second year students
 
-> Continuation of Youth Engagement Initiative, and a broadening of our goals to include undergrads
+> - Continuation of Youth Engagement Initiative, and a broadening of our goals to include undergrads
 
 > Additionally, I hope to help solve whatever problems students face during the semester.
 
