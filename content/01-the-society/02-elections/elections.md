@@ -76,3 +76,7 @@ From Scott Young:
 From Dean Massecar:
 
 > Heading into 3rd year next fall, I felt I should get more involved with the society. Along with the other members, I will push for bettering the department. In addition, I believe we should have further social events than just Scotch Wednesday and mixers. For example, gaming nights (Super Smash Bros, anyone? Quake, perhaps.)
+
+From Jarret Kolanko:
+
+> Hi, my name is Jarret Kolanko. I am running for the position of Representative at Large. When I first began computer science at MUN, I had a great deal of difficulty. I went in with no prior experience, and struggled to find help when I needed it. It wasn't until last winter that I learned that the computer lab was a gathering of CS students, and an excellent place to find help. If elected, I hope to work towards helping provide newer CS students with information on how to get help with courses, as well as working to improve Computer Science at MUN in general. Thank you for your consideration.
