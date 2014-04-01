@@ -80,3 +80,18 @@ From Dean Massecar:
 From Jarret Kolanko:
 
 > Hi, my name is Jarret Kolanko. I am running for the position of Representative at Large. When I first began computer science at MUN, I had a great deal of difficulty. I went in with no prior experience, and struggled to find help when I needed it. It wasn't until last winter that I learned that the computer lab was a gathering of CS students, and an excellent place to find help. If elected, I hope to work towards helping provide newer CS students with information on how to get help with courses, as well as working to improve Computer Science at MUN in general. Thank you for your consideration.
+
+From Bukunola Ladele:
+
+>Hi, 
+I am running for the Representative At Large. The computer science society has
+grown immensely over the last couple of months. This is mainly due to the
+Facebook group and mixer. While this is has proved extremely successful, it
+leaves out a big part of the society who don't/can't attend these mixers.  My
+goal if elected is to use my experience from working on several committees on
+campus to work with other members of the executive and the society to come up
+with ways to make these people feel part of the society. Also I would like to
+see more practical based fourth year courses being offered. Vote for the change
+you really want to see.
+
+>Bukunola Ladele
