@@ -16,7 +16,7 @@ Connect with us to find out more.
 
 ## Internet Relay Chat (IRC)
 
-The society's official IRC channel is `#muncssociety` on the synIRC Network. You can connect with an IRC client via `irc.synirc.net` on port `6667` (or port `7001` for SSL).
+The society's official IRC channel is `#muncssociety` on the synIRC Network. You can connect with an IRC client via `irc.synirc.net` on port `6667` (or port `7001` for SSL). You can also use our [Embedded IRC Client](irc)
 
 <hr>
 <div id="gcal"></div>
