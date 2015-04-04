@@ -50,23 +50,23 @@ The -r flag recursively copies all files in a directory; if you are only copying
 
 Garfield has supports for public key authentication, but it requires a few steps.
 
-For users running Linux or Mac OS X, the following commands will setup your keys as two files in your home directory under `.ssh/`. **One is `id_rsa` which is your private key. You should protect this as you would any key. The other file is `id_rsa.pub`, which is the public key. This is file you distribute.** When prompted for a passphrase, you can simply hit return.
+For users running Linux or Mac OS X, the following commands will setup your keys as two files in your home directory under `.ssh/`. **One is `mun`, which is your private key. You should protect this as you would any key. The other file is `mun.pub`, which is the public key. This is file you distribute.** 
 
 ```
-ssh-keygen -t rsa -b 2048 -f ~/.ssh/id_rsa -C "your_email@youremail.com"
+ssh-keygen -N ’’ -b 4096 -t rsa -f ~/.ssh/mun -C "your_email@mun.ca"
 chmod 700 ~/.ssh && chmod 600 ~/.ssh/*
 ```
 
 You must now upload your public key to your home directory on LABnet. You could use a flash drive or any other physical media to transfer the public key into your home folder on Garfield. An alternate method is to use `scp`. Issue the following command from the terminal:
 
 ```
-cat ~/.ssh/id_rsa.pub | ssh abc123@garfield.cs.mun.ca 'cat - >> ~/.ssh/authorized_keys'
+cat ~/.ssh/mun.pub | ssh abc123@garfield.cs.mun.ca 'cat - >> ~/.ssh/authorized_keys'
 ```
 
 If everything was setup correctly you should be able to connect to Garfield using a public key. To test the setup, run:
 
 ```
-ssh -v abc123@garfield.cs.mun.ca
+ssh -v abc123@garfield.cs.mun.ca -i ~/.ssh/mun
 ```
 
 And look for the following output:
@@ -78,3 +78,27 @@ debug1: Authentication succeeded (publickey).
 ```
 
 The `-v` flag generates verbose output by ssh.
+
+To avoid having to enter your username and specifying your key, you can set your SSH config to automatically to use your username and key for any computer at MUN. Also, it is recommended you keep a persistent connection and enable multiplexing to avoid wasting time to re-open a connection. Use the following settings in your local `~/.ssh/config` and run ```mkdir -p ~/.ssh/sockets/``` (which will hold all the sockets). 
+
+```
+Host *
+ControlMaster auto
+ControlPath ~/.ssh/sockets/%r@%h-%p
+ControlPersist 8760h
+ServerAliveInterval 5
+ServerAliveCountMax 1
+TCPKeepAlive yes
+
+Host *.mun.ca
+User [abc123]
+IdentityFile ~/.ssh/mun
+```
+
+To test this, simply run:
+
+```
+ssh garfield.cs.mun.ca 
+```
+
+If you are not prompted for your password and you are able to log in, then you have correctly set it up.
