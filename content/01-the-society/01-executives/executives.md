@@ -6,21 +6,21 @@ Text:
 
 # Society Executives
 
-- Lesley Chard (President)
-- Mark Stacey (Vice President)
+- Rebecca Hynes (President)
+- Karl Chiasson (Vice President)
 - Lauren Mallay (Treasurer)
 
 ## Secretary
 
-- Karoliina Oksanen
+- Haris Barki
 
 ## Social Representative
 
-- Andrew DeRoche
+- Caroline Strickland
 
 ## Representatives At-large
 
-- Scott Young
-- Jarret Kolanko
+- Michael Sullivan
+- Afiya Altaf
+- Jan Mertlik
 - Dean Massecar
-- Mike Singleton
