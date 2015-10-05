@@ -6,9 +6,18 @@ Text:
 
 # Society Executives
 
-- Rebecca Hynes (President)
-- Karl Chiasson (Vice President)
-- Lauren Mallay (Treasurer)
+
+## President
+
+- Rebecca Hynes
+
+## Vice President
+
+- Karl Chiasson
+
+## Treasurer
+
+- Lauren Mallay
 
 ## Secretary
 
