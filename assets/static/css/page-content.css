@@ -1,0 +1,15 @@
+.hamburger_and_breadcrumb #menu-toggle {
+    margin-left: 15px;
+    border-color: #d9d9d9;
+    float: left;
+}
+
+.hamburger_and_breadcrumb .breadcrumb {
+    background-color: #fff;
+    float: left;
+    margin-bottom: 0;
+}
+
+.col-lg-12 {
+    clear: both;
+}
