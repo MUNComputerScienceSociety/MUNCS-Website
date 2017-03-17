@@ -91,8 +91,7 @@ body {
     background: rgba(255,255,255,0.2);
 }
 
-.sidebar-nav li.depth-1 a:active,
-.sidebar-nav li.depth-1 a:focus {
+.sidebar-nav li.depth-1 a:active, .sidebar-nav li.depth-1 a:focus {
     text-decoration: none;
     color: #1250a8;
 }
