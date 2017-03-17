@@ -1,0 +1,19 @@
+_model: irc
+---
+title: IRC
+---
+body:
+
+# IRC Channel
+
+Server: irc.synirc.net
+
+Port: 6667 (or 7001 for SSL)
+
+Channel: #muncssociety
+---
+embedded:
+
+<p>Enter a nickname to get started and join the channel!</p>
+
+<iframe src="https://kiwiirc.com/client/irc.synirc.net/#muncssociety" style="border:0; width:100%; height:450px;"></iframe>
