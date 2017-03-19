@@ -87,8 +87,18 @@
                             <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
                         </a>
                         <ol class="breadcrumb">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Library</a></li>
+                            {% set crumbs = [] %}
+                            {% set current = {'crumb': this} %}
+                            {% for i in this._path.split("/") %}
+                              {% if current.crumb is not none %}
+                                {% if crumbs.insert(0, current.crumb) %}{% endif %}
+                                {% if current.update({"crumb": current.crumb.parent}) %}{% endif %}
+                              {% endif %}
+                            {% endfor %}
+                            {% for crumb in crumbs %}
+                            <li{% if this._path == crumb._path %} class="active"{% endif %}>
+                                <a href="{{ crumb|url }}">{{ crumb.title }}</a></li>
+                            {% endfor %}
                         </ol>
                     </div>
                     <div class="col-lg-12">
