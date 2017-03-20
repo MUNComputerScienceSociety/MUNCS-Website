@@ -96,8 +96,11 @@
                               {% endif %}
                             {% endfor %}
                             {% for crumb in crumbs %}
-                            <li{% if this._path == crumb._path %} class="active"{% endif %}>
-                                <a href="{{ crumb|url }}">{{ crumb.title }}</a></li>
+                              {% if this._path == crumb._path %}
+                                <li class="active">{{ crumb.title }}</li>
+                              {% else %}
+                                <li><a href="{{ crumb|url }}">{{ crumb.title }}</a></li>
+                              {% endif %}
                             {% endfor %}
                         </ol>
                     </div>
