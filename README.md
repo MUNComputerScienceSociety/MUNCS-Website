@@ -20,13 +20,24 @@ Adding new course notes
 
 To add notes (descriptions, resources, past assignments, etc.) for courses:
 
-1. Create a new folder under `content/04-resources/02-courses/` named `x-x`, where `x` is the course number.
-2. Create a new empty text file in the new folder called `x.md`, where `x` is the course number.
-3. Fill this text file with what ever you see fit.
+1. Create a new folder under `content/resources/courses/` named as the course number (for example, `content/resources/courses/2710/`).
+2. Create a new empty text file in the new folder called `contents.lr`.
+3. You can structure this file like so:
 
-Is there a format, you ask? Well, yes, but it's Markdown (not much of a format). If you want a starting point or a good outline, see the [notes for COMP 2710](content/04-resources/02-courses/2710-2710/2710.md).
+```
+title: COMP <course_number>
+---
+body:
+
+# Content
+```
+You can replace `<course_number>` with the course number you'd like to add notes for.
+And you can add content below `body:` in Markdown.
+
+To learn more about how Lektor structures content, see [this screencast](https://www.youtube.com/watch?v=lTWTCwuPdrU)
+and check out the [Lektor documentation](https://www.getlektor.com/docs/).
 
 Software credits
 ----------------
 
-Uses [Kirby CMS](https://github.com/bastianallgeier/kirbycms) and the [Knowledge Base Theme](https://github.com/christianreber/kirbycms-knowledge-base).
+Uses [Lektor](https://www.getlektor.com/) and the [Bootstrap](http://getbootstrap.com/).
