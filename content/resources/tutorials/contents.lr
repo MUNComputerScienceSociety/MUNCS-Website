@@ -1,11 +1,92 @@
-title: Tutorials
----
-body:
+
+dy:
 
 # Tutorials
 
 - [Setting up SSH with Garfield (LABnet)](/resources/tutorials/garfield_ssh)
 
-## Ideas for future articles
+- Web Development:
+  * [w3schools](https://www.w3schools.com/) 
+  * [HTML in 30 minutes or less!](https://www.youtube.com/watch?v=hrZqiCUx6kg)
+  * [JavaScript playlist](https://youtu.be/fGdd9qNwQdQ?list=PLoYCgNOIyGACnrXwo5HMCfOH9VT05znGv)
+  * [ReactJS basics](https://youtu.be/JPT3bFIwJYA?list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS)
+  * [Angular 5 in 60 Minutes](https://youtu.be/oa9cnWTpqP8)
 
-- Git
+- Mobile Development:
+  * Android -
+    * [Kotlin](https://www.youtube.com/watch?v=W99WA5YoAp0&index=1&list=PLbfTjwmfwhuhPRMOUT3RMC-naLWK6RJ62)
+    * [Java](https://www.youtube.com/watch?v=sZWMPYIkNd8)
+  * iOS -
+    * [Swift](https://www.youtube.com/watch?v=5b91dFhZz0g)
+    * [Objective C](https://www.youtube.com/watch?v=5esQqZIJ83g)
+  * [React Native (React based)](https://www.youtube.com/watch?v=mkualZPRZCs)
+  * [NativeScript (Angular based)](https://www.youtube.com/watch?v=n0RZbTGf6uQ)
+
+- Full Stack:
+  * [Definition](https://youtu.be/jPSo7Lge6bA)
+  * [MEAN stack](https://www.youtube.com/watch?v=PFP0oXNNveg)
+  * [MERN stack](https://www.youtube.com/watch?v=QA29Qvr9rdw&list=PLm7Ikk48Q5FzGVpLV4GR9e5bG0c5bUvQ1)
+
+- Virtual Reality:
+  * [Various videos](https://www.youtube.com/watch?v=Pgvpj63823Q&list=PLmE2ibStnoYoarCS2G7OMtGOdslvl8hx0)
+
+- [Arduino](https://www.youtube.com/watch?v=d8_xXNcGYgo&list=PLGs0VKk2DiYx6CMdOQR_hmJ2NbB4mZQn-)
+
+- [Raspberry Pi](https://www.youtube.com/watch?v=Jj4pjfU_-jo&list=PLsa31gkyINsly6N_usaeHrtDPYnwxO-1Y)
+
+- Machine Learning 
+  * [The famous Stanford University course by Andrew Ng!](https://www.youtube.com/watch?v=PPLop4L2eGk&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)
+  * [Machine Learning Recipes by Google Developers](https://www.youtube.com/watch?v=cKxRvEZd3Mw&list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
+  * [Neural Networks with Siraj](https://www.youtube.com/watch?v=h3l4qz76JhQ&list=PL2-dafEMk2A5BoX3KyKu6ti5_Pytp91sk)
+  * [Games](https://www.youtube.com/watch?v=ZX2Hyu5WoFg)
+
+- Blockchain Development:
+  * [What is Blockchain?](https://youtu.be/l4CZjTyLYG4)
+  * [Decentralised Applications (dApps) and Smart Contracts](https://www.youtube.com/watch?v=KU6bvciWgRE&list=PL0lNJEnwfVVMuX2Ds19Wj_7Mcze3FDJr3)
+  * [Smart Contract development with Solidity](https://www.youtube.com/watch?v=v_hU0jPtLto&list=PL16WqdAj66SCOdL6XIFbke-XQg2GW_Avg)
+  * [Setting up your dev environment](https://www.youtube.com/watch?v=yIfq1mT2saM&t=13s)
+
+- Security:
+  * [Network Security 101: Full Workshop](https://www.youtube.com/watch?v=E03gh1huvW4)
+  * [Ethical Hacking](https://www.youtube.com/watch?v=GFP3Q4g9PuY&list=PLmtowW4zdQsLwF-JmDwbOXsWgqvHKuLnF)
+
+- Interviews and Resumes:
+  * [Google questions](https://techdevguide.withgoogle.com/resources/types/coding-interview-question/#!)
+  * [Cracking the Coding Interview](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+  * [What should a developer's resume look like?](https://www.youtube.com/watch?v=ILg4dEsAUgA)
+  * [Resume tips](https://www.youtube.com/watch?v=k22qu08g_40)
+
+- Design:
+  * [What is UX Design?](https://www.youtube.com/watch?v=Ovj4hFxko7c)
+  * [UX vs UI](https://www.youtube.com/watch?v=RtPnVtXw6HU)
+  * [Graphic Design tutorial](https://www.youtube.com/watch?v=WONZVnlam6U&list=PLYfCBK8IplO4E2sXtdKMVpKJZRBEoMvpn)
+  * [Design an app in Adobe XD](https://www.youtube.com/watch?v=oKL0gOVJ1aQ)
+  * Prototyping tools: [Proto](https://www.proto.io), [Wireframe](http://wireframe.cc), [Figma](http://figma.com), [Sketch](https://www.sketchapp.com/), etc.
+
+- Git:
+  * [MUN CS Society](https://blog.muncompsci.ca/category/workflow/git/)
+  * [Crash course](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
+  * [Github explained](https://www.youtube.com/watch?v=0fKg7e37bQE)
+
+- Database:
+  * [MongoDB](https://www.youtube.com/watch?v=pWbMrx5rVBE&t=1194s)
+  * [MySQL](https://www.tutorialspoint.com/mysql/)
+  * [Postgres](https://www.youtube.com/watch?v=AFiqctkoVJ4&list=PLillGF-RfqbaEmlPcX5e_ejaK7Y5MydkW)
+
+- APIs:
+  * [REST](https://www.youtube.com/watch?v=Q-BpqyOT3a8)
+  * [GraphQL](https://www.youtube.com/watch?v=PEcJxkylcRM&list=PLillGF-RfqbYZty73_PHBqKRDnv7ikh68)
+
+- Linux:
+  * [What is Open Source Software?](https://www.youtube.com/watch?v=1ehpgbb3XD0)
+  * [What is Linux?](https://www.youtube.com/watch?v=zA3vmx0GaO8)
+  * _Some_ Linux distros:
+    * [Ubuntu](https://www.youtube.com/watch?v=TkKSyGjOdeY)
+    * [Linux Mint](https://www.youtube.com/watch?v=wUZXzUFKDIs)
+    * [Arch Linux](https://www.youtube.com/watch?v=lizdpoZj_vU)
+    * [Elementary OS](https://www.youtube.com/watch?v=iQUBcePrpiE)
+    * [Kali Linux](https://www.youtube.com/watch?v=exdj6PNPuxA)
+    * [Fedora and _Steam_](https://www.youtube.com/watch?annotation_id=annotation_3305546133&feature=iv&src_vid=rACWyy0XQCw&v=I0wTvUhQM7g)
+  * Dual boot Windows with [Ubuntu](https://www.youtube.com/watch?v=qNeJvujdB-0), [Linux Mint](https://www.youtube.com/watch?v=0DTy4op6G60) or [Elementary OS](https://www.youtube.com/watch?v=mF3B8LVWK8A)
+  * [Using the Bash Terminal](https://www.youtube.com/watch?v=oxuRxtrO2Ag)
+
