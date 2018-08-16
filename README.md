@@ -17,7 +17,7 @@ Install [Lektor](https://www.getlektor.com/)
 
 ```bash
 # Clone the repo
-git https://github.com/jackharrhy/Website.git`
+git clone https://github.com/jackharrhy/Website.git`
 # Enter cloned folder
 cd Website
 
@@ -29,7 +29,7 @@ lektor build --output-path folder-name
 # Spin up a webserver in the outputs directory, for example:
 cd /lektor/build/output/folder
 python -m SimpleHTTPServer
-open http://localhost:8000
+# Then open http://localhost:8000 in a web browser
 ```
 
 Auto-updates
