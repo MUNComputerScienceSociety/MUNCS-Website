@@ -17,7 +17,7 @@ Install [Lektor](https://www.getlektor.com/)
 
 ```bash
 # Clone the repo
-git clone https://github.com/jackharrhy/Website.git`
+git clone https://github.com/MUNComputerScienceSociety/Website
 # Enter cloned folder
 cd Website
 
