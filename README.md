@@ -10,6 +10,28 @@ The content for the site lives in the `content/` folder. Fork this repo and send
 - Updated course information
 - Anything you can think of
 
+Compiling site locally
+----------------------
+
+Install [Lektor](https://www.getlektor.com/)
+
+```bash
+# Clone the repo
+git clone https://github.com/MUNComputerScienceSociety/Website
+# Enter cloned folder
+cd Website
+
+# Compile
+lektor build
+# To specify which folder to build to, append
+lektor build --output-path folder-name
+
+# Spin up a webserver in the outputs directory, for example:
+cd /lektor/build/output/folder
+python -m SimpleHTTPServer
+# Then open http://localhost:8000 in a web browser
+```
+
 Auto-updates
 ------------
 
