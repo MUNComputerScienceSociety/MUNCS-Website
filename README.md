@@ -27,7 +27,7 @@ lektor build
 lektor build --output-path folder-name
 
 # Spin up a webserver in the outputs directory, for example:
-cd /lektor/build/output/folder
+cd /lektor/build/output/folder-name
 python -m SimpleHTTPServer
 # Then open http://localhost:8000 in a web browser
 ```
