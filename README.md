@@ -42,7 +42,7 @@ Adding new course notes
 
 To add notes (descriptions, resources, past assignments, etc.) for courses:
 
-1. Create a new folder under `content/resources/courses/` named as the course number (for example, `content/resources/courses/2710/`).
+1. Create a new folder under `content/resources/courses/` named as the course number (for example, `content/resources/courses/1001/`).
 2. Create a new empty text file in the new folder called `contents.lr`.
 3. You can structure this file like so:
 
