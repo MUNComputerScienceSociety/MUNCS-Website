@@ -1,3 +1,6 @@
 [project]
 name = MUNCSSocietyWebsite
 url_style = absolute
+
+[servers.ghpages]
+target = ghpages+https://MUNComputerScienceSociety/website.git?cname=muncompsci.ca
