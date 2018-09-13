@@ -3,4 +3,4 @@ name = MUNCSSocietyWebsite
 url_style = absolute
 
 [servers.ghpages]
-target = ghpages+https://MUNComputerScienceSociety/website.git?cname=muncompsci.ca
+target = ghpages+https://MUNComputerScienceSociety/Website?cname=muncompsci.ca
