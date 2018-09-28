@@ -1,7 +1,7 @@
 MUN Computer Science Society Website
 ============================
 
-### View it live here: [https://muncompsci.ca](https://muncompsci.ca)
+**View it live here: [https://muncompsci.ca](https://muncompsci.ca)**
 
 The content for the site lives in the `content/` folder. Fork this repo and send us (via a pull request)
 
@@ -49,7 +49,7 @@ To add notes (descriptions, resources, past assignments, etc.) for courses:
 2. Create a new empty text file in the new folder called `contents.lr`.
 3. You can structure this file like so:
 
-```
+```text
 title: COMP <course_number>
 ---
 body:
