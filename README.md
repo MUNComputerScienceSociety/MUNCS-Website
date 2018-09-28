@@ -10,11 +10,10 @@ The content for the site lives in the `content/` folder. Fork this repo and send
 - Updated course information
 - Anything you can think of
 
-
 Dependencies
 ----------------
-Install [Lektor](https://www.getlektor.com/), and [Bootstrap](http://getbootstrap.com/) before proceeding.
 
+Install [Lektor](https://www.getlektor.com/), and [Bootstrap](http://getbootstrap.com/) before proceeding.
 
 Local Installation
 ----------------------
@@ -57,9 +56,9 @@ body:
 
 # Content
 ```
+
 You can replace `<course_number>` with the course number you'd like to add notes for.
 And you can add content below `body:` in Markdown.
 
 To learn more about how Lektor structures content, see [this screencast](https://www.youtube.com/watch?v=lTWTCwuPdrU)
 and check out the [Lektor documentation](https://www.getlektor.com/docs/).
-
