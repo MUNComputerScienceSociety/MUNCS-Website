@@ -62,5 +62,3 @@ And you can add content below `body:` in Markdown.
 
 To learn more about how Lektor structures content, see [this screencast](https://www.youtube.com/watch?v=lTWTCwuPdrU)
 and check out the [Lektor documentation](https://www.getlektor.com/docs/).
-
-Test commit
