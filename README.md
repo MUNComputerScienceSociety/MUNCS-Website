@@ -36,9 +36,6 @@ python -m SimpleHTTPServer
 # Then open http://localhost:8000 in a web browser
 ```
 
-
-
-
 Auto-updates
 ------------
 
