@@ -1,7 +1,7 @@
 MUN Computer Science Society Website
 ============================
 
-### View it live here: [https://muncompsci.ca](https://muncompsci.ca)
+**View it live here: [https://muncompsci.ca](https://muncompsci.ca)**
 
 The content for the site lives in the `content/` folder. Fork this repo and send us (via a pull request)
 
@@ -10,11 +10,10 @@ The content for the site lives in the `content/` folder. Fork this repo and send
 - Updated course information
 - Anything you can think of
 
-
 Dependencies
 ----------------
-Install [Lektor](https://www.getlektor.com/), and [Bootstrap](http://getbootstrap.com/) before proceeding.
 
+Install [Lektor](https://www.getlektor.com/), and [Bootstrap](http://getbootstrap.com/) before proceeding.
 
 Local Installation
 ----------------------
@@ -50,16 +49,16 @@ To add notes (descriptions, resources, past assignments, etc.) for courses:
 2. Create a new empty text file in the new folder called `contents.lr`.
 3. You can structure this file like so:
 
-```
+```text
 title: COMP <course_number>
 ---
 body:
 
 # Content
 ```
+
 You can replace `<course_number>` with the course number you'd like to add notes for.
 And you can add content below `body:` in Markdown.
 
 To learn more about how Lektor structures content, see [this screencast](https://www.youtube.com/watch?v=lTWTCwuPdrU)
 and check out the [Lektor documentation](https://www.getlektor.com/docs/).
-
