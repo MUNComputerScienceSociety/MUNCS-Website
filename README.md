@@ -1,7 +1,7 @@
-MUN CompSci Society Website
+MUN Computer Science Society Website
 ============================
 
-See the site live: [muncompsci.ca](https://muncompsci.ca)
+### View it live here: [https://muncompsci.ca](https://muncompsci.ca)
 
 The content for the site lives in the `content/` folder. Fork this repo and send us (via a pull request)
 
@@ -10,10 +10,14 @@ The content for the site lives in the `content/` folder. Fork this repo and send
 - Updated course information
 - Anything you can think of
 
-Compiling site locally
-----------------------
 
-Install [Lektor](https://www.getlektor.com/)
+Dependencies
+----------------
+Install [Lektor](https://www.getlektor.com/), and [Bootstrap](http://getbootstrap.com/) before proceeding.
+
+
+Local Installation
+----------------------
 
 ```bash
 # Clone the repo
@@ -31,6 +35,9 @@ cd /lektor/build/output/folder-name
 python -m SimpleHTTPServer
 # Then open http://localhost:8000 in a web browser
 ```
+
+
+
 
 Auto-updates
 ------------
@@ -59,7 +66,3 @@ And you can add content below `body:` in Markdown.
 To learn more about how Lektor structures content, see [this screencast](https://www.youtube.com/watch?v=lTWTCwuPdrU)
 and check out the [Lektor documentation](https://www.getlektor.com/docs/).
 
-Software credits
-----------------
-
-Uses [Lektor](https://www.getlektor.com/) and the [Bootstrap](http://getbootstrap.com/).
