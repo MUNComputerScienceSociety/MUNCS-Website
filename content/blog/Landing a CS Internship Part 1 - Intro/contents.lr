@@ -1,0 +1,58 @@
+title: Landing a CS Internship Part 1 - Intro
+---
+body:
+
+# Landing a CS Internship Part 1 - Intro
+By Tomisin Jenrola
+
+**Computer Science? Sounds like smart people stuff man. They teach you how to make apps and talking Siri fridges right? Sign me up bruh!**
+
+If you’ve ever been in a situation where you were the only one at home who could *install* the internet or *update* the printer your aunt complained about severally, which was never plugged in to begin with, then you know a lot of what you have learnt came from being curious and trying to satisfy that curiosity by fiddling around and doing some research (Googling the heck out of stuff).
+Well it turns out that those are important skills.
+With a lot of changes and updates rolling out in the tech industry, being able to find good learning resources and information would pay off later on and would contribute to what interests you build up in any the several areas of CS.
+
+You’re in class wondering why you need to know how to solve a complex truth table or find the time complexity of a sorting algorithm.
+You may feel you’ll never need it (you may be right) and you just want to spend more time coding or *doing the important stuff*.
+If you think data structures and algorithms are not important to write efficient and scalable code, you’ll find that to be a huge misconception when you decide to apply for a Facebook internship and see that as one of the required skills (this happened to me lol).
+Reason being that, the code they use has to be deployed for thousands of users and having a good CS foundation is necessary for *some* companies.
+I’ll clarify that in a future post.
+Since there is so much to talk about in becoming an intern, I will spread this out into a series of posts.
+This post will talk about what you need to have before you start searching for jobs.
+
+## Research Yourself
+
+Yes. You need to look within yourself. What are you already good at? What do you need to work on? What are your interests and passions?
+Believe it or not, this affects how engaged or involved you are in different activities.
+Obviously, no one really knows what they’ll be doing this time next year, but it’s still useful to have some kind of plan about where you want to be and how you’re going to get there from where you currently are.
+Looking inside will help you realise what you want to do and what skills you need to gain as well as choosing relevant courses to your goals.
+It may also show you that you actually are not yet sure, which is still fine. But it’s not enough to look inside, you also have to see what’s going on in the tech world – who the big players are, what products or skills are in demand by employers, salaries for different jobs and the likes.
+This means you need to know your industry, or at least have an idea of what it looks like.
+
+## Research the Industry
+
+There are so many areas of Computer Science apart from Artificial Intelligence, web/mobile app development or graphics design.
+There’s cryptography and security, networking, Human Computer Interaction, computational biology, theoretical CS and so on.
+Try spending some time going through different options and seeing what you’re interested in.
+Follow tech news, blogs, YouTube channels, articles or whatever is out there that gives information about what is happening in the industry.
+For example, Facebook recently launched an [AI research lab in Montreal](http://www.cbc.ca/news/canada/montreal/facebook-mcgill-research-lab-1.4291758).
+What does that mean for you if you’re interested in pursuing a masters degree in the field?
+Keeping up with news about the industry allows you to see what opportunities exist around you that you can take advantage of.
+Join developer groups and meetups in the city so you learn what an actual software developer or researcher does at work and also grow your network.
+Three popular ones I know of are [NDev](https://www.meetup.com/NDevMeetup/?_cookie-check=mERcjQUahoMFer-H), [CTS NL](http://ctsnl.ca/) and [Game Dev NL](http://gamedevnl.org/).
+One of the reasons for the existence of this blog is to help  inform students about relevant information for their career goals and interests.
+
+## Build
+
+Finally, it’s time to start coding (or designing).
+I started off with interests in computer networks but after some research ended up with web development.
+In the old curriculum, the web dev course was only being offered at the third year level **but ain’t nobody got time fo’ dat**!
+This is where you get proactive by going online and looking for learning resources to satisfy your curiosity because you want to smash those keys and get coding.
+There’s a plethora of free stuff out there and having unlimited internet access is an opportunity to really take advantage of.
+The truth is, not all schools give you more than the academic content and they really can’t.
+There’s so much happening and changing that I’m sure universities would find it hard to keep up.
+You can learn a new programming language from YouTube or challenge yourself on some popular and free websites like [HackerRank](https://www.hackerrank.com/) or [Kattis](https://open.kattis.com/).
+They have competitions and coding challenges you can use to supplement topics covered in class and even more.
+As you start coding, you face new problems and fall in love with Stack Overflow.
+For future reference, keep your code somewhere you can look back on and laugh at for those times you thought your “Hello World” program made you a demigod or brought you a step closer to becoming the next Zuckerberg!
+
+Thanks for reading this far! Next time, I’ll discuss how to start looking for jobs and building a portfolio for recruiters and potential employers to see.
