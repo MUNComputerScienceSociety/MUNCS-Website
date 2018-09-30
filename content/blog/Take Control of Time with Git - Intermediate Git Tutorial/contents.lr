@@ -1,0 +1,75 @@
+title: Take Control of Time with Git - Intermediate Git Tutorial
+---
+body:
+
+# Take Control of Time with Git - Intermediate Git Tutorial
+By Moustafa Elsisy
+
+In the previous entry of this series we discussed what Git is, then we made a very simple git repository, and made a commit to it.
+If you did not read the [previous entry](blog/Introduction to Git for Beginners), I strongly recommend that you read it before continuing.
+In this entry, we will send the laws of physics crying as we make time travel a reality with Git – so buckle up fellas, this is a whole new level of jet lag.
+
+## Git History
+
+We discussed before that Git keeps track of the changes that you commit, but how does it do that?
+To start off, we need to introduce the concept of a *branch*: you can think of a branch as a timeline, with commits being nodes along the timeline.
+
+For this tutorial, we will only consider having a single branch, which is by default called *master*.
+Whenever we make a new commit, it gets added as a node to the right of the branch.
+Each commit keeps track of the changes that happened since the previous commit.
+Thus, the branch represents the history of all the changes that we made, since the first commit on the branch, till the last one.
+
+We can see a log of all the history held by the branch, through opening up a terminal/command prompt window in the directory of the git repository, and using `git log`.
+If you run the command, you can see on the first line a long string of numbers and characters – this string is called a *hash*, and it is used to identify the commit.
+You can also see who is the author of the commit, the date the commit was made, and the commit message. To exit the log press the key `q`.
+
+## Checkout
+
+Now we start doing our magic. What if we wanted to see how our code was like at a previous point in time?
+In that case, we can checkout commits, using `git checkout [commit_hash/reference/branch]`.
+In order to see the effect of `git checkout`, we will need to at least have two commits (if you have only one commit, make another trivial change, stage it, and commit it).
+
+It is time to introduce the special reference `HEAD`.
+`HEAD` always points to the commit that we are currently inspecting, at least as far as checking out is concerned.
+Since we did not perform any checkouts yet, `HEAD` will be pointing to the latest commit in the branch.
+`HEAD~1` will point to 1 commit behind `HEAD`, so go ahead and try `git checkout HEAD~1`, and you should find that you went back to the previous commit.
+At the moment we are said to be in a *detached HEAD state*, meaning that `HEAD` is not pointing to a branch, and so any changes that we commit in the detached state will inevitably be lost when we we checkout our branch *master* again.
+Since we did not cover making branches yet, when you use checkout on a commit hash, always use it for read-only purposes.
+If we are done checking the old code, we can go back to the latest commit by `git checkout master`, which checks out the *master* branch at its latest commit.
+
+## Revert
+
+Revert is a relatively straight forward command.
+`git revert [commit_hash]` makes a new commit that undoes everything performed by the specified commit.
+So if you do `git log` and grab your latest commit’s hash from there, then perform `git revert`, you should be prompted to write a commit message (there is a default one which you can keep) for the reverting commit.
+Press `Escape` and then type `:wq` then hit enter, and you should be done!
+If you run `git log` again you should be able to see the new commit.
+
+## Reset
+
+This guy can be a dangerous command if not used correctly, and so make sure you analyse the consequences before using it (time travel has to always come at a cost!).
+From a high level view, `git reset` is able to undo undesired changes, and leave no trace behind; let’s see how:
+
+There are three modes for reset: `soft`, `mixed` and `hard`.
+`soft` moves the `HEAD` reference to a specified commit, and does just that.
+`mixed` (this is the default mode) moves the `HEAD` reference, and uncommits+unstages any changes since that commit (meaning that any differences between your latest changes – whether committed/staged or not- and the specified commit, will still be available but appear as unstaged).
+`hard` moves the `HEAD` reference, and **deletes** all changes since the specified commit.
+
+I don’t know about you, but this kind of sounds like rocket science to me, so let us go through some common uses to illustrate how this command works:
+
+Say you have made a commit, and then continued on with more edits (but did not commit them yet).
+You realise that these changes did not yield the effect you imagined, and you have edited files all over the place.
+You can either go on a Ctrl-Z marathon, or use our friend over here: `git reset --hard HEAD`, which deletes everything we have done since the last commit (because that is where `HEAD` is pointing, assuming that you did not use `git reset --soft` to move `HEAD` to a different commit).
+
+Or maybe you simply staged some changes, and for some reason you wanted to unstage everything in your staging area, then you can use `git reset HEAD` (which is actually running the mixed option) to unstage everything in the staging area.
+
+Maybe, you wanted to get rid of all changes since a given commit.
+Use `git log` to get the hash of the commit you want to go back to, and then do `git reset --hard [commit_hash]`.
+Be cautious with this command though – you should not use it if the commits that will be removed have been pushed to the remote, where other developers/branches could have interacted with them.
+If you are *really* sure it is safe to perform the reset with the affected commits on the remote, you will have to force push when you want to push the next time, using `git push -f`.
+This use of reset deletes all commits up till the specified commit from the branch’s history (unlike revert which adds a new commit undoing a specific commit, and the reverted commit is kept in the history).
+
+Congratulations, now you can manage edits to your code with the powerful tools of Git!
+This may not fully sink in till you try it out, and so I encourage you to go back and forth through the use of these commands till you feel comfortable using them 🙂
+
+In the next tutorial we will cover branches and how you can manage different developers and features acting on the same repository. Stay tuned!

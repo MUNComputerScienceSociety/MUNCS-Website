@@ -1,0 +1,39 @@
+title: .NET Core - Start of Something Native
+---
+body:
+
+# .NET Core - Start of Something Native
+By Simanto Rahman
+
+With so many of our students choosing Java as their weapon of choice, I found it appropriate to talk about .NET Core (*dotnet core* as people call it sometimes) and why we should be mastering C# and .NET Core framework.
+
+But before that, let’s give it a little introduction.
+.NET Core is the newest framework in a long line of frameworks supporting C# (including .NET Framework, Xamarin and Mono).
+Even though it holds the name .NET, it is first of its kind. And if you’re considering why, let me explain.
+It builds native applications on all major operating systems! You saw it right.
+With .NET Core, you can build applications that work across all platform. But what’s new with that? Java works across platforms too.
+
+To understand that we need to understand something first.
+Java works across platforms because JDK (the runtime for Java) works across-platform.
+Microsoft has a long history of rejecting Linux. So they made sure their frameworks didn’t work with it.
+But a few years ago Microsoft recognized that they were lagging behind because of this.
+To meet up to the challenges posed by it’s competitors, they created a runtime that works across operating systems and to populate that runtime, they created the .NET Core framework.
+
+“But Simanto, that is all cool and stuff but that still doesn’t make it more exciting than others. Java does all those things.”
+
+True. With this approach they basically caught up to Java. But then they took it another step forward.
+.NET Core introduced the Runtime Identifier (RID). With RID you can specify which operating system your project is targeting.
+When you build for publish,  the project will create a **NATIVE** application.
+That means you don’t need the runtime in the environment to run this application.
+You can very well install a fresh copy of bare-boned Ubuntu 16.04 and get your application up and working.
+The entire runtime is packed with the application, along with the libraries.
+A native application is created which binds the runtime and any library you might have used, and run the app that you created.
+
+There are tons of tools that do that for different languages with different runtimes.
+But .NET Team wanted this not to be just a tool, but a default on how you deploy your applications.
+
+Another major thing that .NET Team introduced is the shared framework called .NET Standard.
+The way this framework works is that it allows libraries to work across all 3 major frameworks; .NET, .NET Core & Xamarin.
+Build your library once and it will work for mobile, web-apps or even windows-apps, without breaking a sweat.
+
+Combine these features with the ability to use pointers exactly like how you might use them in C/C++, C-sharp tagged with .NET Core is a power house that, in my opinion, is set make its way to the top of the food chain.
