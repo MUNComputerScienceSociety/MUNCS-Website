@@ -1,0 +1,61 @@
+title: A Force-Start into Game Development
+---
+body:
+
+# A Force-Start into Game Development
+By Simanto Rahman
+
+Game Development. That is like music to my ears.
+Unlike other sectors of Computer Industry, Game Development Industry is more volatile and indie based; now more than ever.
+
+This article is gonna be about the Modern Game Industry and the tools you might need to know about in order to get started.
+
+## Game Engine
+
+A Game Engine is a software (set of toolsets) aimed to provide a developer with all the tools required to develop a fully functioning game. In a way its an IDE for game devs.
+A game engine combines several types of functionalities required for game development; **logic and scripting, visual rendering, sound and (ofcourse) Graphical User Interface**.
+Currently there are so many game engines, that its hard to keep track. [This](https://en.wikipedia.org/wiki/List_of_game_engines) might give you some idea.
+My personal favourite is [Unity GameEngine](http://www.unity3d.com/).
+It is the most used game engine currently (with good reasons).
+I won’t go into why this is a good place to start learning.
+But one major reason is it is free (but they’ll keep a unity3d logo at the start of the game for the free version).
+It comes with all the tools you’d need to create a game; 2D and 3D.
+It uses C# as its weapon of choice for coding. Another factor to know is that unity is script based.
+So each class is a script and treated a separate file or **component**.
+
+## 3D Creation Suite
+
+Softwares that are used to create, modify and texture 3D models and assets fall under this category.
+This includes software applications like (Autodesk) **Maya, AutoCAD** and **Blender**.
+These three are the most popular ones currently (and for good reasons).
+All three support 3D models creation, animation and rendering.
+Rendering is a vital part of game development because it is a part of the graphical workflow.
+If you are making games, chances are, you are rendering your own materials and textures to optimize the game.
+More of that in the coming posts.
+
+Among these my personal favourite is [Blender](http://www.blender.org/).
+Blender is an open source software that is up and coming.
+A huge chunk of Game Devs already adapted to blender and they are happy with the decision.
+Blender is a multi-purpose 3D Creation Suite which can be used from simple things like 3D asset creation, to video editing, rendering scenes and even sound manipulation (WOW!).
+I strictly use blender to create and modify 3D assets, as well as creating materials out of it that look good inside Unity3D.
+
+## IDE/Script Editor
+
+Next up is a proper environment for Scripting. Unity3D is pretty close to Microsoft.
+Microsoft works hand in hand to make Unity3D work beautifully on the Windows platforms (and also with NVIDIA graphics cards).
+So it shouldn’t be a surprise to know that Unity Editor works well with [Visual Studio Community](https://www.visualstudio.com/vs/community/) (and Visual Studio Mac, but not as much as Community).
+VS Community is a fully featured IDE. It is powerful, supports almost *EVERYTHING*.
+It is hard to find something that it can’t work with. The integration is flawless and deep.
+But beware; VS Community is a heavy software with over 30GB of functionalities with a load time of a turtle.
+
+Recently I was introduced to a script editor called **Visual Studio Code** (don’t be alarmed, it is Open Source).
+Yes you saw it right; open source. Even though it is called [Visual Studio Code](https://code.visualstudio.com/).
+I fell in love with this thing as soon as I started using it. It is a fully functioning script editor with modular components.
+So it comes as a script editor when you download it, then you can add components to it like debugger for a specific compiler, auto-complete for different languages and even platform specific auto-complete modules are available (sweet!).
+It is available in most major operating systems including Windows, (Linux)Ubuntu and MacOS. Plus uncountable number of themes!
+This makes it a step forward from a script editor but not an entire IDE either.
+
+*Oh by the way*, it also comes with a built-in git management system for all your needs.
+
+SO! If you are interested in game development, connect with people, go through Youtube.
+Find your passion in it. Make something… Astonishing!

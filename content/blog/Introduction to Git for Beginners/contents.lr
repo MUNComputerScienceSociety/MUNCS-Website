@@ -1,0 +1,44 @@
+title: Introduction to Git for Beginners
+---
+body:
+
+# Introduction to Git for Beginners
+By Moustafa Elsisy
+
+## What is Git?
+
+You might have heard of Git before (or GitHub) – maybe you tried to work on a programming group project before, or you know how common it is in the software development industry.
+Whether you have been exposed to it before or not, Git, once you get to know it, is a major skill to have under your belt.
+
+Git is a VCS (Version Control System), and what it basically does, is that it allows you to keep track of changes to your codebase, as well as facilitating collaboration between team members.
+The way it traditionally works is by having a remote repository­ that holds the code on a server, and local repositories on each developer’s local machine, to hold their version of the code.
+
+The remote repository does not know about the changes you made to your local repository unless you upload your changes to it – this process is known as pushing.
+The changes you make are organized into commits, with each commit being a record of the changes that you made to your codebase.
+You get to choose when to make a commit – it is helpful that you organize your commits in the right way though; we will discuss that later.
+To update your local repository with the changes that have been pushed by other developers to the remote repository, you need to download those changes – this is known as *pulling*.
+
+## How to start?
+
+If you are on Windows, I really recommend that you get [Git Bash](https://git-scm.com/downloads) before you start.
+Git Bash is a terminal that allows you to use Git and a lot of linux commands (which are much better than those in command prompt).
+If you are on linux, you probably have git already (in the case you do not, you can use apt-get).
+
+Next, you will need a place to host your remote git repository (such as GitHub, BitBucket, GitLab etc…).
+Choose your favourite (you might want to go with GitHub because it has the highest popularity, but I would recommend BitBucket if you prioritize features), and make an account there, then create a repository.
+You should find a link to clone the repository (copying the remote repository to your local machine).
+For simplicity, choose HTTPS instead of SSH for cloning.
+Go to the folder where you want your repository files to sit, open up your terminal in that directory, and use `git clone [clone_link_here] ./` (clone into the current directory)
+
+## Basic Use of Git
+
+Create a new file in the directory, and add some text to it.
+At this point, your changes are untracked (git is not keeping track of the changes in its history).
+To record your changes, you first have to add your files to the staging area using `git add -A` (add all untracked files to staging area).
+Then its time to make your first commit, using `git commit -m "[your commit message here, describing your changes]"`
+
+Now, it is time to push the changes history to the remote repository.
+Use `git push` and enter your account details to accomplish that, and then go to your remote repository – you should see your changes there.
+
+And there you go! You just have pushed your first commit. There are a lot more commands to git though.
+Later, we will see how git can be used to organise multiple versions of the codebase, and facilitate collaboration between developers.
