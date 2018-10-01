@@ -13,7 +13,7 @@ The content for the site lives in the `content/` folder. Fork this repo and send
 Dependencies
 ----------------
 
-Install [Lektor](https://www.getlektor.com/), and [Bootstrap](http://getbootstrap.com/) before proceeding.
+Install [Lektor](https://www.getlektor.com/) before proceeding.
 
 Local Installation
 ----------------------
