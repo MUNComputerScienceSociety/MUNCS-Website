@@ -1,54 +1,54 @@
 #logo {
-    background-size: cover;
+  background-size: cover;
 }
 
 .hamburger_and_breadcrumb {
-    display: flex;
-    align-content: center;
-    margin-bottom: 1.25rem;
+  display: flex;
+  align-content: center;
+  margin-bottom: 1.25rem;
 }
 
 .hamburger_and_breadcrumb #menu-toggle {
-    margin: 0 0.15rem 0 0.95rem;
-    border-color: #d9d9d9;
-    float: left;
+  margin: 0 0.15rem 0 0.95rem;
+  border-color: #d9d9d9;
+  float: left;
 }
 
 .hamburger_and_breadcrumb #menu-toggle i {
-    color: black;
+  color: black;
 }
 
 .hamburger_and_breadcrumb .breadcrumb {
-    background-color: #fff;
-    float: left;
-    margin-bottom: 0;
+  background-color: #fff;
+  float: left;
+  margin-bottom: 0;
 }
 
 .breadcrumb {
-    padding: 0;
-    margin: 0.45rem 0 0 0.75rem;
+  padding: 0;
+  margin: 0.45rem 0 0 0.75rem;
 }
 
 .breadcrumb li {
-    margin: 0 0.25rem 0 0;
+  margin: 0 0.25rem 0 0;
 }
 
 .col-lg-12 {
-    clear: both;
+  clear: both;
 }
 
 h1 {
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 h2 {
-    font-size: 18px;
-    font-weight: 400;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 h3 {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 @media only screen and (max-width: 767px) {
