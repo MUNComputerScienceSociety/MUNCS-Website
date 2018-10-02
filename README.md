@@ -27,7 +27,7 @@ cd Website
 # Launch a Lektor server to auto-compile and host the site
 lektor server
 
-# Now go to localhost:5000
+# Now go to http://localhost:5000 in a web browser
 ```
 
 Auto-updates
