@@ -24,15 +24,10 @@ git clone https://github.com/MUNComputerScienceSociety/Website
 # Enter cloned folder
 cd Website
 
-# Compile
-lektor build
-# To specify which folder to build to, append
-lektor build --output-path folder-name
+# Launch a Lektor server to auto-compile and host the site
+lektor server
 
-# Spin up a webserver in the outputs directory, for example:
-cd /lektor/build/output/folder-name
-python -m SimpleHTTPServer
-# Then open http://localhost:8000 in a web browser
+# Now go to http://localhost:5000 in a web browser
 ```
 
 Auto-updates
