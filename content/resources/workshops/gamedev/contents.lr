@@ -1,0 +1,42 @@
+title: Game Development
+---
+body:
+
+# Game Development
+
+[Gamedev NL](http://gamedevnl.org) and the MUN Computer Science Society are very proud to announce that we will be offering workshops focused on game development in Unity.
+
+Unity is the most widely used game engine in the world right now. It’s particularly popular with smaller indie developers because of its relatively low barrier to entry.
+
+<br/>
+
+### Workshop 1 - UI, Scene Creation, and Project Hierarchy
+
+Our first workshop, _Unity Editor UI, Scene Creation, and Project Hierarchy_, will take place on *Friday, October 26th* in the CS lab, *EN2036*.
+
+[To sign up for the event, click here!](http://gamedevnl.org/index.php/2018/10/17/workshop-series-unity/)
+
+This workshop will focus on familiarizing participants with the overall Unity editor, and will be run by Rob Lockyer of Avalon Holographics.
+
+[Rob Lockyer](https://roblockyer.com/) is a software developer with nine years experience building 3D interactive experiences. He graduated from Memorial University in 2011 from the Computer Engineering program. He has worked on titles such as Second Chance Heroes, Madden and RBI Baseball. His first job after graduating was designing and building a level editor for a custom engine, since then he’s also had the pleasure of being paid to work in both Unity and UE4.
+
+Content for this workshop is available [here](https://github.com/michaelgburton/unity-workshop/tree/master/Workshop_1).
+
+<br/>
+
+### Other Information
+
+The remainder of the series will run weekly and will cover the following topics.
+
+- Sprites & basic animation
+- Character Controllers & Input
+- Physics2D (Collision & Triggers)
+- Sound
+- Unity UI
+- Paper Prototyping
+
+Exact dates, locations, and order are yet to be determined.
+
+We will be posting associated code to a public repository located here: 
+
+https://github.com/michaelgburton/unity-workshop
