@@ -13,7 +13,7 @@ with open("databags/posts.json") as f:
 diff_branch = input("Are you currently in a branch other than master? [y/N]: ")
 if diff_branch.lower() != "y":
     print("You must write your blog posts on a branch other than master.")
-    print("To create a new branch from the command-line, run git checkout -b <branch name>, where <branch name> is replaced with a unique name for your branch")
+    print("To create a new branch from the command-line, run git checkout -b <branch name>, where <branch name> is replaced with a unique name for your branch.")
     sys.exit(1)
 
 post_title = input("Title for post: ")
