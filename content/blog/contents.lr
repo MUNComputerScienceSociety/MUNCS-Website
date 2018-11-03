@@ -1,3 +1,5 @@
+_template: blog.html
+---
 title: Blog
 ---
 body:
@@ -5,24 +7,3 @@ body:
 # Blog
 
 Want to add your own blog post? Send us a pull request. For a simple example of how to write a post, refer to [this post's code](https://github.com/MUNComputerScienceSociety/Website/tree/master/content/blog/Welcome everyone!)
-
-## January 2018
-
-* [.NET Core - Start of Something Native](DOTNET Core - Start of Something Native)
-* [Hype vs Reality - Intro](Hype vs Reality - Intro)
-
-## December 2017
-
-* [Take Control of Time with Git - Intermediate Git Tutorial](Take Control of Time with Git - Intermediate Git Tutorial)
-
-## November 2017
-
-* [Landing a CS Internship Part 3 - Side Projects](Landing a CS Internship Part 3 - Side Projects)
-
-## September 2017
-
-* [Landing a CS Internship Part 2 - Job Search](Landing a CS Internship Part 2 - Job Search)
-* [Landing a CS Internship Part 1 - Intro](Landing a CS Internship Part 1 - Intro)
-* [A Force-Start into Game Development](A Force-Start into Game Development)
-* [Introduction to Git for Beginners](Introduction to Git for Beginners)
-* [Welcome everyone!](Welcome everyone!)
