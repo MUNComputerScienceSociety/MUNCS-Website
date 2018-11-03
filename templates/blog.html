@@ -7,7 +7,7 @@
         <h2>{{month.month}}</h2>
         <ul>
             {% for post in month.posts %}
-                <li><a href="{{post.folder}}">{{post.title}}</a>, by {{post.author}}</li>
+                <li><a href="{{post.folder}}">{{post.title}}</a> by {{post.author}}</li>
             {% endfor %}
         </ul>
     {% endfor %}

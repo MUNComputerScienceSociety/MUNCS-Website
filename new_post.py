@@ -1,3 +1,4 @@
+from __future__ import print_function
 import json
 import os
 import sys
@@ -5,7 +6,6 @@ import datetime
 
 if sys.version_info[0] < 3:
     input = raw_input
-    from __future__ import print_function
 
 with open("databags/posts.json") as f:
     posts = json.load(f)
@@ -21,10 +21,10 @@ author = input("Your name: ")
 folder = post_title
 
 for char in ["/", "\\", ":", "?", "<", ">", "|"]:
-    folder = folder.replace(char)
+    folder = folder.replace(char, "")
 
 now = datetime.datetime.now()
-month = "{} {}".format(now.month, now.year)
+month = now.strftime("%B %Y")
 
 post_dir = os.path.join("content", "blog", folder)
 os.mkdir(post_dir)
@@ -33,12 +33,12 @@ post_obj = {"title": post_title, "author": author, "folder": folder}
 contents_file = os.path.join(post_dir, "contents.lr")
 with open(contents_file, "w") as f:
     f.writelines([
-        "title: {}".format(post_title),
-        "---",
-        "body:",
-        "",
-        "# {}".format(post_title),
-        "By {}".format(author)
+        "title: {}\n".format(post_title),
+        "---\n",
+        "body:\n",
+        "\n",
+        "# {}\n".format(post_title),
+        "By {}\n".format(author)
     ])
 
 for posts_month in posts["months"]:
