@@ -1,0 +1,70 @@
+{
+    "$schema": "./posts.schema.json",
+    "months": [
+        {
+            "month": "January 2018",
+            "posts": [
+                {
+                    "title": ".NET Core - Start of Something Native",
+                    "author": "Simanto Rahman",
+                    "folder": "DOTNET Core - Start of Something Native"
+                },
+                {
+                    "title": "Hype vs Reality - Intro",
+                    "author": "Tomisin Jenrola",
+                    "folder": "Hype vs Reality - Intro"
+                }
+            ]
+        },
+        {
+            "month": "December 2017",
+            "posts": [
+                {
+                    "title": "Take Control of Time with Git - Intermediate Git Tutorial",
+                    "author": "Moustafa Elsisy",
+                    "folder": "Take Control of Time with Git - Intermediate Git Tutorial"
+                }
+            ]
+        },
+        {
+            "month": "November 2017",
+            "posts": [
+                {
+                    "title": "Landing a CS Internship Part 3 - Side Projects",
+                    "author": "Tomisin Jenrola",
+                    "folder": "Landing a CS Internship Part 3 - Side Projects"
+                }
+            ]
+        },
+        {
+            "month": "September 2017",
+            "posts": [
+                {
+                    "title": "Landing a CS Internship Part 2 - Job Search",
+                    "author": "Tomisin Jenrola",
+                    "folder": "Landing a CS Internship Part 2 - Job Search"
+                },
+                {
+                    "title": "Landing a CS Internship Part 1 - Intro",
+                    "author": "Tomisin Jenrola",
+                    "folder": "Landing a CS Internship Part 1 - Intro"
+                },
+                {
+                    "title": "A Force-Start into Game Development",
+                    "author": "Simanto Rahman",
+                    "folder": "A Force-Start into Game Development"
+                },
+                {
+                    "title": "Introduction to Git for Beginners",
+                    "author": "Moustafa Elsisy",
+                    "folder": "Introduction to Git for Beginners"
+                },
+                {
+                    "title": "Welcome everyone!",
+                    "author": "Steve Parson",
+                    "folder": "Welcome everyone!"
+                }
+            ]
+        }
+    ]
+}

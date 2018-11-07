@@ -57,3 +57,23 @@ And you can add content below `body:` in Markdown.
 
 To learn more about how Lektor structures content, see [this screencast](https://www.youtube.com/watch?v=lTWTCwuPdrU)
 and check out the [Lektor documentation](https://www.getlektor.com/docs/).
+
+Writing a new blog post
+-----------------------
+
+To write a new blog post:
+
+1. Fork and clone the repo (or switch to another branch if you are a member of this GitHub organization)
+2. Run `python scripts/new_post.py` and answer all of the questions.
+    Example:
+    ```text
+    $ python scripts\new_post.py
+    Are you currently in a branch other than master, or using a forked repo? [y/N]: y
+    Title for post: My new post
+    Your name: Riley Flynn
+    All done! You can now write your blog post in C:\Users\nint8\Development\Website\content\blog\My new post\contents.lr and push it to git when you are done.
+    ```
+3. Write your post in the specified file using markdown
+4. Commit your changes and submit a pull request
+
+If your post looks good and we have no changes we want made, your post should be up on the site shortly after an exec reviews it.
