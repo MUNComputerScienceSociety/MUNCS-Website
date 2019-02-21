@@ -10,6 +10,9 @@ action "Deploy to GitHub Pages" {
   uses = "maxheld83/ghpages@v0.2.1"
   needs = ["Build Lektor content"]
   secrets = ["GH_PAT"]
+  env = {
+    BUILD_DIR = "public/"
+  }
 }
 
 action "Filters for GitHub Actions" {
