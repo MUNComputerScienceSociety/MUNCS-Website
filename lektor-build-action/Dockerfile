@@ -10,4 +10,5 @@ LABEL "homepage"="https://muncompsci.ca"
 LABEL "maintainer"="Riley Flynn <riley@rileyflynn.me>"
 
 ADD entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
