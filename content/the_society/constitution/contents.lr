@@ -32,7 +32,9 @@ The objectives of the society is to
 ## 4. Membership
 
 1. Membership shall be open to all interested students (undergraduate or graduate) and alumni of MUN.
-2. Upon signing a membership list, a person shall be considered a member for the duration of the current academic year.
+2. Membership shall be granted to:
+   - Any student presently enrolled in a CompSci course at MUN.
+   - Any alumni of MUN who has graduated with a CompSci degree.
 3. Members shall be entitled to attend all meetings of the society, vote for executives and submit proposals for the society at the annual meeting.
 
 ## 5. Executive Positions
@@ -42,8 +44,12 @@ The executive positions in the society are as follows:
 - President
 - Vice President
 - Treasurer
-- Secretary
+- Executive Assistant
+- Event Coordinator
+- Sports Coordinator
 - Social Representative
+- Academic Officer
+- Technology Officer
 - Representative At-large
 
 At minimum, the positions of President and Vice-President must be occupied.
@@ -54,7 +60,7 @@ All executive members are required to
 
 - attend all the society meetings;
 - adhere to the the society constitution;
-- have CompSci declared as either their major or minor;
+- have or plan to have CompSci declared as either their major or minor;
 - hold no more than one executive position.
 
 ### 5.2. Presidential duties
@@ -83,32 +89,60 @@ The Treasurer shall
 - handle society financial matters, and serve as a co-signing authority for all society financial transactions;
 - be accountable to the society and MUNSU for the finances of the society. This includes accounting for all income and expenses on a permanent record.
 
-### 5.5. Duties of the Secretary
+### 5.5. Duties of the Executive Assistant
 
-The Secretary shall
+The Executive Assistant shall
 
 - be responsible for taking meeting minutes;
-- keep members informed of events and activities;
-- administer the various forms of contact we have with the public, such as our Facebook Page, Twitter account, forums, email account and wiki.
+- assist the society with general administrative tasks
 
-### 5.6. Social representative duties
+### 5.6. Duties of the Event Coordinator
 
-The Social representative shall
+The Event Coordinator shall
 
 - organize social events;
 - select bartenders and ensure that they are licensed with Student Affairs and Services.
 
-### 5.7. Representative At-large duties
+### 5.7. Duties of the Sports Coordinator
 
-The Representative At-large executives shall
+The Sports Coordinator shall
+
+- organize inter-society sports events;
+- assist the Event Coordinator with the organization of any sports events planned by the society.
+
+### 5.8. Duties of the Social Representative
+
+The Social Representative shall
+
+- manage our Twitter account, Facebook page, and mailing list;
+- produce posters and other graphics to advertise the society and events.
+
+### 5.9. Duties of the Academic Officer
+
+The Academic Officer shall
+
+- run tutorials for CompSci courses;
+- attend meetings pertaining to the operation of the Department of Computer Science and Faculty of Science.
+
+### 5.10. Duties of the Technology Officer
+
+The Technology Officer shall
+
+- assist with setting up necessary for society events;
+- assist with managing the society's technological infrastructure, such as site hosting;
+
+### 5.11. Duties of the Representatives-at-Large
+
+The Representative-at-large executives shall
 
 - represent CompSci students of any year;
 - be available to speak to students about their issues with the CompSci program and department;
 - ensure that any issues referred to above are brought to the attention of the society.
+- assist with the day-to-day operations of the society
 
 ## 6. Executive elections
 
-The election of a new society Executive must take place no later than March 31st of each year.
+The election of a new society Executive must take place no later than the final day of each Winter semester.
 
 ### 6.1. Chief Election Officer
 
@@ -128,9 +162,9 @@ The Chief Election Officer shall
 
 1. Nominations must be open for a minimum of one week.
 2. Votes shall be cast using a secret ballot.
-3. If there are more than three nominees for any one position, an instant-runoff voting system shall be used.
-4. If a position has only one nominee, the nominee shall win by acclamation.
-5. Each member may cast one vote for each position in the election.
+3. If there are more than three nominees for any one position, a preferential ballot voting system shall be used.
+4. If a position has only one nominee, it shall be placed to a vote of confidence, voted on by the current executive.
+5. Each member may cast one ballot for each position in the election.
 
 ### 6.4. Transition of the executive
 
@@ -155,7 +189,7 @@ Note that from the period of the general election until the beginning of the aca
 4. During the meeting
     - a quorum shall be the entire executive;
     - the person against whom a motion to remove is directed shall be given an opportunity to respond to the allegations made;
-    - a vote of all executive members, excluding the person at which the motion is being directed shall occur. An unanimous result of all voting executive members is required for the removal.
+    - a vote of all executive members, excluding the person at which the motion is being directed shall occur. A unanimous result of all voting executive members is required for the removal.
 
 ## 9. Executive vacancy
 
@@ -171,7 +205,7 @@ If an executive cannot be found for any position, the remaining executives shall
 ### 10.1. Date and time
 
 1. Only the President or Vice President may call an executive meeting;
-2. Notice of time and place of each meeting of the Executive shall be sent by email to each executive, not less than twenty-four hours before the time of the meeting;
+2. Notice of time and place of each meeting of the Executive shall be sent to each executive, not less than twenty-four hours before the time of the meeting;
 3. There shall be at least one Executive meeting per month during the academic year, excluding the months of May, June, July, August, and December;
 4. During the first two months of the academic year there shall be an annual meeting, which must be open to the public;
 5. Any executive may participate in a meeting remotely, so long as
