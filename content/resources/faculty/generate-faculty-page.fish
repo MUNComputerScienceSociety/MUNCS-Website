@@ -21,7 +21,7 @@ function print_list_of_homepages
   cd $old_dir
 end
 
-function facutly_page
+function faculty_page
   echo "title: Faculty"
   echo "---"
   echo "body:"
@@ -36,4 +36,4 @@ function facutly_page
   print_list_of_homepages "/users/cs/staff2"
 end
 
-facutly_page > contents.lr
+faculty_page > contents.lr
