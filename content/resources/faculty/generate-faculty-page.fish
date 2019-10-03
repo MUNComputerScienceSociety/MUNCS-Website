@@ -16,7 +16,7 @@ function print_list_of_homepages
       set common_name (string replace "cn: " "" (ldapsearch -ZZ -LLL "(uid=$name)" | grep "cn: "))
       printf '* %s - [%s](%s)\n' $common_name $name $homepage
     end
-  end
+  end | sort -k3
 
   cd $old_dir
 end
