@@ -30,6 +30,8 @@ function faculty_page
   echo ""
   echo "Below is a _noncomprehensive_ list of homepages for various computer science faculty members, potentially outdated/dead links."
   echo ""
+  echo "Note: some users in this list might be duplicated / not really 'people', it's simply based on ever user within the faculty directory using [this](https://github.com/MUNComputerScienceSociety/Website/blob/master/content/resources/faculty/generate-faculty-page.fish) script."
+  echo ""
 
   print_list_of_homepages "/users/cs/faculty"
   print_list_of_homepages "/users/cs/staff"
