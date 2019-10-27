@@ -1,0 +1,23 @@
+name: Deploy Site
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    name: Deploy Site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Build Lektor Content
+        uses: ./lektor-build-action
+        id: build
+      - name: Deploy to GH Pages
+        uses: peaceiris/actions-gh-pages@v2.5.0
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GH_PAT }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./public
+        with:
+          emptyCommits: false

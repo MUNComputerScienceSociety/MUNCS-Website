@@ -1,0 +1,8 @@
+name: 'Build Lektor Content'
+description: 'Compiles Lektor content to a static site'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'hard-drive'
+  color: 'orange'
