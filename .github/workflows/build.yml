@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - master
-
+      - migrate-actions
 jobs:
   build:
     name: Deploy Site
