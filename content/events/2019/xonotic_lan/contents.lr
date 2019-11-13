@@ -4,6 +4,16 @@ body:
 
 # Game Night! - Xonotic LAN
 
+<br />
+
+#### Friday, November 15th
+
+##### EN 2036 (CS Lab, 6 to 8pm)
+
+_No registration required, just come on down!_
+
+<br />
+
 #### What is Xonotic?
 
 Xonotic is a modern yet authentic Quake; it runs on the 'DarkPlaces engine', which was initially based on the Quake 1 engine.
@@ -70,3 +80,5 @@ After following the instructions above to download Xonotic, just run the followi
 # within the ~/games/Xonotic folder
 ./xonotic-linux64-sdl +connect cssbin.cs.mun.ca
 ```
+
+**Reminder: the keyboards and mouses in the lab are a little sub-par for highspeed first person shooters, and there's also a significant lack of audio coming from said computers too, therefore if you have your own gear to bring with you, bring it!**
