@@ -45,7 +45,7 @@ cd Xonotic
 ./xonotic-linux64-sdl
 
 # or, startup xonotic and directly connect to the server being used for the LAN
-./xonotic-linux64-sdl +connect cssbin
+./xonotic-linux64-sdl +connect cssbin.cs.mun.ca
 ```
 
 <br />
@@ -72,7 +72,7 @@ If you're using the desktops on campus, then you should be set.
 
 However, if you're using your own setup, make sure you are connected to the `@Memorial` wifi network, _not_ the `@Memorial-Guest` network; **you cannot access the local network through `@Memorial-Guest`!**
 
-The server will be running on campus, by the hostname of `cssbin`, which MUNs internal DNS should redirect you to if you're connected to the correct network, otherwise try `cssbin.cs.mun.ca`.
+The server will be running on campus, by the hostname of `cssbin`, connecct it to it by putting into following into your address field within Xonotic: `cssbin.cs.mun.ca`.
 
 After following the instructions above to download Xonotic, just run the following command in the root directory of the game to connect to the server.
 
@@ -81,4 +81,4 @@ After following the instructions above to download Xonotic, just run the followi
 ./xonotic-linux64-sdl +connect cssbin.cs.mun.ca
 ```
 
-**Reminder: the keyboards and mouses in the lab are a little sub-par for highspeed first person shooters, and there's also a significant lack of audio coming from said computers too, therefore if you have your own gear to bring with you, bring it!**
+**Reminder: the keyboards and mice in the lab are a little sub-par for highspeed first person shooters, and there's also a significant lack of audio coming from said computers too, therefore if you have your own gear to bring with you, bring it!**
