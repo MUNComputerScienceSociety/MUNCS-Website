@@ -15,6 +15,10 @@ Dependencies
 
 Install [Lektor](https://www.getlektor.com/) before proceeding.
 
+```bash
+curl -sf https://www.getlektor.com/install.sh | sh
+```
+
 Local Installation
 ----------------------
 
