@@ -1,0 +1,26 @@
+title: Archives
+---
+body:
+
+# Archives
+
+- [Meetings](./meetings/)
+- [Treasury](./treasury/)
+
+# Outdated pages
+
+* [Parental Controls Manual](./parental_controls/)
+
+###### Below are links to content hosted our csclub LabNet account:
+
+- [Home Page - 2001](https://www.cs.mun.ca/~csclub/archive/home_page_2001/)
+- [Home Page - 2003](https://www.cs.mun.ca/~csclub/archive/home_page_2003/)
+- [Home Page - 2005](https://www.cs.mun.ca/~csclub/archive/home_page_2005/)
+
+- [Misc. Photos and Documents](https://www.cs.mun.ca/~csclub/archive/photos_and_documents/)
+
+## Old IRC Server
+
+- Server: irc.synirc.net
+- Port: 6667 (or 7001 for SSL)
+- Channel: #muncssociety

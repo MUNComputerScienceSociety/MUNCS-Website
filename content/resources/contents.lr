@@ -6,27 +6,17 @@ body:
 
 If you have ideas for tutorials to write or seminars to hold, send them to us.
 
-* [Workshops](/resources/workshops)
-* [Tutorials](/resources/tutorials)
-* [Courses](/resources/courses)
-* [Faculty](/resources/faculty)
+* [Faculty](./faculty/)
+* [Blog](./blog/)
+* [Archives](./archives/)
+* [Workshops](./workshops/)
+* [Tutorials](./tutorials/)
+* [Courses](./courses/)
 
 ## Press Resources
 
 If you wish to use our logo in any press materials, you can download our logos [here.](Press_Logos.zip)
 
-## Learn to Program
+## Misc
 
-Looking to learn how to program on your own time? Here are some resources.
-
-* [/r/learnprogramming](https://www.reddit.com/r/learnprogramming/)
-* [Bento - Web Development Resources](http://www.bentobox.io)
-* [code.org](http://www.code.org/learn)
-* [Codecademy](http://www.codecademy.com/)
-* [Khan Academy](https://www.khanacademy.org/cs)
-* [webplatform.org](http://www.webplatform.org/)
-
-## More
-
-* [Resume and Cover Letter Guides](/resources/resume_guide)
-* [Parental Controls Manual](/resources/parental_controls)
+* [Resume and Cover Letter Guides](./resume_guide/)
