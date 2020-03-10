@@ -30,7 +30,7 @@ for char in ["/", "\\", ":", "?", "<", ">", "|"]:
 now = datetime.datetime.now()
 month = now.strftime("%B %Y")
 
-post_dir = os.path.join(lektor_path, "content", "blog", folder)
+post_dir = os.path.join(lektor_path, "content", "resources", "blog", folder)
 os.mkdir(post_dir)
 
 post_obj = {"title": post_title, "author": author, "folder": folder}
