@@ -59,18 +59,15 @@
                             <a href="/the_society/code_of_conduct/">Code of Conduct</a>
                         </li>
                         <li class="depth-2">
-                            <a href="http://society.cs.mun.ca/archive/meeting_minutes/">Meeting Minutes</a>
+                            <a href="https://www.cs.mun.ca/~csclub/archive/meeting_minutes/">Meeting Minutes</a>
                         </li>
                         <li class="depth-2">
-                            <a href="http://society.cs.mun.ca/archive/meeting_agendas/">Meeting Agendas</a>
+                            <a href="https://www.cs.mun.ca/~csclub/archive/meeting_agendas/">Meeting Agendas</a>
                         </li>
                     </ul>
                 </li>
                 <li class="depth-1">
                     <a href="https://discord.muncompsci.ca">Discord Guild</a>
-                </li>
-                <li class="depth-1">
-                    <a href="/blog/">Blog</a>
                 </li>
                 <li class="depth-1">
                     <a href="/events/">Events</a>
@@ -79,24 +76,15 @@
                     <a href="/resources/">Resources</a>
                     <ul>
                         <li class="depth-2">
-                            <a href="/resources/workshops/">Workshops</a>
-                        </li>
-                        <li class="depth-2">
-                            <a href="/resources/tutorials/">Tutorials</a>
-                        </li>
-                        <li class="depth-2">
-                            <a href="/resources/courses/">Courses</a>
-                        </li>
-                        <li class="depth-2">
                             <a href="/resources/faculty/">Faculty</a>
                         </li>
+                        <li class="depth-2">
+                            <a href="/resources/blog/">Blog</a>
+                        </li>
+                        <li class="depth-2">
+                            <a href="/resources/archives/">Archives</a>
+                        </li>
                     </ul>
-                </li>
-                <li class="depth-1">
-                    <a href="/mailing_list/">Mailing List</a>
-                </li>
-                <li class="depth-1">
-                    <a href="/archives/">Archives</a>
                 </li>
             </ul>
         </div>
@@ -156,46 +144,46 @@
                     <div class="col-lg-12">
                         
   <h1>SSH with Garfield</h1>
-<p>Having remote access to your LABnet account is one of the most useful tools available to MUN Computer Science students. Remote access will allow you, at any time, to submit assignments, access your files, and access the various tools that LABnet provides from any location that has an internet connection.</p>
+<p>Having remote access to your LabNet account is one of the most useful tools available to MUN Computer Science students. Remote access will allow you, at any time, to submit assignments, access your files, and access the various tools that LABnet provides from any location that has an internet connection.</p>
 <h2>Linux/OS X</h2>
 <p>Open up a Terminal window and issue the following command (replace <code>abc123</code> with your LABnet username):</p>
-<pre><code>ssh abc123@garfield.cs.mun.ca
+<pre><code class="lang-bash">ssh abc123@garfield.cs.mun.ca
 </code></pre>
 <p>You will be asked to accept a certificate and to supply your password. You should then be in your home directory where you can do anything you are able to do when using the LABnet machines on campus (except run graphical applications). To enable X11 forwarding over SSH:</p>
-<pre><code>ssh -Y abc123@garfield.cs.mun.ca
+<pre><code class="lang-bash">ssh -Y abc123@garfield.cs.mun.ca
 </code></pre>
 <p>X11 forwarding allows you to forward a graphical application through SSH, which is useful for testing graphical Java applications (e.g. Swing).</p>
 <h2>Copying files over SSH</h2>
 <p>Open up a Terminal window and use the following command syntax:</p>
-<pre><code>scp {-r} {source} {destination}
+<pre><code class="lang-bash">scp {-r} {source} {destination}
 </code></pre>
 <p>For example, to copy my <code>cs3710</code> directory from LABnet to my local machine:</p>
-<pre><code>scp -r abc123@garfield.cs.mun.ca:~/cs3710/ ~/Documents/
+<pre><code class="lang-bash">scp -r abc123@garfield.cs.mun.ca:~/cs3710/ ~/Documents/
 </code></pre>
 <p>And the reverse:</p>
-<pre><code>scp -r ~/Documents/cs3710/ abc123@garfield.cs.mun.ca:~/
+<pre><code class="lang-bash">scp -r ~/Documents/cs3710/ abc123@garfield.cs.mun.ca:~/
 </code></pre>
 <p>The -r flag recursively copies all files in a directory; if you are only copying a single file you do not need to include it.</p>
 <h3>Public key authentication (SSH keys)</h3>
 <p>Garfield has supports for public key authentication, but it requires a few steps.</p>
 <p>For users running Linux or Mac OS X, the following commands will setup your keys as two files in your home directory under <code>.ssh/</code>. <strong>One is <code>mun</code>, which is your private key. You should protect this as you would any key. The other file is <code>mun.pub</code>, which is the public key. This is file you distribute.</strong></p>
-<pre><code>ssh-keygen -N ’’ -b 4096 -t rsa -f ~/.ssh/mun -C "your_email@mun.ca"
+<pre><code class="lang-bash">ssh-keygen -N ’’ -b 4096 -t rsa -f ~/.ssh/mun -C &quot;your_email@mun.ca&quot;
 chmod 700 ~/.ssh &amp;&amp; chmod 600 ~/.ssh/*
 </code></pre>
 <p>You must now upload your public key to your home directory on LABnet. You could use a flash drive or any other physical media to transfer the public key into your home folder on Garfield. An alternate method is to use <code>scp</code>. Issue the following command from the terminal:</p>
-<pre><code>cat ~/.ssh/mun.pub | ssh abc123@garfield.cs.mun.ca 'cat - &gt;&gt; ~/.ssh/authorized_keys'
+<pre><code class="lang-bash">cat ~/.ssh/mun.pub | ssh abc123@garfield.cs.mun.ca &#39;cat - &gt;&gt; ~/.ssh/authorized_keys&#39;
 </code></pre>
 <p>If everything was setup correctly you should be able to connect to Garfield using a public key. To test the setup, run:</p>
-<pre><code>ssh -v abc123@garfield.cs.mun.ca -i ~/.ssh/mun
+<pre><code class="lang-bash">ssh -v abc123@garfield.cs.mun.ca -i ~/.ssh/mun
 </code></pre>
 <p>And look for the following output:</p>
-<pre><code>debug1: Next authentication method: publickey
+<pre><code class="lang-bash">debug1: Next authentication method: publickey
 debug1: Offering public key: ~/.ssh/id_rsa
 debug1: Authentication succeeded (publickey).
 </code></pre>
 <p>The <code>-v</code> flag generates verbose output by ssh.</p>
 <p>To avoid having to enter your username and specifying your key, you can set your SSH config to automatically to use your username and key for any computer at MUN. Also, it is recommended you keep a persistent connection and enable multiplexing to avoid wasting time to re-open a connection. Use the following settings in your local <code>~/.ssh/config</code> and run <code>mkdir -p ~/.ssh/sockets/</code> (which will hold all the sockets).</p>
-<pre><code>Host *
+<pre><code class="lang-bash">Host *
 ControlMaster auto
 ControlPath ~/.ssh/sockets/%r@%h-%p
 ControlPersist 8760h
@@ -208,7 +196,7 @@ User [abc123]
 IdentityFile ~/.ssh/mun
 </code></pre>
 <p>To test this, simply run:</p>
-<pre><code>ssh garfield.cs.mun.ca
+<pre><code class="lang-bash">ssh garfield.cs.mun.ca
 </code></pre>
 <p>If you are not prompted for your password and you are able to log in, then you have correctly set it up.</p>
 

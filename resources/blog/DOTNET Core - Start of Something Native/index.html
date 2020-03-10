@@ -10,7 +10,7 @@
     <meta property="og:url" content = "http://muncompsci.ca" />
     <meta property="og:description" content = "Memorial University's Computer Science Society represents the voice of Computer Science students." />
 
-    <title>Parental Controls Manual</title>
+    <title>.NET Core - Start of Something Native</title>
 
     <link rel="shortcut icon" href="/static/favicon.ico?h=903173a7">
 
@@ -59,18 +59,15 @@
                             <a href="/the_society/code_of_conduct/">Code of Conduct</a>
                         </li>
                         <li class="depth-2">
-                            <a href="http://society.cs.mun.ca/archive/meeting_minutes/">Meeting Minutes</a>
+                            <a href="https://www.cs.mun.ca/~csclub/archive/meeting_minutes/">Meeting Minutes</a>
                         </li>
                         <li class="depth-2">
-                            <a href="http://society.cs.mun.ca/archive/meeting_agendas/">Meeting Agendas</a>
+                            <a href="https://www.cs.mun.ca/~csclub/archive/meeting_agendas/">Meeting Agendas</a>
                         </li>
                     </ul>
                 </li>
                 <li class="depth-1">
                     <a href="https://discord.muncompsci.ca">Discord Guild</a>
-                </li>
-                <li class="depth-1">
-                    <a href="/blog/">Blog</a>
                 </li>
                 <li class="depth-1">
                     <a href="/events/">Events</a>
@@ -79,24 +76,15 @@
                     <a href="/resources/">Resources</a>
                     <ul>
                         <li class="depth-2">
-                            <a href="/resources/workshops/">Workshops</a>
-                        </li>
-                        <li class="depth-2">
-                            <a href="/resources/tutorials/">Tutorials</a>
-                        </li>
-                        <li class="depth-2">
-                            <a href="/resources/courses/">Courses</a>
-                        </li>
-                        <li class="depth-2">
                             <a href="/resources/faculty/">Faculty</a>
                         </li>
+                        <li class="depth-2">
+                            <a href="/resources/blog/">Blog</a>
+                        </li>
+                        <li class="depth-2">
+                            <a href="/resources/archives/">Archives</a>
+                        </li>
                     </ul>
-                </li>
-                <li class="depth-1">
-                    <a href="/mailing_list/">Mailing List</a>
-                </li>
-                <li class="depth-1">
-                    <a href="/archives/">Archives</a>
                 </li>
             </ul>
         </div>
@@ -129,6 +117,11 @@
                                 
                               
                             
+                              
+                                
+                                
+                              
+                            
                             
                               
                                 <li><a href="/">Home</a> /</li>
@@ -139,19 +132,44 @@
                               
                             
                               
-                                <li class="active">Parental Controls Manual</li>
+                                <li><a href="/resources/blog/">Blog</a> /</li>
+                              
+                            
+                              
+                                <li class="active">.NET Core - Start of Something Native</li>
                               
                             
                         </ol>
                     </div>
                     <div class="col-lg-12">
                         
-  <h1>Parental Controls Manual</h1>
-<p>An in-depth document about setting up parental controls on Windows and OS X.</p>
-<ul>
-<li><a href="/resources/parental_controls/Parental_Controls_Manual.pdf">Parental Controls (PDF - 1.3 MB)</a></li>
-<li><a href="/resources/parental_controls/Parental_Controls_Manual.docx">Parental Controls (Word Document - 900 KB)</a></li>
-</ul>
+  <h1>.NET Core - Start of Something Native</h1>
+<p>By Simanto Rahman</p>
+<p>With so many of our students choosing Java as their weapon of choice, I found it appropriate to talk about .NET Core (<em>dotnet core</em> as people call it sometimes) and why we should be mastering C# and .NET Core framework.</p>
+<p>But before that, let’s give it a little introduction.
+.NET Core is the newest framework in a long line of frameworks supporting C# (including .NET Framework, Xamarin and Mono).
+Even though it holds the name .NET, it is first of its kind. And if you’re considering why, let me explain.
+It builds native applications on all major operating systems! You saw it right.
+With .NET Core, you can build applications that work across all platform. But what’s new with that? Java works across platforms too.</p>
+<p>To understand that we need to understand something first.
+Java works across platforms because JDK (the runtime for Java) works across-platform.
+Microsoft has a long history of rejecting Linux. So they made sure their frameworks didn’t work with it.
+But a few years ago Microsoft recognized that they were lagging behind because of this.
+To meet up to the challenges posed by it’s competitors, they created a runtime that works across operating systems and to populate that runtime, they created the .NET Core framework.</p>
+<p>“But Simanto, that is all cool and stuff but that still doesn’t make it more exciting than others. Java does all those things.”</p>
+<p>True. With this approach they basically caught up to Java. But then they took it another step forward.
+.NET Core introduced the Runtime Identifier (RID). With RID you can specify which operating system your project is targeting.
+When you build for publish,  the project will create a <strong>NATIVE</strong> application.
+That means you don’t need the runtime in the environment to run this application.
+You can very well install a fresh copy of bare-boned Ubuntu 16.04 and get your application up and working.
+The entire runtime is packed with the application, along with the libraries.
+A native application is created which binds the runtime and any library you might have used, and run the app that you created.</p>
+<p>There are tons of tools that do that for different languages with different runtimes.
+But .NET Team wanted this not to be just a tool, but a default on how you deploy your applications.</p>
+<p>Another major thing that .NET Team introduced is the shared framework called .NET Standard.
+The way this framework works is that it allows libraries to work across all 3 major frameworks; .NET, .NET Core &amp; Xamarin.
+Build your library once and it will work for mobile, web-apps or even windows-apps, without breaking a sweat.</p>
+<p>Combine these features with the ability to use pointers exactly like how you might use them in C/C++, C-sharp tagged with .NET Core is a power house that, in my opinion, is set make its way to the top of the food chain.</p>
 
 
                     </div>
