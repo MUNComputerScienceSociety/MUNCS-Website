@@ -1,0 +1,21 @@
+- index page
+ - links to discord and facebook
+ - last few, and future events
+ - last few meeting minutes / agendas
+
+- the-society
+ - execs
+ - code of conduct
+ - constitution
+ - meeting minutes / agendas, but _nice_
+
+- events
+
+- resources, _the big one_
+ - faculty directory
+ - migrate useful existing resources to new site, archive old pieces
+
+- archives
+ - archive old blog
+ - move other misc. pieces into new site
+ - archive current muncompsci.ca
