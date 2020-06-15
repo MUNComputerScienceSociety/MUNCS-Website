@@ -1,21 +1,27 @@
-- index page
- - links to discord and facebook
- - last few, and future events
- - last few meeting minutes / agendas
+- main layout []
+ - links to discord and facebook []
 
-- the-society
- - execs
- - code of conduct
- - constitution
- - meeting minutes / agendas, but _nice_
+- index page []
+ - last few, and future events []
+ - last few meeting minutes / agendas []
 
-- events
+- the-society []
+ - execs []
+ - code of conduct []
+ - constitution []
+ - meeting minutes / agendas, but _nice_ []
 
-- resources, _the big one_
- - faculty directory
- - migrate useful existing resources to new site, archive old pieces
+- events []
+ - event pages [x]
+ - event listing [x]
+ - event listing by year []
 
-- archives
- - archive old blog
- - move other misc. pieces into new site
- - archive current muncompsci.ca
+- resources, _the big one_ []
+ - faculty directory []
+ - migrate useful existing resources to new site, archive old pieces []
+ - much more...
+
+- archives []
+ - archive old blog []
+ - move other misc. pieces into new site []
+ - archive current muncompsci.ca []
