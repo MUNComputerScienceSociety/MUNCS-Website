@@ -1,6 +1,6 @@
 import React from "react";
 
-export default (props) => {
+export default () => {
 	return (
 		<a href="https://www.kopimi.com/">
 			<svg
@@ -11,7 +11,6 @@ export default (props) => {
 				width="11"
 				height="11"
 				alt="Kopimi"
-				{...props}
 			>
 				<title>Kopimi</title>
 				<circle

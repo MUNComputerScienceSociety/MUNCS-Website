@@ -6,6 +6,7 @@ import "./layout.css"
 
 import Header from "./header";
 import Kopimi from "./kopimi";
+import Octocat from "./octocat";
 
 const Layout = ({ children }) => {
 	const data = useStaticQuery(graphql`
@@ -20,8 +21,8 @@ const Layout = ({ children }) => {
 
 	return (
 		<>
+			<Octocat />
 			<Header siteTitle={data.site.siteMetadata.title} />
-			<hr />
 			<div
 				style={{
 					margin: '0 auto',
@@ -29,8 +30,17 @@ const Layout = ({ children }) => {
 					padding: '0 1.0875rem 1.45rem',
 				}}
 			>
+				<hr
+					style={{
+						margin: '0 0 2rem 0',
+					}}
+				/>
 				<main>{children}</main>
-				<footer>
+				<footer
+					style={{
+						margin: '2.25rem 0 0 0',
+					}}
+				>
 					<Kopimi />{new Date().getFullYear()}
 				</footer>
 			</div>

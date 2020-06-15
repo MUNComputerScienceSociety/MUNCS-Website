@@ -1,6 +1,7 @@
 ---
 title: Code Night - Kattis Competition
 date: "2019-10-29"
+description: "Get some experience programming, and see how well you can do!"
 ---
 
 Want to get some experience programming _outside of assignments and labs_?

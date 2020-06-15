@@ -16,16 +16,22 @@ const EventTemplate = ({ data, pageContext, location }) => {
 				description={event.excerpt}
 			/>
 			<article>
-				<header>
+				<header
+					style={{
+						textAlign: 'center',
+						fontSize: '1.4rem',
+					}}
+				>
 					<h1
 						style={{
-							marginBottom: 0,
+							margin: 0,
 						}}
 					>
 						{event.frontmatter.title}
 					</h1>
 					<p
 						style={{
+							margin: '0.5rem 0 2rem 0',
 							display: `block`,
 						}}
 					>
@@ -48,14 +54,14 @@ const EventTemplate = ({ data, pageContext, location }) => {
 					<li>
 						{previous && (
 							<Link to={previous.fields.slug} rel="prev">
-								← {event.frontmatter.title}
+								← {previous.frontmatter.title}
 							</Link>
 						)}
 					</li>
 					<li>
 						{next && (
 							<Link to={next.fields.slug} rel="next">
-								{event.frontmatter.title} →
+								{next.frontmatter.title} →
 							</Link>
 						)}
 					</li>

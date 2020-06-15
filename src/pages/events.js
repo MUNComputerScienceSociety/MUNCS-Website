@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+import { Link, graphql } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -10,13 +10,22 @@ const EventsPage = ({ data }) => {
 	return (
 		<Layout>
 			<SEO title="Events" />
-			<h1>Events!</h1>
+			<h1>Events! - TODO more information on events on this page</h1>
 			{events.map(({ node }) => {
 				const title = node.frontmatter.title || node.fields.slug;
 				return (
-					<article key={node.fields.slug}>
+					<article
+						style={{
+							margin: '3rem 0',
+						}}
+						key={node.fields.slug}
+					>
 						<header>
-							<h3>
+							<h3
+								style={{
+									margin: '0.5rem 0',
+								}}
+							>
 								<Link to={node.fields.slug}>
 									{title}
 								</Link>
@@ -26,7 +35,7 @@ const EventsPage = ({ data }) => {
 						<section>
 							<p
 								dangerouslySetInnerHTML={{
-									__html: node.excerpt,
+									__html: node.frontmatter.description ?? node.excerpt,
 								}}
 							/>
 						</section>
@@ -49,6 +58,7 @@ export const pageQuery = graphql`
 					frontmatter {
 						date(formatString: "MMMM DD, YYYY")
 						title
+						description
 					}
 				}
 			}

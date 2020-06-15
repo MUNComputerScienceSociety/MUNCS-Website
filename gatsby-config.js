@@ -1,7 +1,7 @@
 const sourceFilesystem = (name) => ({
 	resolve: 'gatsby-source-filesystem',
 	options: {
-		path: `${__dirname}/src/${name}`,
+		path: `${__dirname}/content/${name}`,
 		name: `${name}`,
 	},
 });
@@ -14,7 +14,6 @@ module.exports = {
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
-		sourceFilesystem('images'),
 		sourceFilesystem('events'),
 		'gatsby-transformer-sharp',
 		'gatsby-plugin-sharp',

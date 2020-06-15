@@ -35,8 +35,6 @@ exports.createPages = async ({ graphql, actions }) => {
 		const previous = index === events.length - 1 ? null : events[index + 1].node;
 		const next = index === 0 ? null : events[index - 1].node;
 
-		console.log(event.node.fields.slug);
-
 		createPage({
 			path: event.node.fields.slug,
 			component: eventTemplate,
