@@ -14,7 +14,22 @@ module.exports = {
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
+		{
+			resolve: 'gatsby-plugin-page-creator',
+			options: {
+				path: `${__dirname}/content/society`,
+			},
+		},
+		{
+			resolve: 'gatsby-plugin-mdx',
+			options: {
+				defaultLayouts: {
+					default: require.resolve("./src/components/layout.js"),
+				},
+			},
+		},
 		sourceFilesystem('events'),
+		sourceFilesystem('society'),
 		'gatsby-transformer-sharp',
 		'gatsby-plugin-sharp',
 		{

@@ -7,7 +7,8 @@ export default () => {
 		<a
 			href="https://github.com/MUNComputerScienceSociety"
 			class="github-corner"
-			aria-label="View source on Github">
+			aria-label="View source on Github"
+		>
 			<svg
 				width="80"
 				height="80"

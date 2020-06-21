@@ -1,15 +1,12 @@
 const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
-exports.createPages = async ({ graphql, actions }) => {
-	const { createPage } = actions;
-
+const generateEventPages = async (graphql, createPage) => {
 	const eventTemplate = path.resolve(`./src/templates/event.js`);
 	const eventResult = await graphql(`
 		{
 			allMarkdownRemark(
 				sort: { fields: [frontmatter___date], order: DESC }
-				limit: 1000
 			) {
 				edges {
 					node {
@@ -47,10 +44,18 @@ exports.createPages = async ({ graphql, actions }) => {
 	});
 };
 
+exports.createPages = async ({ graphql, actions }) => {
+	const { createPage } = actions;
+
+	generateEventPages(graphql, createPage);
+};
+
 exports.onCreateNode = ({ node, actions, getNode }) => {
 	const { createNodeField } = actions;
 
-	if (node.internal.type === `MarkdownRemark`) {
+	const isMarkdownRemark = node.internal.type === 'MarkdownRemark';
+
+	if (isMarkdownRemark) {
 		const { sourceInstanceName } = getNode(node.parent);
 		const value = createFilePath({ node, getNode });
 
