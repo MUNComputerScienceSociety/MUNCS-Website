@@ -31,11 +31,11 @@ The objectives of the society is to
 
 ## 4. Membership
 
-1. Membership shall be open to all interested students (undergraduate or graduate) and alumni of MUN.
-2. Membership shall be granted to:
-   - Any student presently enrolled in a CompSci course at MUN.
-   - Any alumni of MUN who has graduated with a CompSci degree.
-3. Members shall be entitled to attend all meetings of the society, vote for executives and submit proposals for the society at the annual meeting.
+1. membership shall be open to all interested students (undergraduate or graduate) and alumni of MUN.
+2. membership shall be granted to:
+   - any student presently enrolled in a CompSci course at MUN.
+   - any alumni of MUN who has graduated with a CompSci degree.
+3. members shall be entitled to attend all meetings of the society, vote for executives and submit proposals for the society at the annual meeting.
 
 ## 5. Executive Positions
 
@@ -46,11 +46,11 @@ The executive positions in the society are as follows:
 - Treasurer
 - Executive Assistant
 - Event Coordinator
-- Sports Coordinator
 - Social Representative
-- Academic Officer
+- International Student Representative
 - Technology Officer
-- Representative At-large
+- First Year Representative (multiple)
+- Representative At-large (multiple)
 
 At minimum, the positions of President and Vice-President must be occupied.
 
@@ -103,33 +103,34 @@ The Event Coordinator shall
 - organize social events;
 - select bartenders and ensure that they are licensed with Student Affairs and Services.
 
-### 5.7. Duties of the Sports Coordinator
-
-The Sports Coordinator shall
-
-- organize inter-society sports events;
-- assist the Event Coordinator with the organization of any sports events planned by the society.
-
-### 5.8. Duties of the Social Representative
+### 5.7. Duties of the Social Representative
 
 The Social Representative shall
 
 - manage our Twitter account, Facebook page, and mailing list;
 - produce posters and other graphics to advertise the society and events.
 
-### 5.9. Duties of the Academic Officer
+### 5.8. Duties of the International Student Representative
 
-The Academic Officer shall
+The International Student Representative executive shall
 
-- run tutorials for CompSci courses;
-- attend meetings pertaining to the operation of the Department of Computer Science and Faculty of Science.
+- represent primarily international CompSci students of any year;
+- ensure the inclusivity of society events / executive decisions
+- adhere to the same role description as the Representatives-at-Large (§5.11);
 
-### 5.10. Duties of the Technology Officer
+### 5.9. Duties of the Technology Officer
 
 The Technology Officer shall
 
 - assist with setting up necessary for society events;
 - assist with managing the society's technological infrastructure, such as site hosting;
+
+### 5.10. Duties of the First Year Representatives
+
+The First Year Representatives executives shall
+
+- represent primarily first-year CompSci students;
+- adhere to the same role description as the Representatives-at-Large (§5.11);
 
 ### 5.11. Duties of the Representatives-at-Large
 
@@ -160,11 +161,11 @@ The Chief Election Officer shall
 
 ### 6.3. Election procedure
 
-1. Nominations must be open for a minimum of one week.
-2. Votes shall be cast using a secret ballot.
-3. If there are more than three nominees for any one position, a preferential ballot voting system shall be used.
-4. If a position has only one nominee, it shall be placed to a vote of confidence, voted on by the current executive.
-5. Each member may cast one ballot for each position in the election.
+1. nominations must be open for a minimum of one week.
+2. votes shall be cast using a secret ballot.
+3. if there are more than three nominees for any one position, a preferential ballot voting system shall be used.
+4. if a position has only one nominee, it shall be placed to a vote of confidence, voted on by the current executive.
+5. each member may cast one ballot for each position in the election.
 
 ### 6.4. Transition of the executive
 
@@ -178,15 +179,15 @@ Note that from the period of the general election until the beginning of the aca
 
 ## 7. Executive resignation
 
-1. An Executive may resign from office at any time by delivering a written resignation to the Executive;
-2. Unless otherwise specified in the notice, the resignation shall take effect upon receipt thereof by the society.
+1. an Executive may resign from office at any time by delivering a written resignation to the Executive;
+2. unless otherwise specified in the notice, the resignation shall take effect upon receipt thereof by the society.
 
 ## 8. Executive removal
 
-1. Any Executive Member of the Society may be removed from office for impropriety, violation of the provisions of this Constitution or its Bylaws, delinquency of duties or misappropriation of Society funds;
-2. A motion to remove an executive member must be signed by at least 2/3 of the executive;
-3. The motion, once signed, shall then be inscribed on the agenda of the next regular meeting of the executive;
-4. During the meeting
+1. any Executive Member of the Society may be removed from office for impropriety, violation of the provisions of this Constitution or its Bylaws, delinquency of duties or misappropriation of Society funds;
+2. a motion to remove an executive member must be signed by at least 2/3 of the executive;
+3. the motion, once signed, shall then be inscribed on the agenda of the next regular meeting of the executive;
+4. during the meeting
     - a quorum shall be the entire executive;
     - the person against whom a motion to remove is directed shall be given an opportunity to respond to the allegations made;
     - a vote of all executive members, excluding the person at which the motion is being directed shall occur. A unanimous result of all voting executive members is required for the removal.
@@ -204,11 +205,11 @@ If an executive cannot be found for any position, the remaining executives shall
 
 ### 10.1. Date and time
 
-1. Only the President or Vice President may call an executive meeting;
-2. Notice of time and place of each meeting of the Executive shall be sent to each executive, not less than twenty-four hours before the time of the meeting;
-3. There shall be at least one Executive meeting per month during the academic year, excluding the months of May, June, July, August, and December;
-4. During the first two months of the academic year there shall be an annual meeting, which must be open to the public;
-5. Any executive may participate in a meeting remotely, so long as
+1. only the President or Vice President may call an executive meeting;
+2. notice of time and place of each meeting of the Executive shall be sent to each executive, not less than twenty-four hours before the time of the meeting;
+3. there shall be at least one Executive meeting per month during the academic year, excluding the months of May, June, July, August, and December;
+4. during the first two months of the academic year there shall be an annual meeting, which must be open to the public;
+5. any executive may participate in a meeting remotely, so long as
     - the executive was unable to attend the meeting otherwise;
     - other executive members in the meeting are able to hear or see the remote participates comments;
     - the discussion is broadcasted, either as text or audio, to the remote participant.
@@ -228,12 +229,12 @@ A majority of the executive present, whether or not a quorum is present, may adj
 
 ### 11.1. Constitution
 
-1. This constitution shall comprise the operating basis of the society;
-2. A motion to initiating a referendum for constitutional amendments must be passed by a two-thirds majority vote;
-3. Quorum for these motions shall be all eligible voting executive members;
-4. Any amendments to the constitution require the unanimous approval of all voting executives.
+1. this constitution shall comprise the operating basis of the society;
+2. a motion to initiating a referendum for constitutional amendments must be passed by a two-thirds majority vote;
+3. quorum for these motions shall be all eligible voting executive members;
+4. any amendments to the constitution require the unanimous approval of all voting executives.
 
 ### 11.2. By-laws
 
-1. Amendments to the society by-laws can be made at any executive meeting, as long a quorum is present;
-2. Ratification of each amendment requires majority approval of the executive.
+1. amendments to the society by-laws can be made at any executive meeting, as long a quorum is present;
+2. ratification of each amendment requires majority approval of the executive.
