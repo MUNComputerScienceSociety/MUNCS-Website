@@ -1,0 +1,9 @@
+---
+import Main from './Main.astro';
+const { content } = Astro.props;
+---
+<Main title={content.title}>
+	<div class="markdown">
+		<slot />
+	</div>
+</Main>

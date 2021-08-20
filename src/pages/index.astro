@@ -1,0 +1,33 @@
+---
+import { Markdown } from 'astro/components';
+import { LINKS } from '../config.js';
+import Main from '../layouts/Main.astro';
+import { LatestDocuments } from '../components/Documents.jsx';
+import TextLink from '../components/TextLink.jsx';
+import DISCORD from '../../public/assets/discord.svg';
+---
+<Main title="Homepage">
+	<h1 class="text-xl font-semibold">Memorial University Computer Science Society</h1>
+
+	<Markdown>
+		Representing the voice of Computer Science students!
+
+		We promote interest in all areas of Computer Science, and host social events and plenty of activities with the intention of bringing students together.
+	</Markdown>
+
+	<a href={LINKS.discord}>
+		<div class="w-[19rem] flex border border-black p-2 justify-center align-middle rounded-lg mx-auto my-6 hover:bg-gray-50">
+			<img src={DISCORD} class="mr-3" /> <p class="text-2xl self-center">Join our Discord!</p>
+		</div>
+	</a>
+
+	<h2 class="font-semibold mt-4">Check us out on</h2>
+	<TextLink href={LINKS.github}>GitHub Organization</TextLink>
+	<TextLink href={LINKS.facebookPage}>Facebook Page</TextLink>
+	<TextLink href={LINKS.facebookGroup}>Facebook Group</TextLink>
+	<TextLink href={LINKS.instagram}>Instagram</TextLink>
+	<TextLink href={LINKS.twitter}>Twitter</TextLink>
+
+	<h2 class="font-semibold mt-4 mb-2">Latest documents</h2>
+	<LatestDocuments client:load />
+</Main>

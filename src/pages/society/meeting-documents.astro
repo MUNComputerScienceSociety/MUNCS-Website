@@ -1,0 +1,16 @@
+---
+import { Markdown } from 'astro/components';
+import Main from '../../layouts/Main.astro';
+import { AllDocuments } from "../../components/Documents.jsx";
+---
+<Main title="Meeting Documents">
+	<div class="markdown">
+		<Markdown>
+			# Meeting Documents
+
+			All of our meeting documents are committed to GitHub in our ['Executive-Docs'](https://github.com/MUNComputerScienceSociety/Executive-Docs/) repository.
+
+			<AllDocuments client:load />
+		</Markdown>
+	</div>
+</Main>

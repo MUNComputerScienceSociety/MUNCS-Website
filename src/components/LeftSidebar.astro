@@ -1,0 +1,29 @@
+---
+import { SIDEBAR } from '../config.js';
+import MUNCSS_STACKED_BW from '../../public/assets/muncss_stacked_bw.svg';
+
+// TODO aria-current on li if current page
+---
+<nav class="w-full pb-4 md:pb-0 md:w-3/12 border-b md:border-r pr-[0.5rem] mr-4 min-h-full">
+	<a href="/">
+		<img src={MUNCSS_STACKED_BW} class="mx-auto md:mx-0 my-4 w-1/2 md:w-11/12" />
+	</a>
+	<ul>
+		{SIDEBAR.map((section) => (
+			<li>
+				<a href={section.link} class="hover:underline">
+					<h2 class="text-xl font-semibold my-1">{section.text}</h2>
+				</a>
+				<ul class="pl-2">
+					{section.children?.map(child => (
+						<li>
+							<a href={child.link} class="hover:underline">
+								{child.text}
+							</a>
+						</li>
+					))}
+				</ul>
+			</li>
+		))}
+	</ul>
+</nav>
