@@ -1,16 +1,11 @@
 ---
 import { SIDEBAR } from '../config.js';
 import MUNCSS_STACKED_BW from '../../public/assets/muncss_stacked_bw.svg';
-
 const { pathname } = Astro.request.url;
-
-console.log(pathname);
-
-// TODO aria-current on li if current page
 ---
 <nav class="w-full pb-4 md:pb-0 md:w-3/12 border-b md:border-r h-full overflow-y-auto">
 	<a href="/">
-		<img src={MUNCSS_STACKED_BW} class="mx-auto md:mx-0 my-4 w-1/2 md:w-11/12" />
+		<img src={MUNCSS_STACKED_BW} class="mx-auto md:mx-0 my-4 w-1/2 md:w-11/12 dark:invert" />
 	</a>
 	<ul>
 		{SIDEBAR.map((section) => (

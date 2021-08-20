@@ -7,7 +7,9 @@ export const LINKS = {
 	facebookPage: "https://www.facebook.com/MUNCSSociety/",
 	facebookGroup: "https://www.facebook.com/groups/2202189009/",
 	instagram: "https://www.instagram.com/muncssociety/",
-	twitter: "https://twitter.com/muncssociety.",
+	twitter: "https://twitter.com/muncssociety/",
+	ctsnl: 'https://ctsnl.ca/',
+	hackfrostnl: 'https://hackfrostnl.ca/',
 };
 
 export const SIDEBAR = [
@@ -18,6 +20,10 @@ export const SIDEBAR = [
 			{ text: "Discord", link: LINKS.discord },
 			{ text: "GitHub", link: LINKS.github },
 		],
+	},
+	{
+		text: "Events",
+		link: "/events",
 	},
 	{
 		text: "Society",

@@ -5,21 +5,25 @@
 @tailwind utilities;
 
 * {
-    font-family: 'Inter', sans-serif;
+	font-family: 'Inter', sans-serif;
+}
+
+span, p, li, h1, h2 {
+	@apply text-foreground dark:text-foreground-dark;
 }
 
 .markdown a {
-  @apply text-blue-900 underline;
+	@apply text-blue-900 underline;
 }
 
 .markdown h1 {
-  @apply text-lg font-semibold;
+	@apply text-lg font-semibold;
 }
 
 .markdown h2 {
-  @apply font-semibold mt-3 mb-2;
+	@apply font-semibold mt-3 mb-2;
 }
 
 .markdown ul {
-  @apply list-disc pl-6;
+	@apply list-disc pl-6;
 }

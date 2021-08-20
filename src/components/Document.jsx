@@ -11,7 +11,7 @@ const Document = ({ data: { path, time, type } }) => {
 			<Card>
 				<p>
 					Meeting {type}{" "}
-					<span className="italic float-right opacity-50">{date}</span>
+					<span className="italic float-right opacity-50 dark:opacity-70">{date}</span>
 				</p>
 			</Card>
 		</a>

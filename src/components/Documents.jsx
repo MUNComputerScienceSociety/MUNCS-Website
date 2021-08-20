@@ -7,7 +7,6 @@ export const LatestDocuments = () => {
 
 	useEffect(() => {
 		fetchDocuments().then((allDocuments) => {
-			console.log({ allDocuments })
 			const sortedDocuments = allDocuments.sort(
 				(a, b) => new Date(b.time) - new Date(a.time)
 			);
@@ -29,7 +28,6 @@ export const AllDocuments = () => {
 
 	useEffect(() => {
 		fetchDocuments().then((allDocuments) => {
-			console.log({ allDocuments })
 			const sortedDocuments = allDocuments.sort(
 				(a, b) => new Date(b.time) - new Date(a.time)
 			);
