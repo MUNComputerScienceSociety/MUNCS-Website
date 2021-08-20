@@ -62,7 +62,7 @@ The executive positions in the society are as follows:
 
 At minimum, the positions of President and Vice-President must be occupied.
 
-## 5.1. Executive member duties
+## 5.1. Executive Member Duties
 
 All executive members are required to:
 
@@ -71,7 +71,7 @@ All executive members are required to:
 - Have or plan to have CompSci declared as either their major or minor;
 - Hold no more than one executive position, unless secondary positions or interim.
 
-## 5.2. Presidential duties
+## 5.2. Presidential Duties
 
 The President shall:
 
@@ -84,7 +84,7 @@ The President shall:
 - Adhere to the same role description as the Representatives-at-Large (§5.15);
 - Must have previously held a role on the executive.
 
-## 5.3. Vice Presidential duties
+## 5.3. Vice Presidential Duties
 
 The Vice President shall:
 
@@ -198,7 +198,7 @@ The Representative-at-large executives shall:
 - Ensure that any issues referred to above are brought to the attention of the society;
 - Assist with the day-to-day operations of the society.
 
-## 6. Executive elections
+## 6. Executive Elections
 
 The election of a new society Executive must take place no later than the final day of each Winter semester.
 
@@ -206,7 +206,7 @@ The election of a new society Executive must take place no later than the final 
 
 Prior to the election, the Executive shall appoint a Chief Election Officer for the upcoming election.
 
-## 6.2. Chief Election Officer duties
+## 6.2. Chief Election Officer Duties
 
 The Chief Election Officer shall:
 
@@ -216,7 +216,7 @@ The Chief Election Officer shall:
 - Shall ensure proper notice of the upcoming election has been given to all society members;
 - Shall ensure the election is held in accordance with §6.3.
 
-## 6.3. Election procedure
+## 6.3. Election Procedure
 
 - Nominations must be open for a minimum of one week;
 - Votes shall be cast using a secret ballot;
@@ -224,7 +224,7 @@ The Chief Election Officer shall:
 - All elected members shall be placed to a vote of confidence, voted on by the Vice President and Executive Assistant. In the event of a tie the President shall have final say;
 - Each member may cast one ballot for each position in the election.
 
-## 6.4. Transition of the executive
+## 6.4. Transition of the Executive
 
 It is the responsibility of the departing executive to orient the newly elected executive officers to their jobs. This includes, but is not limited to:
 
@@ -235,13 +235,13 @@ It is the responsibility of the departing executive to orient the newly elected 
 
 Note that from the period of the general election until the beginning of the academic year, the newly elected executives shall be non-voting members of the executive.
 
-## 7. Executive resignation
+## 7. Executive Resignation
 
 An Executive may resign from office at any time by delivering a written resignation to the Executive
 
 Unless otherwise specified in the notice, the resignation shall take effect upon receipt thereof by the society.
 
-## 8. Executive removal
+## 8. Executive Removal
 
 Any Executive Member of the Society may be removed from office for impropriety, violation of the provisions of this Constitution or its Bylaws, delinquency of duties or misappropriation of Society funds:
 
@@ -252,7 +252,7 @@ Any Executive Member of the Society may be removed from office for impropriety, 
   - The person against whom a motion to remove is directed shall be given an opportunity to respond to the allegations made;
   - A vote of all executive members, excluding the person at which the motion is being directed shall occur. A unanimous result of all voting executive members is required for the removal.
 
-## 9. Executive vacancy
+## 9. Executive Vacancy
 
 In the event that a position is vacant either:
 
@@ -262,7 +262,7 @@ In the event that a position is vacant either:
 
 ## 10. Meetings
 
-## 10.1. Date and time
+## 10.1. Date and Time
 
 - Only the President or Vice President may call an executive meeting;
 - Notice of time and place of each meeting of the Executive shall be sent to each executive, not less than twenty-four hours before the time of the meeting;

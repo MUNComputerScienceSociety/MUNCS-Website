@@ -2,7 +2,7 @@
 import LeftSidebar from '../components/LeftSidebar.astro';
 const { title } = Astro.props;
 ---
-<html lang="en" class="flex min-h-full">
+<html lang="en" class="h-full">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
@@ -10,10 +10,10 @@ const { title } = Astro.props;
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 		<link rel="stylesheet" href="/style/global.css">
 	</head>
-	<body class="min-h-full flex-1">
-		<main class="min-h-full w-11/12 md:w-3/4 xl:w-7/12 2xl:w-1/2 m-auto flex flex-col md:flex-row">
+	<body class="h-full">
+		<main class="h-full w-11/12 md:w-3/4 xl:w-7/12 2xl:w-1/2 m-auto flex flex-col md:flex-row">
 			<LeftSidebar />
-			<div class="my-5 w-full md:w-9/12">
+			<div class="py-5 px-4 w-full md:w-9/12 h-full overflow-y-auto">
 				<slot />
 			</div>
 		</main>
