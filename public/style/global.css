@@ -15,3 +15,11 @@
 .markdown h1 {
   @apply text-lg font-semibold;
 }
+
+.markdown h2 {
+  @apply font-semibold mt-3 mb-2;
+}
+
+.markdown ul {
+  @apply list-disc pl-6;
+}

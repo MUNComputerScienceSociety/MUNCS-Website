@@ -1,6 +1,78 @@
 ---
 import Main from '../../layouts/Main.astro';
+
+const executives = [
+	{
+		name: 'Madison Emshey',
+		roles: ['President'],
+		username: 'mbemshey',
+	},
+	{
+		name: 'Jack Harrhy',
+		roles: ['Vice President'],
+		username: 'jaharrhy',
+	},
+	{
+		name: 'David Chicas',
+		roles: ['Executive Assistant'],
+		username: 'dchicasduena',
+	},
+	{
+		name: 'Rishi Gandhi',
+		roles: ['International Student Representative'],
+		username: 'rrgandhi',
+	},
+	{
+		name: 'Vilakshan Khanna',
+		roles: ['Social Representative'],
+		username: 'vkhanna',
+	},
+	{
+		name: 'Zac Batten',
+		roles: ['Event Coordinator'],
+		username: 'zbatten',
+	},
+	{
+		name: 'Mathew Emshey',
+		roles: ['Representative-at-Large'],
+		username: 'memshey',
+	},
+	{
+		name: 'Abhijeet Singh',
+		roles: ['Representative-at-Large'],
+		username: 'memshey',
+	},
+];
+
+const roleToExec = {};
+
+executives.forEach((executive) => {
+	executive.roles.map((role) => {
+		if (roleToExec[role] === undefined) {
+			roleToExec[role] = [];
+		}
+
+		roleToExec[role].push(executive);
+	});
+});
+
 ---
 <Main title="Executives">
-Executives
+<h1 class="text-lg font-semibold">Executives</h1>
+
+{
+	Object.entries(roleToExec).map(([role, execs]) => (
+		<>
+			<h2 class="font-semibold mt-4">{role}</h2>
+			{
+				execs.map((exec) => (
+					<>
+						<p class="mt-2">{exec.name}</p>
+						<span class="text-sm"><code>{exec.username}</code> at <code>mun</code> dot <code>ca</code></span>
+					</>
+				))
+			}
+		</>
+	))
+}
 </Main>
