@@ -16,7 +16,7 @@ In this constitution,
 - _"CompSci students"_ refers to the MUN Computer Science undergraduates;
 - _"Academic year"_ means an academic school year starting in September and ending in August;
 - _"MUNSU"_ means the Memorial University Students Union;
-- _"Executive"_ refers to an executive member of the society in accordance with §5;
+- _"Executive"_ refers to an executive member of the society in accordance with [§5](#5-executive-positions);
 - _"Majority"_ means 50% plus 1 of the votes;
 
 ## 2. Name
@@ -79,9 +79,9 @@ The President shall:
 - Call meetings of the executive and society;
 - Manage the everyday running of the society;
 - Manage the society financial matters, including serving as a co-signing authority for all society financial transactions;
-- Call an election in accordance with §6, to ensure that the society continues to run in the following year;
+- Call an election in accordance with [§6](#6-executive-elections), to ensure that the society continues to run in the following year;
 - Must live or reside in St. John’s, Newfoundland or the Avalon Peninsula;
-- Adhere to the same role description as the Representatives-at-Large (§5.15);
+- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large));
 - Must have previously held a role on the executive.
 
 ## 5.3. Vice Presidential Duties
@@ -93,7 +93,7 @@ The Vice President shall:
 - Handle society financial matters, and serve as a co-signing authority for all society financial transactions.
 - Assume the duties of President in their absence or at their request.
 - Must live or reside in St. John’s, Newfoundland or the Avalon Peninsula
-- Adhere to the same role description as the Representatives-at-Large (§5.15);
+- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large));
 - Must have previously held a role on the executive
 
 ## 5.4. Duties of the Executive Assistant
@@ -102,7 +102,7 @@ The Executive Assistant shall:
 
 - Be responsible for taking meeting minutes;
 - Assist the society with general administrative tasks;
-- Adhere to the same role description as the Representatives-at-Large (§5.15);
+- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large));
 - Must have previously held a role on the executive.
 
 ## 5.5. Duties of the Treasurer
@@ -112,7 +112,7 @@ The Treasurer shall:
 - Handle society financial matters, and serve as a co-signing authority for all society financial transactions;
 - Be accountable to the society and MUNSU for the finances of the society. This includes accounting for all income and expenses on a permanent record.
 - Must live or reside in St. John’s, Newfoundland or the Avalon Peninsula;
-- Adhere to the same role description as the Representatives-at-Large (§5.15).
+- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large)).
  
 ## 5.6. Duties of the Event Coordinator
 
@@ -120,7 +120,7 @@ The Event Coordinator shall:
 
 - Organize social events;
 - Select bartenders and ensure that they are licensed with Student Affairs and Services.
-- Adhere to the same role description as the Representatives-at-Large (§5.15);
+- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large));
 
 ## 5.7. Duties of the Social Representative
 
@@ -128,7 +128,7 @@ The Social Representative shall:
 
 - Manage our social media accounts;
 - Produce posters and other graphics to advertise the society and events;
-- Adhere to the same role description as the Representatives-at-Large (§5.15).
+- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large)).
 
 ## 5.8. Duties of the International Student Representative
 
@@ -136,7 +136,7 @@ The International Student Representative executive shall:
 
 - Represent primarily international CompSci students of any year;
 - Ensure the inclusivity of society events / executive decisions;
-- Adhere to the same role description as the Representatives-at-Large (§5.15).
+- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large)).
 
 ## 5.9. Duties of the Technology Officer
 
@@ -144,7 +144,7 @@ The Technology Officer shall:
 
 - Assist with setting up necessary equipment for society events;
 - Assist with managing the society's technological infrastructure, such as site hosting;
-- Adhere to the same role description as the Representatives-at-Large (§5.15).
+- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large)).
 
 ## 5.10 Duties of the Representative Advisor
 
@@ -152,7 +152,7 @@ The Representative Advisor shall:
 
 - Aid in providing a smooth transition between a First Year Representative, and Representative at large role to a more defined role;
 - Can be a previous President, Vice President or Executive Assistant;
-- Adhere to the same role description as the Representatives-at-Large (§5.15).
+- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large)).
 
 ## 5.11 Duties of the Computer Science Undergraduate Committee Representative
 
@@ -161,7 +161,7 @@ The CSUGC Representative shall:
 - Attend all meetings of the Computer Science Undergraduate Committee;
 - Take accurate minutes to relay information to the society;
 - Application based only;
-- Adhere to the same role description as the Representatives-at-Large (§5.15);
+- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large));
 - May be a secondary role.
 
 ## 5.12 Duties of the Science Society Representative
@@ -170,7 +170,7 @@ The Science Society Representative shall:
 
 - Attend all meetings of the Science Society;
 - Take accurate minutes to relay information to the society;
-- Adhere to the same role description as the Representatives-at-Large (§5.15);
+- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large));
 - May be a secondary role.
  
 ## 5.13 Duties of the Hack Frost NL Representative
@@ -179,7 +179,7 @@ The Hack Frost NL Representative shall:
 
 - Attend at least 75% meetings of Hack Frost NL;
 - Take accurate minutes to relay information to the society;
-- Adhere to the same role description as the Representatives-at-Large (§5.15);
+- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large));
 - May be a secondary role.
  
 ## 5.14. Duties of the First Year Representatives
@@ -187,7 +187,7 @@ The Hack Frost NL Representative shall:
 The First Year Representatives executives shall:
 
 - Represent primarily first-year CompSci students;
-- Adhere to the same role description as the Representatives-at-Large (§5.15).
+- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large)).
 
 ## 5.15. Duties of the Representatives-at-Large
 
@@ -277,8 +277,8 @@ In the event that a position is vacant either:
 
 A meeting of a majority of the executive shall constitute a quorum, unless:
 
-- A motion to remove an executive member has been brought forward as described in §8;
-- A motion to amend the constitution has been brought forward as described in §12.1.
+- A motion to remove an executive member has been brought forward as described in [§8](#8-executive-removal);
+- A motion to amend the constitution has been brought forward as described in [§12.1](#121-constitution).
 
 ## 10.3. Rescheduling
 

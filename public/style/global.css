@@ -12,8 +12,19 @@ span, p, li, h1, h2 {
 	@apply text-foreground dark:text-foreground-dark;
 }
 
+@media (prefers-color-scheme: dark) {
+	:root {
+		color-scheme: dark;
+	}
+
+	.textlink:hover p {
+		text-decoration: underline;
+		text-decoration-color: white;
+	}
+}
+
 .markdown a {
-	@apply text-blue-900 underline;
+	@apply text-blue-900 dark:text-blue-400 underline;
 }
 
 .markdown h1 {
