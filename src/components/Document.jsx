@@ -9,10 +9,8 @@ const Document = ({ data: { path, time, type } }) => {
 	return (
 		<a href={`${DOCS_URL_PREFIX}${path}`}>
 			<Card>
-				<p>
-					Meeting {type}{" "}
-					<span className="italic float-right opacity-50 dark:opacity-70">{date}</span>
-				</p>
+				Meeting {type}{" "}
+				<span className="italic float-right opacity-50 dark:opacity-70">{date}</span>
 			</Card>
 		</a>
 	);

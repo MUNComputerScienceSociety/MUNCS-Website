@@ -1,0 +1,28 @@
+---
+import { format } from "date-fns";
+import Main from '../layouts/Main.astro';
+import { EVENTS } from '../data/events.js';
+---
+<Main title="Events">
+	<h1 class="text-lg font-semibold">Events</h1>
+
+	{
+		EVENTS.map((event) => (
+			<a href={event.link}>
+				<div class="border border-opacity-20 my-3 px-3 py-2 rounded-sm">
+					<h2 class="font-semibold">{event.title}</h2>
+					<ul class="list-disc pl-5">
+						{event.dates.map((date) =>
+							<li>
+								{date.title}
+								<span class="italic float-right opacity-50 dark:opacity-70">
+									{format(new Date(date.time), "MMMM do, yyyy")}
+								</span>
+							</li>
+						)}
+					</ul>
+				</div>
+			</a>
+		))
+	}
+</Main>
