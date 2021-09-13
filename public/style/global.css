@@ -1,40 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-	font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
-span, p, li, h1, h2 {
-	@apply text-foreground dark:text-foreground-dark;
+span,
+p,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-foreground dark:text-foreground-dark;
+}
+
+h3 {
+  margin: 0.75rem 0 0.4rem 0;
 }
 
 @media (prefers-color-scheme: dark) {
-	:root {
-		color-scheme: dark;
-	}
+  :root {
+    color-scheme: dark;
+  }
 
-	.textlink:hover p {
-		text-decoration: underline;
-		text-decoration-color: white;
-	}
+  .textlink:hover p {
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
 }
 
 .markdown a {
-	@apply text-blue-900 dark:text-blue-400 underline;
+  @apply text-blue-900 dark:text-blue-400 underline;
 }
 
 .markdown h1 {
-	@apply text-lg font-semibold;
+  @apply text-lg font-semibold;
 }
 
 .markdown h2 {
-	@apply font-semibold mt-3 mb-2;
+  @apply font-semibold mt-3 mb-2;
 }
 
 .markdown ul {
-	@apply list-disc pl-6;
+  @apply list-disc pl-6;
 }
