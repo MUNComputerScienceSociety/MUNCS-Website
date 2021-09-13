@@ -1,0 +1,17 @@
+import { EVENTS } from "../data/events";
+import Event from "../components/Event";
+
+const eventsWithDatesInTheFuture = EVENTS.map((event) => ({
+  ...event,
+  dates: event.dates.filter(
+    (date) =>
+      new Date(date.time) >= new Date().setDate(new Date().getDate() - 1)
+  ),
+})).filter((event) => event.dates.length > 0);
+
+console.log({ eventsWithDatesInTheFuture });
+
+export const UpcomingEvents = () =>
+  eventsWithDatesInTheFuture.map((event) => (
+    <Event key={event.link} event={event} />
+  ));
