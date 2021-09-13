@@ -9,7 +9,7 @@ import { EVENTS } from '../data/events.js';
 	{
 		EVENTS.map((event) => (
 			<a href={event.link}>
-				<div class="border border-opacity-20 my-3 px-3 py-2 rounded-sm">
+				<div class="border dark:border-opacity-20 my-3 px-3 py-2 rounded-sm">
 					<h2 class="font-semibold">{event.title}</h2>
 					<ul class="list-disc pl-5">
 						{event.dates.map((date) =>

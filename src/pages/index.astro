@@ -2,6 +2,7 @@
 import { Markdown } from 'astro/components';
 import { LINKS } from '../data/links.js';
 import Main from '../layouts/Main.astro';
+import { UpcomingEvents } from '../components/UpcomingEvents.jsx';
 import { LatestDocuments } from '../components/Documents.jsx';
 import TextLink from '../components/TextLink.jsx';
 import DISCORD from '../../public/assets/discord.svg';
@@ -21,7 +22,7 @@ import DISCORD from '../../public/assets/discord.svg';
 		</div>
 	</a>
 
-	<h2 class="font-semibold mt-4">Check us out on:</h2>
+	<h2 class="font-semibold mt-4">Check us out:</h2>
 	<TextLink href={LINKS.github}>GitHub Organization</TextLink>
 	<TextLink href={LINKS.facebookPage}>Facebook Page</TextLink>
 	<TextLink href={LINKS.facebookGroup}>Facebook Group</TextLink>
@@ -31,6 +32,9 @@ import DISCORD from '../../public/assets/discord.svg';
 	<h2 class="font-semibold mt-4">Also check out:</h2>
 	<TextLink href={LINKS.hackfrostnl}>Hackfrost NL</TextLink>
 	<TextLink href={LINKS.ctsnl}>Computer Technology Society NL</TextLink>
+
+	<h2 class="font-semibold mt-4 mb-2">Upcoming events</h2>
+	<UpcomingEvents client:only />
 
 	<h2 class="font-semibold mt-4 mb-2">Latest documents</h2>
 	<LatestDocuments client:load />
