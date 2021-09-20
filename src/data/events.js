@@ -1,7 +1,7 @@
 export const EVENTS = [
   {
-    link: "/events/fall-2021-elections",
-    title: "Fall 2021 Elections",
+    link: "/events/fall-2021-election",
+    title: "Fall 2021 Election",
     dates: [
       {
         time: new Date(2021, 8, 20),
