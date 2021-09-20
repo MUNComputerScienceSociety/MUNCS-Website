@@ -9,8 +9,6 @@ const eventsWithDatesInTheFuture = EVENTS.map((event) => ({
   ),
 })).filter((event) => event.dates.length > 0);
 
-console.log({ eventsWithDatesInTheFuture });
-
 export const UpcomingEvents = () =>
   eventsWithDatesInTheFuture.map((event) => (
     <Event key={event.link} event={event} />

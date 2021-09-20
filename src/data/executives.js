@@ -32,6 +32,10 @@ export const EXECUTIVES = [
 		username: "zbatten",
 	},
 	{
+		name: "Genadi V",
+		roles: ["Computer Science Undergraduate Committee Representative"],
+	},
+	{
 		name: "Mathew Emshey",
 		roles: ["Representative-at-Large"],
 		username: "memshey",
