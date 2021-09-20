@@ -27,7 +27,7 @@ export const EXECUTIVES = [
 			username: cleanJacksNameLol("<i>jack arthur null</i>"),
 			discriminator: "7539",
 		},
-		picture: JAHARRHY,
+		// picture: JAHARRHY,
 	},
 	{
 		name: "David Chicas",

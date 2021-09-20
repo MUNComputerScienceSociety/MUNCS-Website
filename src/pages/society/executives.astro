@@ -25,8 +25,8 @@ EXECUTIVES.forEach((executive) => {
 			<h2 class="font-semibold mt-4">{role}</h2>
 			{
 				execs.map((exec) => (
-					<div class="my-1 h-[14rem] py-2">
-						<img src={exec.picture || PLACEHOLDER} class="float-left h-full mr-4" />
+					<div class="my-1 py-2">
+						{ false && <img src={exec.picture || PLACEHOLDER} class="float-left h-full mr-4" /> }
 						<p class="mt-2">{exec.name}</p>
 						<div class="pl-1">
 							{ exec.username && <p class="text-sm"><code>{exec.username}</code><span class="opacity-70"> at </span><code>mun</code><span class="opacity-70"> dot </span><code>ca</code></p> }

@@ -34,14 +34,18 @@ import DISCORD from '../../public/assets/discord.svg';
 	<TextLink href={LINKS.hackfrostnl}>Hackfrost NL</TextLink>
 	<TextLink href={LINKS.ctsnl}>Computer Technology Society NL</TextLink>
 
-	<h2 class="font-semibold mt-4 mb-2">Current executives:</h2>
-	<a href="/society/executives">
-		<div class="h-16">
-			{EXECUTIVES.filter((exec) => exec.picture !== undefined).map((exec) => (
-				<img class="h-full rounded-full" key={exec.name} src={exec.picture} />
-			))}
-		</div>
-	</a>
+	{ false && (
+		<>
+			<h2 class="font-semibold mt-4 mb-2">Current executives:</h2>
+			<a href="/society/executives">
+				<div class="h-16">
+					{EXECUTIVES.filter((exec) => exec.picture !== undefined).map((exec) => (
+						<img class="h-full rounded-full" key={exec.name} src={exec.picture} />
+					))}
+				</div>
+			</a>
+		</>
+	)}
 
 	<h2 class="font-semibold mt-4 mb-2">Upcoming events</h2>
 	<UpcomingEvents client:load />
