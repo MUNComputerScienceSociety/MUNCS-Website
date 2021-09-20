@@ -4,23 +4,23 @@ export const EVENTS = [
     title: "Fall 2021 Elections",
     dates: [
       {
-        time: "2021-09-20",
+        time: new Date(2021, 8, 20),
         title: "Applications Open",
       },
       {
-        time: "2021-09-27",
+        time: new Date(2021, 8, 27),
         title: "Applications Close",
       },
       {
-        time: "2021-09-28",
+        time: new Date(2021, 8, 28),
         title: "Campaigning Starts",
       },
       {
-        time: "2021-10-03",
+        time: new Date(2021, 9, 3),
         title: "Campaigning Ends",
       },
       {
-        time: "2021-10-04",
+        time: new Date(2021, 9, 4),
         title: "Results posted",
       },
     ],

@@ -4,7 +4,7 @@ export const EventDate = ({ date }) => (
 	<li>
 		{date.title}
 		<span className="italic float-right opacity-50 dark:opacity-70">
-			{format(new Date(date.time), "MMMM do, yyyy")}
+			{format(date.time, "MMMM do, yyyy")}
 		</span>
 	</li>
 );
