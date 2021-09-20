@@ -1,3 +1,5 @@
+import JAHARRHY from '../../public/assets/execs/jaharrhy.jpg';
+
 function cleanJacksNameLol(input) {
     input = input.replace(/&/g, '&amp;');
     input = input.replace(/</g, '&lt;');
@@ -25,6 +27,7 @@ export const EXECUTIVES = [
 			username: cleanJacksNameLol("<i>jack arthur null</i>"),
 			discriminator: "7539",
 		},
+		picture: JAHARRHY,
 	},
 	{
 		name: "David Chicas",
