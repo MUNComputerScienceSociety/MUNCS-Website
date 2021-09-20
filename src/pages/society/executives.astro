@@ -26,7 +26,10 @@ EXECUTIVES.forEach((executive) => {
 				execs.map((exec) => (
 					<>
 						<p class="mt-2">{exec.name}</p>
-						{ exec.username && <span class="text-sm"><code>{exec.username}</code> at <code>mun</code> dot <code>ca</code></span> }
+						<div class="pl-1">
+							{ exec.username && <p class="text-sm"><code>{exec.username}</code> at <code>mun</code> dot <code>ca</code></p> }
+							{ exec.discord && <p class="text-sm">{exec.discord.username}<span class="opacity-70"><code>#{exec.discord.discriminator}</code></span></p> }
+						</div>
 					</>
 				))
 			}
