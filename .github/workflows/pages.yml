@@ -24,4 +24,5 @@ jobs:
           folder: dist
           clean: true
           clean-exclude: |
+            .nojekyll
             CNAME
