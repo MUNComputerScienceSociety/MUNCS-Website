@@ -1,5 +1,6 @@
 export default {
 	buildOptions: {
+		site: "https://muncomputersciencesociety.github.io/website-w2021/",
 		sitemap: true,
 	},
 	devOptions: {
