@@ -11,6 +11,7 @@ const eventsWithDatesInTheFuture = EVENTS.map((event) => ({
 
 export const UpcomingEvents = () => (
 	<>
+		{eventsWithDatesInTheFuture.length === 0 && <p className="italic text-center">No upcoming events</p>}
 		{eventsWithDatesInTheFuture.map((event) => (
 			<Event key={event.link} event={event} />
 		))}
