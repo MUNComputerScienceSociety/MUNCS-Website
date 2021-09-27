@@ -25,4 +25,28 @@ export const EVENTS = [
       },
     ],
   },
+  {
+    link: "/events/fall-2021-clothing",
+    title: "Fall 2021 Clothing Order",
+    dates: [
+      {
+        time: new Date(2021, 8, 24),
+        title: "Clothing Order Available",
+      },
+      {
+        time: new Date(2021, 9, 11),
+        title: "Clothing Order Availability Ends",
+      },
+    ],
+  },
+  {
+    link: "/events/fall-2021-info-session",
+    title: "Info Session",
+    dates: [
+      {
+        time: new Date(2021, 8, 27),
+        title: "Info Session in EN2007",
+      },
+    ],
+  },
 ];
