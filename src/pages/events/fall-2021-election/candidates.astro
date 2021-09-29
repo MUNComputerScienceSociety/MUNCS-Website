@@ -44,6 +44,8 @@ data.forEach((candidate) => {
 			))}
 	</div>
 
+	<hr />
+
 	{data.map(({ image, fullName, year, whyInterested, csInterest, experience, roles }) => (
 		<div class="my-16">
 			<a href={`#${fullName}`}><h1 class="text-xl font-bold" id={fullName}>{fullName}<span class="opacity-80 italic">, {year}</span></h1></a>
