@@ -12,15 +12,15 @@ export const EVENTS = [
         title: "Applications Close",
       },
       {
-        time: new Date(2021, 8, 28),
+        time: new Date(2021, 8, 30),
         title: "Campaigning Starts",
       },
       {
-        time: new Date(2021, 9, 3),
+        time: new Date(2021, 9, 5),
         title: "Campaigning Ends",
       },
       {
-        time: new Date(2021, 9, 4),
+        time: new Date(2021, 9, 6),
         title: "Results posted",
       },
     ],
