@@ -45,9 +45,9 @@ data.forEach((candidate) => {
 
 	<hr />
 
-	{data.map(({ image, fullName, year, whyInterested, csInterest, experience, roles }) => (
+	{data.map(({ image, discord, fullName, year, whyInterested, csInterest, experience, roles }) => (
 		<div class="my-16">
-			<a href={`#${fullName}`}><h1 class="text-xl font-bold" id={fullName}>{fullName}<span class="opacity-80 italic">, {year}</span></h1></a>
+			<a href={`#${fullName}`}><h1 class="text-xl font-bold" id={fullName}>{fullName}<span class="opacity-80 italic">, {year}{discord !== "" ? `, ${discord} on Discord` : ""}</span></h1></a>
 
 			{ image !== "" && <img class="my-4 w-[16rem] mx-auto" src={`https://www.cs.mun.ca/~csclub/assets/elections/fall-2021/candidates/${image}.jpg`} /> }
 
