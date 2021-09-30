@@ -10,5 +10,8 @@
     "astro": "^0.20.7",
     "date-fns": "^2.24.0",
     "tailwindcss": "^2.2.15"
+  },
+  "dependencies": {
+    "papaparse": "^5.3.1"
   }
 }
