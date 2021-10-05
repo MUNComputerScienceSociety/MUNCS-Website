@@ -33,6 +33,10 @@ with keeping the majority of the interactions online for the sake of safety and 
 
 # Campaigning for Applicants (September 30th → October 5th)
 
+[Vote here](https://docs.google.com/forms/d/e/1FAIpQLSd9ZPm0c-WYWDcpt40lNngy0v1LpCa3FcqVhxYaPLEEaaAHEQ/viewform?usp=sf_link)
+
+<br />
+
 [Information about candidates can be found here](/events/fall-2021-election/candidates)
 
 <br />
