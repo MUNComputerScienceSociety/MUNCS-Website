@@ -1,0 +1,108 @@
+---
+layout: ../../layouts/Markdown.astro
+title: Hacktoberfest 2021
+---
+# Hacktoberfest 2021
+
+Contribute to open source projects during this month, and collect some free swag from Digital Ocean!
+
+<br />
+
+More information regarding Hacktoberfest itself can be found [here](https://hacktoberfest.digitalocean.com/)
+
+<br />
+
+If the project you're contributing to is associated with us, we'll hook you up with a free MUNCSS sticker as well!
+
+<img class="w-1/2 mx-auto my-4" src="/assets/events/hacktoberfest-2021/muncs-glitchy-sticker.png" />
+
+Once you've made your contribution, reach out to one of our executives, and we will make note of that contribution.
+
+<br />
+
+If you are:
+
+- Struggling with ideas for contributions
+- Having trouble putting your contribution together
+- Fighting with git / GitHub trying to put your contribution up
+
+Feel free to reach out in `#development` within our Discord, there is plenty of people available to help you out
+
+<br />
+
+Note that for picking up the sticker, we will be making them available to pickup at MUN; if you are not currently in the province we unfortunately cannot get the sticker to you.
+
+## Associated Projects
+
+### Automata
+
+- Discord bot handling the management of our server.
+- Written using discord.py
+- Both management commands, but also some fun ones too!
+
+https://github.com/MUNComputerScienceSociety/Automata
+
+<br />
+
+#### Contributions
+
+*None so far*
+
+<br />
+
+---
+
+<br />
+
+### MUNCS-Website
+
+- Written using: HTML / CSS / JavaScript
+- Using the [Astro framework](https://astro.build/)
+- Contains information about the society, its executives, and other external resources
+
+https://github.com/MUNComputerScienceSociety/MUNCS-Website
+
+<br />
+
+#### Contributions
+
+*None so far*
+
+<br />
+
+---
+
+<br />
+
+### Executive-Docs
+
+- Executive documents for the society
+- GitHub actions to build all documents as PDF, and host them on www.cs.mun.ca
+
+https://github.com/MUNComputerScienceSociety/Executive-Docs
+
+<br />
+
+#### Contributions
+
+*None so far*
+
+<br />
+
+---
+
+<br />
+
+### DiscordAuth
+
+- Flask app that adds identity verification for MUN email accounts for the Discord
+
+https://github.com/MUNComputerScienceSociety/DiscordAuth
+
+<br />
+
+#### Contributions
+
+*None so far*
+
+<br />

@@ -1,5 +1,33 @@
 export const EVENTS = [
   {
+    link: "/events/hacktoberfest-2021",
+    title: "Hacktoberfest 2021",
+    dates: [
+      {
+        time: new Date(2021, 9, 1),
+        title: "Hacktoberfest Begins",
+      },
+      {
+        time: new Date(2021, 9, 31),
+        title: "Hacktoberfest Ends",
+      },
+    ],
+  },
+  {
+    link: "/events/fall-2021-clothing",
+    title: "Fall 2021 Clothing Order",
+    dates: [
+      {
+        time: new Date(2021, 8, 24),
+        title: "Clothing Order Available",
+      },
+      {
+        time: new Date(2021, 9, 11),
+        title: "Clothing Order Availability Ends",
+      },
+    ],
+  },
+  {
     link: "/events/fall-2021-election",
     title: "Fall 2021 Election",
     dates: [
@@ -22,20 +50,6 @@ export const EVENTS = [
       {
         time: new Date(2021, 9, 6),
         title: "Results posted",
-      },
-    ],
-  },
-  {
-    link: "/events/fall-2021-clothing",
-    title: "Fall 2021 Clothing Order",
-    dates: [
-      {
-        time: new Date(2021, 8, 24),
-        title: "Clothing Order Available",
-      },
-      {
-        time: new Date(2021, 9, 11),
-        title: "Clothing Order Availability Ends",
       },
     ],
   },
