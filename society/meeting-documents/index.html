@@ -3,7 +3,7 @@
 import setup from '/_astro_frontend/hydrate/load.js';
 setup("1EwY6d", {}, async () => {
   
-  const [{ AllDocuments: Component }, { default: hydrate }] = await Promise.all([import("/_astro/src/components/Documents.js"), import("/_snowpack/pkg/@astrojs.renderer-react.client.v0.2.1.js")]);
+  const [{ AllDocuments: Component }, { default: hydrate }] = await Promise.all([import("/_astro/src/components/Documents.js"), import("/_snowpack/pkg/@astrojs.renderer-react.client.v0.2.2.js")]);
   return (el, children) => hydrate(el)(Component, {}, children);
 
 });
