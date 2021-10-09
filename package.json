@@ -7,9 +7,9 @@
     "build": "astro build"
   },
   "devDependencies": {
-    "astro": "^0.20.7",
-    "date-fns": "^2.24.0",
-    "tailwindcss": "^2.2.15"
+    "astro": "^0.20.9",
+    "date-fns": "^2.25.0",
+    "tailwindcss": "^2.2.16"
   },
   "dependencies": {
     "papaparse": "^5.3.1"
