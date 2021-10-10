@@ -51,6 +51,7 @@ https://github.com/MUNComputerScienceSociety/Automata
 #### Contributions
 
 - 'Weather Feature' from HaMoOoOd25, https://github.com/MUNComputerScienceSociety/Automata/pull/76
+- 'Async all the things' from nint8835, https://github.com/MUNComputerScienceSociety/Automata/pull/77
 
 <br />
 
