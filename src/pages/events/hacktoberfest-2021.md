@@ -46,7 +46,7 @@ https://github.com/MUNComputerScienceSociety/Automata
 
 #### Contributions
 
-*None so far*
+- 'Weather Feature' from HaMoOoOd25, https://github.com/MUNComputerScienceSociety/Automata/pull/76
 
 <br />
 
