@@ -30,6 +30,10 @@ Feel free to reach out in `#development` within our Discord, there is plenty of 
 
 <br />
 
+If you have an idea for a project that isn't related to one of our existing ones, but would make sense to be associated with the society / live on our GitHub org., we're open for that as well!
+
+<br />
+
 Note that for picking up the sticker, we will be making them available to pickup at MUN; if you are not currently in the province we unfortunately cannot get the sticker to you.
 
 ## Associated Projects
