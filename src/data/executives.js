@@ -48,7 +48,7 @@ export const EXECUTIVES = [
 		},
 	},
 	{
-		name: "Zach Vater",
+		name: "Zach Vaters",
 		roles: ["Tech Officer"],
 		username: "zcvaters",
 		discord: {
