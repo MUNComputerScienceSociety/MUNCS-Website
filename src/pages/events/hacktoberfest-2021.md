@@ -55,6 +55,7 @@ https://github.com/MUNComputerScienceSociety/Automata
 - 'Custom help command' from dchicasduena, https://github.com/MUNComputerScienceSociety/Automata/pull/82
 - 'Today mun hacktober' from zcvaters, https://github.com/MUNComputerScienceSociety/Automata/pull/81
 - 'Announcements' from HaMoOoOd25, https://github.com/MUNComputerScienceSociety/Automata/pull/80
+- 'Cards' from jackharrhy, https://github.com/MUNComputerScienceSociety/Automata/pull/84
 
 <br />
 
