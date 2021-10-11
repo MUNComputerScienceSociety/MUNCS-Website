@@ -56,6 +56,7 @@ https://github.com/MUNComputerScienceSociety/Automata
 - 'Today mun hacktober' from zcvaters, https://github.com/MUNComputerScienceSociety/Automata/pull/81
 - 'Announcements' from HaMoOoOd25, https://github.com/MUNComputerScienceSociety/Automata/pull/80
 - 'Cards' from jackharrhy, https://github.com/MUNComputerScienceSociety/Automata/pull/84
+- 'Hey Guys' from PunkBat, https://github.com/MUNComputerScienceSociety/Automata/pull/88
 
 <br />
 
