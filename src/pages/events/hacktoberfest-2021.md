@@ -102,20 +102,3 @@ https://github.com/MUNComputerScienceSociety/Executive-Docs
 
 <br />
 
----
-
-<br />
-
-### DiscordAuth
-
-- Flask app that adds identity verification for MUN email accounts for the Discord
-
-https://github.com/MUNComputerScienceSociety/DiscordAuth
-
-<br />
-
-#### Contributions
-
-*None so far*
-
-<br />
