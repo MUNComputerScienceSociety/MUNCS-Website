@@ -58,6 +58,8 @@ https://github.com/MUNComputerScienceSociety/Automata
 - 'Cards' from jackharrhy, https://github.com/MUNComputerScienceSociety/Automata/pull/84
 - 'Hey Guys' from PunkBat, https://github.com/MUNComputerScienceSociety/Automata/pull/88
 - 'Fortune Cookie' from singhripudaman, https://github.com/MUNComputerScienceSociety/Automata/pull/93
+- 'Cowsay' from jackharrhy, https://github.com/MUNComputerScienceSociety/Automata/pull/95
+- 'DuckDuckGo Instant Answer' from SteveParson, https://github.com/MUNComputerScienceSociety/Automata/pull/94
 
 <br />
 
