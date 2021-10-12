@@ -124,6 +124,15 @@ export const EXECUTIVES = [
 		},
 	},
 	{
+		name: "Hamzah Punjabi",
+		roles: ["Representative-at-Large"],
+		username: "hapunjabi",
+		discord: {
+			username: "Hking",
+			discriminator: "6969",
+		},
+	},
+	{
 		name: "Abdulrahman Marwan Mahmood",
 		roles: ["First Year Representative"],
 		username: "ammahmood",
