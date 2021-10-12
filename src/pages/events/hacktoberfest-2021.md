@@ -57,6 +57,7 @@ https://github.com/MUNComputerScienceSociety/Automata
 - 'Announcements' from HaMoOoOd25, https://github.com/MUNComputerScienceSociety/Automata/pull/80
 - 'Cards' from jackharrhy, https://github.com/MUNComputerScienceSociety/Automata/pull/84
 - 'Hey Guys' from PunkBat, https://github.com/MUNComputerScienceSociety/Automata/pull/88
+- 'Fortune Cookie' from singhripudaman, https://github.com/MUNComputerScienceSociety/Automata/pull/93
 
 <br />
 
