@@ -102,3 +102,21 @@ https://github.com/MUNComputerScienceSociety/Executive-Docs
 
 <br />
 
+---
+
+<br />
+
+### PhapBot
+
+- a discord bot
+- its written in php
+- lol
+
+https://github.com/jackharrhy/phapbot
+
+<br />
+
+#### Contributions
+
+- 'phap 2021 rewrite' from jackharrhy, https://github.com/jackharrhy/PhapBot/pull/1
+
