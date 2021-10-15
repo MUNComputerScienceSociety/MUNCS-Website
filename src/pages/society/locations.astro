@@ -1,0 +1,32 @@
+---
+import Gallery from '../../components/Gallery.jsx';
+import Main from '../../layouts/Main.astro';
+import SLAB_GIF from '../../../public/assets/slab.gif';
+import { SLAB_PICS, SLAB_LINKS } from '../../data/slab.js';
+---
+<Main title="The Slab">
+	<h1 class="text-lg font-gamer font-semibold">The Slab</h1>
+
+	<div class="flex md:flex-row flex-col mb-5 items-center ">
+		<div class="w-52">
+			<img alt="Pixel Art Animated Gif" src={SLAB_GIF} />
+		</div>
+		<div class="slab-rooms gap-2 grid mx-3 my-auto col-span-2">
+			<span class="font-semibold px-2 py-1 bg-black text-white dark:bg-white dark:text-black">ER 2036</span>
+			<span class="align-center">The CS Lab</span>
+			<span class="font-semibold px-2 py-1 bg-black text-white dark:bg-white dark:text-black">ER 4068</span>
+			<span class="align-center">Alexander Murray Room</span>
+		</div>
+	</div>
+
+	<Gallery originalHeight="300" items={SLAB_PICS} client:load />
+
+	<h3 class="font-semibold">📷 Picture Vault</h3>
+	<ul>
+		{SLAB_LINKS.map(([title, link]) => (
+			<li>
+				 - <i><a href={link}>{title}</a></i>
+			</li>
+		))}
+	</ul>
+</Main>
