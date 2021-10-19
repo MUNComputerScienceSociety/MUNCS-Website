@@ -64,6 +64,7 @@ https://github.com/MUNComputerScienceSociety/Automata
 - 'Verilog' from jackharrhy, https://github.com/MUNComputerScienceSociety/Automata/pull/101
 - 'Add more information about what electives are' from Mudkip, https://github.com/MUNComputerScienceSociety/Automata/pull/103
 - 'Brainf' from donno2048, https://github.com/MUNComputerScienceSociety/Automata/pull/105
+- 'Halal' from singhripudaman, https://github.com/MUNComputerScienceSociety/Automata/pull/97
 
 <br />
 
