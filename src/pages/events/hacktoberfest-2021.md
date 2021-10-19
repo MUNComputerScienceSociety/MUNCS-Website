@@ -60,6 +60,10 @@ https://github.com/MUNComputerScienceSociety/Automata
 - 'Fortune Cookie' from singhripudaman, https://github.com/MUNComputerScienceSociety/Automata/pull/93
 - 'Cowsay' from jackharrhy, https://github.com/MUNComputerScienceSociety/Automata/pull/95
 - 'DuckDuckGo Instant Answer' from SteveParson, https://github.com/MUNComputerScienceSociety/Automata/pull/94
+- 'Vibe Car' from hamzahap, https://github.com/MUNComputerScienceSociety/Automata/pull/98
+- 'Verilog' from jackharrhy, https://github.com/MUNComputerScienceSociety/Automata/pull/101
+- 'Add more information about what electives are' from Mudkip, https://github.com/MUNComputerScienceSociety/Automata/pull/103
+- 'Brainf' from donno2048, https://github.com/MUNComputerScienceSociety/Automata/pull/105
 
 <br />
 
@@ -78,6 +82,9 @@ https://github.com/MUNComputerScienceSociety/MUNCS-Website
 <br />
 
 #### Contributions
+
+- 'Typo in exec name' from zcvaters, https://github.com/MUNComputerScienceSociety/MUNCS-Website/pull/104
+- 'Added me' form hamzahap, https://github.com/MUNComputerScienceSociety/MUNCS-Website/pull/106
 
 *None so far*
 
