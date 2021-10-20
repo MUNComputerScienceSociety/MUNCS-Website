@@ -86,9 +86,7 @@ https://github.com/MUNComputerScienceSociety/MUNCS-Website
 #### Contributions
 
 - 'Typo in exec name' from zcvaters, https://github.com/MUNComputerScienceSociety/MUNCS-Website/pull/104
-- 'Added me' form hamzahap, https://github.com/MUNComputerScienceSociety/MUNCS-Website/pull/106
-
-*None so far*
+- 'Added me' from hamzahap, https://github.com/MUNComputerScienceSociety/MUNCS-Website/pull/106
 
 <br />
 
