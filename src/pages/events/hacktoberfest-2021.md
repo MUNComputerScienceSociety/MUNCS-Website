@@ -87,6 +87,7 @@ https://github.com/MUNComputerScienceSociety/MUNCS-Website
 
 - 'Typo in exec name' from zcvaters, https://github.com/MUNComputerScienceSociety/MUNCS-Website/pull/104
 - 'Added me' from hamzahap, https://github.com/MUNComputerScienceSociety/MUNCS-Website/pull/106
+- 'Fixed typo in Hacktober page' from dchicasduena, https://github.com/MUNComputerScienceSociety/MUNCS-Website/pull/107
 
 <br />
 
