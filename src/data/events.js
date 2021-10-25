@@ -8,6 +8,10 @@ export const EVENTS = [
         title: "Hacktoberfest Begins",
       },
       {
+        time: new Date(2021, 9, 28),
+        title: "Workshop",
+      },
+      {
         time: new Date(2021, 9, 31),
         title: "Hacktoberfest Ends",
       },

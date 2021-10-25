@@ -8,6 +8,39 @@ Contribute to open source projects during this month, and collect some free swag
 
 <br />
 
+---
+
+## Workshop
+
+**October 28th, from 5pm to 9pm**
+
+**CS 1009 (Computing Services**
+
+<br />
+
+Stuck on Hacktoberfest contribution ideas?
+Unsure of how exactly to contribute with regards to using GitHub and writing Python?
+
+Come to this in person event, hangout with some folks, and learn the ropes of the GitHub workflow, some intermediate Python, and contributing to our open source projects!
+
+We'll be showing how to contribute to our Discord bot Automata, and the workflow from idea, to plugin creation from scratch, and pull request to GitHub.
+
+Already contributed? Come and pick up your sticker early!
+
+<br />
+
+Please fill out this RRSP / contact tracing form beforehand!
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeWUuWizJbnT6Lj8V-24YjNxk4spdTdJ-4P3-XBsNu4ccke2A/viewform?embedded=true" width="100%" height="792" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+[Form not displaying correctly? try this instead](https://docs.google.com/forms/d/e/1FAIpQLSeWUuWizJbnT6Lj8V-24YjNxk4spdTdJ-4P3-XBsNu4ccke2A/viewform?usp=sf_link).
+
+<br />
+
+---
+
+<br />
+
 More information regarding Hacktoberfest itself can be found [here](https://hacktoberfest.digitalocean.com/)
 
 <br />
