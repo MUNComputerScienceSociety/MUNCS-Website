@@ -29,7 +29,7 @@ Already contributed? Come and pick up your sticker early!
 
 <br />
 
-Please fill out this RRSP / contact tracing form beforehand!
+Please fill out this RSVP / contact tracing form beforehand!
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeWUuWizJbnT6Lj8V-24YjNxk4spdTdJ-4P3-XBsNu4ccke2A/viewform?embedded=true" width="100%" height="792" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
