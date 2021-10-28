@@ -17,6 +17,7 @@ export const SIDEBAR = [
 		text: "Society",
 		link: "/society/",
 		children: [
+			{ text: "Locations", link: "/society/locations" },
 			{ text: "Executives", link: "/society/executives" },
 			{
 				text: "Constitution",
