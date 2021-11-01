@@ -17,7 +17,6 @@ export const SIDEBAR = [
 		text: "Society",
 		link: "/society/",
 		children: [
-			{ text: "Locations", link: "/society/locations" },
 			{ text: "Executives", link: "/society/executives" },
 			{
 				text: "Constitution",
@@ -100,6 +99,7 @@ export const SIDEBAR = [
 					},
 				],
 			},
+			{ text: "Locations", link: "/society/locations" },
 			{ text: "Meeting Documents", link: "/society/meeting-documents" },
 		],
 	},
