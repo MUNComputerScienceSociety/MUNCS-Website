@@ -99,6 +99,7 @@ export const SIDEBAR = [
 					},
 				],
 			},
+			{ text: "Locations", link: "/society/locations" },
 			{ text: "Meeting Documents", link: "/society/meeting-documents" },
 		],
 	},

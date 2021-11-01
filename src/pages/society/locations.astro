@@ -1,0 +1,39 @@
+---
+import Gallery from '../../components/Gallery.jsx';
+import Main from '../../layouts/Main.astro';
+import SLAB_GIF from '../../../public/assets/slab.gif';
+import { LOCATION_PICS, LOCATION_LINKS } from '../../data/locations.js';
+---
+<Main title="Locations">
+	<h1 class="text-lg font-semibold">Locations</h1>
+
+	<div class="flex gap-2 md:flex-row flex-col my-5 items-center justify-center">
+		<div class="w-52">
+			<img alt="Pixel Art Animated Gif" src={SLAB_GIF} />
+		</div>
+		<div class="flex flex-col gap-2 mx-3 my-auto col-span-2">
+			<div class="flex gap-2 items-center opacity-20">
+				<span class="font-semibold px-3 py-1 bg-black text-white dark:bg-white dark:text-black">ER 2036</span>
+				<span class="align-center">The CS Lab</span>
+			</div>
+			<div class="flex gap-2 items-center">
+				<span class="align-center">^ Under construction as of September 2021 ^</span>
+			</div>
+			<div class="flex gap-2 items-center">
+				<span class="font-semibold px-3 py-1 bg-black text-white dark:bg-white dark:text-black">ER 4068</span>
+				<span class="align-center">Alexander Murray Room</span>
+			</div>
+		</div>
+	</div>
+
+	<Gallery originalHeight="300" items={LOCATION_PICS} client:load />
+
+	<h3 class="font-semibold">📷 Picture Vault</h3>
+	<ul>
+		{LOCATION_LINKS.map(([title, link]) => (
+			<li>
+				 - <i><a href={link} class="hover:underline">{title}</a></i>
+			</li>
+		))}
+	</ul>
+</Main>
