@@ -11,23 +11,23 @@ function cleanJacksNameLol(input) {
 // TODO previous executives
 export const EXECUTIVES = [
 	{
-		name: "Madison Emshey",
-		roles: ["President"],
-		username: "mbemshey",
-		discord: {
-			username: "Modstrosus",
-			discriminator: "0001",
-		},
-	},
-	{
 		name: "Jack Harrhy",
-		roles: ["Vice President"],
+		roles: ["President"],
 		username: "jaharrhy",
 		discord: {
 			username: cleanJacksNameLol("<i>jack arthur null</i>"),
 			discriminator: "7539",
 		},
 		// picture: JAHARRHY,
+	},
+	{
+		name: "Madison Emshey",
+		roles: ["Vice President"],
+		username: "mbemshey",
+		discord: {
+			username: "Modstrosus",
+			discriminator: "0001",
+		},
 	},
 	{
 		name: "David Chicas",
@@ -133,15 +133,6 @@ export const EXECUTIVES = [
 		},
 	},
 	{
-		name: "Abdulrahman Marwan Mahmood",
-		roles: ["First Year Representative"],
-		username: "ammahmood",
-		discord: {
-			username: "PunkBat",
-			discriminator: "4481",
-		},
-	},
-	{
 		name: "Colton Fridgen",
 		roles: ["First Year Representative"],
 		username: "csttfridgen",
@@ -157,15 +148,6 @@ export const EXECUTIVES = [
 		discord: {
 			username: "maegpi",
 			discriminator: "5707",
-		},
-	},
-	{
-		name: "Abhijeet Singh",
-		roles: ["Representative-at-Large"],
-		username: "abhijeets",
-		discord: {
-			username: "kratosonspeed",
-			discriminator: "8931",
 		},
 	},
 ];
