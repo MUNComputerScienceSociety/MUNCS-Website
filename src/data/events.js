@@ -4,7 +4,7 @@ export const EVENTS = [
     title: "Xonotic Night",
     dates: [
       {
-        time: new Date(2022, 1, 13),
+        time: new Date(2022, 0, 13),
         title: "Xonotic Night",
       },
     ],
