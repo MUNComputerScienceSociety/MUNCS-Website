@@ -96,10 +96,6 @@ export const EXECUTIVES = [
 		name: "Zac Batten",
 		roles: ["Event Coordinator"],
 		username: "zbatten",
-		discord: {
-			username: "Dr.Swag",
-			discriminator: "9148",
-		},
 	},
 	{
 		name: "Mohammed Balfaqih",
