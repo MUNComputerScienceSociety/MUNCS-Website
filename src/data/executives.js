@@ -107,10 +107,6 @@ export const EXECUTIVES = [
 		},
 	},
 	{
-		name: "Genadi V",
-		roles: ["Computer Science Undergraduate Committee Representative"],
-	},
-	{
 		name: "Kanika Mathur",
 		username: "kmathur",
 		roles: ["Science Society Representative", "Representative-at-Large"],
