@@ -1,5 +1,47 @@
 export const EVENTS = [
   {
+    link: "/events/february-2022-kattis-competition",
+    title: "Kattis Competition",
+    dates: [
+      {
+        time: new Date(2022, 1, 11),
+        title: "Pre-Comp. Info Session @ 5pm",
+      },
+      {
+        time: new Date(2022, 1, 11),
+        title: "Begins @ 6pm",
+      },
+      {
+        time: new Date(2022, 1, 11),
+        title: "Ends @ 10pm",
+      },
+    ],
+  },
+  {
+    link: "/events/february-2022-picoCAD-competition",
+    title: "picoCAD Competition",
+    dates: [
+      {
+        time: new Date(2022, 1, 19),
+        title: "Competition Begins",
+      },
+      {
+        time: new Date(2022, 1, 19),
+        title: "Competition Ends",
+      },
+    ],
+  },
+  {
+    link: "/events/february-2022-gmod-prop-hunt",
+    title: "Garry's Mod Prop Hunt Night",
+    dates: [
+      {
+        time: new Date(2022, 1, 25),
+        title: "Begins @ 7pm",
+      },
+    ],
+  },
+  {
     link: "/events/january-2022-xonotic",
     title: "Xonotic Night",
     dates: [
