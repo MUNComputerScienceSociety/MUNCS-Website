@@ -26,7 +26,7 @@ export const EVENTS = [
         title: "Competition Begins",
       },
       {
-        time: new Date(2022, 1, 19),
+        time: new Date(2022, 1, 27),
         title: "Competition Ends",
       },
     ],
