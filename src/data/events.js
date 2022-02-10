@@ -13,7 +13,7 @@ export const EVENTS = [
       },
       {
         time: new Date(2022, 1, 11),
-        title: "Ends @ 10pm",
+        title: "Ends @ 11pm",
       },
     ],
   },
