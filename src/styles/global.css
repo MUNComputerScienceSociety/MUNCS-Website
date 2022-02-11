@@ -50,3 +50,7 @@ h3 {
 .markdown ul {
   @apply list-disc pl-6;
 }
+
+.markdown blockquote {
+  @apply pl-3;
+}

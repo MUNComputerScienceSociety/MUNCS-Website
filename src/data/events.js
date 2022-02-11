@@ -32,6 +32,16 @@ export const EVENTS = [
     ],
   },
   {
+    link: "/events/february-2022-department-headship-application",
+    title: "Department: Sharene Bungay Headship Application Meeting",
+    dates: [
+      {
+        time: new Date(2022, 1, 23),
+        title: "Meeting on Webex @ 1pm",
+      },
+    ],
+  },
+  {
     link: "/events/february-2022-gmod-prop-hunt",
     title: "Garry's Mod Prop Hunt Night",
     dates: [
