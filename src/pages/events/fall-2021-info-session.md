@@ -2,6 +2,7 @@
 layout: ../../layouts/Markdown.astro
 title: Fall 2021 Info Session
 ---
+
 # Info Session
 
 _Our first in-person event in too long!_

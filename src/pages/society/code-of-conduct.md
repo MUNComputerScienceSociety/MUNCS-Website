@@ -2,6 +2,7 @@
 layout: ../../layouts/Markdown.astro
 title: Code of Conduct
 ---
+
 # Code of Conduct
 
 ## Our Goal
@@ -16,34 +17,34 @@ This code of conduct applies to all of this community's spaces, including public
 
 We hope to create an environment in which diverse individuals can collaborate and interact in a positive and affirming way. Examples of behavior that contributes to creating this sort of environment include:
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the overall community
-* Showing empathy towards other community members
+- Using welcoming and inclusive language
+- Being respectful of differing viewpoints and experiences
+- Gracefully accepting constructive criticism
+- Focusing on what is best for the overall community
+- Showing empathy towards other community members
 
 ## Anti-Harassment Statement
 
 This community will not tolerate harassment of any kind. Examples of harassment include:
 
-* Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, pregnancy status, veteran status, political affiliation, marital status, body size, age, race, national origin, ethnic origin, nationality, immigration status, language, religion or lack thereof, or other identity marker. This includes anti-Indigenous/Nativeness and anti-Blackness.
-* Unwelcome comments regarding a person's lifestyle choices and practices, including those related to food, health, parenting, relationships, drugs, and employment.
-* Deliberate misgendering, using inappropriate pronouns, or use of "dead" or rejected names.
-* Gratuitous or off-topic sexual images or behavior in spaces where they're not appropriate.
-* Physical contact and simulated physical contact (eg, textual descriptions like "hug" or "backrub") without consent or after a request to stop.
-* Threats of violence.
-* Incitement of violence towards any individual or group, including encouraging a person to commit suicide or to engage in self-harm.
-* Deliberate intimidation.
-* Stalking or following - online or in the physical world.
-* Harassing photography or recording, including logging online activity for harassment purposes.
-* Sustained disruption of discussion.
-* Unwelcome sexual attention.
-* Patterns of inappropriate social contact, such as requesting/assuming inappropriate levels of intimacy with others.
-* Continued one-on-one communication after requests to cease.
-* Deliberate "outing" of any aspect of a person's identity without their consent except as necessary to protect vulnerable people from intentional abuse.
-* Publication of non-harassing private communication.
-* Hate imagery.
-* Jokes that resemble the above, such as "hipster racism", still count as harassment even if meant satirically or ironically.
+- Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, pregnancy status, veteran status, political affiliation, marital status, body size, age, race, national origin, ethnic origin, nationality, immigration status, language, religion or lack thereof, or other identity marker. This includes anti-Indigenous/Nativeness and anti-Blackness.
+- Unwelcome comments regarding a person's lifestyle choices and practices, including those related to food, health, parenting, relationships, drugs, and employment.
+- Deliberate misgendering, using inappropriate pronouns, or use of "dead" or rejected names.
+- Gratuitous or off-topic sexual images or behavior in spaces where they're not appropriate.
+- Physical contact and simulated physical contact (eg, textual descriptions like "hug" or "backrub") without consent or after a request to stop.
+- Threats of violence.
+- Incitement of violence towards any individual or group, including encouraging a person to commit suicide or to engage in self-harm.
+- Deliberate intimidation.
+- Stalking or following - online or in the physical world.
+- Harassing photography or recording, including logging online activity for harassment purposes.
+- Sustained disruption of discussion.
+- Unwelcome sexual attention.
+- Patterns of inappropriate social contact, such as requesting/assuming inappropriate levels of intimacy with others.
+- Continued one-on-one communication after requests to cease.
+- Deliberate "outing" of any aspect of a person's identity without their consent except as necessary to protect vulnerable people from intentional abuse.
+- Publication of non-harassing private communication.
+- Hate imagery.
+- Jokes that resemble the above, such as "hipster racism", still count as harassment even if meant satirically or ironically.
 
 If you have questions or concerns about these issues please feel free to message an admin or ask for an opportunity to explore the issue with a moderator and volunteers.
 

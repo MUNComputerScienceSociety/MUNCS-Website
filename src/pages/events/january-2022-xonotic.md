@@ -2,6 +2,7 @@
 layout: ../../layouts/Markdown.astro
 title: January 2022 Xonotic Night
 ---
+
 # Xonotic Night
 
 <br />

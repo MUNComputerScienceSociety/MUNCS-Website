@@ -2,6 +2,7 @@
 layout: ../../../layouts/Markdown.astro
 title: Fall 2021 Election
 ---
+
 # Fall 2021 Election
 
 Welcome to the Fall 2021 Election for the MUN Computer Science Society!

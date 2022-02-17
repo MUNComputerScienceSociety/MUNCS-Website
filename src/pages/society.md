@@ -2,6 +2,7 @@
 layout: ../layouts/Markdown.astro
 title: Society
 ---
+
 # Society
 
 Our objectives are to:

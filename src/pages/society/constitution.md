@@ -2,6 +2,7 @@
 layout: ../../layouts/Markdown.astro
 title: Constitution
 ---
+
 # Constitution
 
 _Last updated: August 15th, 2021, during [this meeting](https://www.cs.mun.ca/~csclub/executive-documents/Minutes/2021/August/Minutes_08_15_2021.pdf)._
@@ -113,7 +114,7 @@ The Treasurer shall:
 - Be accountable to the society and MUNSU for the finances of the society. This includes accounting for all income and expenses on a permanent record.
 - Must live or reside in St. John’s, Newfoundland or the Avalon Peninsula;
 - Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large)).
- 
+
 ## 5.6. Duties of the Event Coordinator
 
 The Event Coordinator shall:
@@ -172,7 +173,7 @@ The Science Society Representative shall:
 - Take accurate minutes to relay information to the society;
 - Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large));
 - May be a secondary role.
- 
+
 ## 5.13 Duties of the Hack Frost NL Representative
 
 The Hack Frost NL Representative shall:
@@ -181,7 +182,7 @@ The Hack Frost NL Representative shall:
 - Take accurate minutes to relay information to the society;
 - Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large));
 - May be a secondary role.
- 
+
 ## 5.14. Duties of the First Year Representatives
 
 The First Year Representatives executives shall:

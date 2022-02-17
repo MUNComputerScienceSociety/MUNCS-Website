@@ -2,6 +2,7 @@
 layout: ../../layouts/Markdown.astro
 title: Fall 2021 Clothing Order
 ---
+
 # Fall 2021 Clothing Order
 
 We've partnered with [Beresford Ltd.](http://www.beresfordltd.ca/) to provide our clothing this semester,

@@ -2,6 +2,7 @@
 layout: ../../layouts/Markdown.astro
 title: Hacktoberfest 2021
 ---
+
 # Hacktoberfest 2021
 
 Contribute to open source projects during this month, and collect some free swag from Digital Ocean!
@@ -139,7 +140,7 @@ https://github.com/MUNComputerScienceSociety/Executive-Docs
 
 #### Contributions
 
-*None so far*
+_None so far_
 
 <br />
 
@@ -160,4 +161,3 @@ https://github.com/jackharrhy/phapbot
 #### Contributions
 
 - 'phap 2021 rewrite' from jackharrhy, https://github.com/jackharrhy/PhapBot/pull/1
-
