@@ -59,6 +59,7 @@ Feb. 26th: _???_
 - Gamesfromscratch video: https://www.youtube.com/watch?v=KNzL5QCHZj0
 - Brandon James Greer on Youtube: https://www.youtube.com/watch?v=dMX0SI5Av-8 (there are a handful of great videos on their channel)
 - [The `#picocad-help` channel in Discord](https://discord.com/channels/514110851016556567/943927201714294816)
+- For texturing, you can use any tool you want; a good list of pixel art specific ones can be [found on the lospec website](https://lospec.com/pixel-art-software-list/).
 
 <br/>
 
