@@ -1,23 +1,5 @@
 export const EVENTS = [
   {
-    link: "/events/february-2022-kattis-competition",
-    title: "Kattis Competition",
-    dates: [
-      {
-        time: new Date(2022, 1, 11),
-        title: "Pre-Comp. Info Session @ 5pm",
-      },
-      {
-        time: new Date(2022, 1, 11),
-        title: "Begins @ 6pm",
-      },
-      {
-        time: new Date(2022, 1, 11),
-        title: "Ends @ 11pm",
-      },
-    ],
-  },
-  {
     link: "/events/february-2022-picoCAD-competition",
     title: "picoCAD Competition",
     dates: [
@@ -32,6 +14,16 @@ export const EVENTS = [
     ],
   },
   {
+    link: "/events/february-2022-gmod-prop-hunt",
+    title: "Garry's Mod Prop Hunt Night",
+    dates: [
+      {
+        time: new Date(2022, 1, 25),
+        title: "Begins @ 7pm",
+      },
+    ],
+  },
+  {
     link: "/events/february-2022-department-headship-application",
     title: "Department: Sharene Bungay Headship Application Meeting",
     dates: [
@@ -42,12 +34,20 @@ export const EVENTS = [
     ],
   },
   {
-    link: "/events/february-2022-gmod-prop-hunt",
-    title: "Garry's Mod Prop Hunt Night",
+    link: "/events/february-2022-kattis-competition",
+    title: "Kattis Competition",
     dates: [
       {
-        time: new Date(2022, 1, 25),
-        title: "Begins @ 7pm",
+        time: new Date(2022, 1, 11),
+        title: "Pre-Comp. Info Session @ 5pm",
+      },
+      {
+        time: new Date(2022, 1, 11),
+        title: "Begins @ 6pm",
+      },
+      {
+        time: new Date(2022, 1, 11),
+        title: "Ends @ 11pm",
       },
     ],
   },

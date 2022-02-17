@@ -7,7 +7,9 @@ const eventsWithDatesInTheFuture = EVENTS.map((event) => ({
     (date) =>
       new Date(date.time) >= new Date().setDate(new Date().getDate() - 1)
   ),
-})).filter((event) => event.dates.length > 0);
+}))
+  .filter((event) => event.dates.length > 0)
+  .reverse();
 
 export const UpcomingEvents = () => (
   <>
