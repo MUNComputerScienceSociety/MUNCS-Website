@@ -15,6 +15,10 @@ We're hosting a [picoCAD](https://johanpeitz.itch.io/picocad) competition, from 
 
 <br/>
 
+picoCAD itself is _technically_ free, although it is encouraged during checkout to send a few $$$ to its creator.
+
+<br/>
+
 Anyone is welcome to contribute to the competition free of charge, we have yet to finalize how exactly submissions and judging will go, but keep an eye out on this page / our socials, and we'll be releasing those details later.
 
 <br/>
