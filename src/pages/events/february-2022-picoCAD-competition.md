@@ -15,6 +15,14 @@ We're hosting a [picoCAD](https://johanpeitz.itch.io/picocad) competition, from 
 
 <br/>
 
+Anyone is welcome to contribute to the competition free of charge, we have yet to finalize how exactly submissions and judging will go, but keep an eye out on this page / our socials, and we'll be releasing those details later.
+
+<br/>
+
+We're planning to have some prizes for the winners, but that is also not finalized; if anyone has some ideas, drop them in the Discord!
+
+<br/>
+
 There will be a selection of different themes being released throughout the next week or so, each one being slightly vague / left up to interpretation.
 
 We will also be accepting general submissions during the event as well!
