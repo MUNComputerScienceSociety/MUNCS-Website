@@ -4,7 +4,7 @@ export const EVENTS = [
     title: "picoCAD Competition",
     dates: [
       {
-        time: new Date(2022, 1, 19),
+        time: new Date(2022, 1, 18),
         title: "Competition Begins",
       },
       {

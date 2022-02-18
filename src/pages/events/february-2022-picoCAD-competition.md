@@ -7,13 +7,18 @@ title: February 2022 picoCAD Competition
         margin: 0.75rem;
         height: 15rem;
     }
+
+    video {
+        margin: 1rem;
+        height: 20rem;
+    }
 </style>
 
 # picoCAD Competition
 
-We're hosting a [picoCAD](https://johanpeitz.itch.io/picocad) competition, from February 19th to the 27th!
+We're hosting a [picoCAD](https://johanpeitz.itch.io/picocad) competition, from February 18th to the 27th!
 
-<br/>
+<video autoplay muted controls src="https://www.cs.mun.ca/~csclub/assets/posters/2022/feb2022-picoCAD-competition/muncs-picoCAD-comp.mp4"></video>
 
 picoCAD itself is _technically_ free, although it is encouraged during checkout to send a few $$$ to its creator.
 
@@ -41,7 +46,25 @@ There are a selection of channels in our Discord server (prefixed with `#picocad
 
 ## Said themes are:
 
-Feb. 19th: _???_
+Feb. 18th: **Color**
+
+<br/>
+
+<img src="https://www.cs.mun.ca/~csclub/assets/posters/2022/feb2022-picoCAD-competition/muncs-picoCAD-theme-color.png">
+
+<br/>
+
+> Our first theme is likely our most abstract, for good reason!; feel free to just make something simple.
+>
+> <br/>
+>
+> Even opening up picoCAD to make a pretty colored cube can be considered a valid submission for todays theme; or you can run with it and make a box of crayons, or a pretty rainbow.
+>
+> <br/>
+>
+> The floor is yours!
+
+<br/>
 
 Feb. 20th: _???_
 
