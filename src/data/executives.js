@@ -75,15 +75,6 @@ export const EXECUTIVES = [
     },
   },
   {
-    name: "Vilakshan Khanna",
-    roles: ["Social Representative"],
-    username: "vkhanna",
-    discord: {
-      username: "Vilakshan",
-      discriminator: "6171",
-    },
-  },
-  {
     name: "Leah Murphy",
     roles: ["Social Representative"],
     username: "lmurphy19",
