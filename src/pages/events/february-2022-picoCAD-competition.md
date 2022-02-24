@@ -28,7 +28,9 @@ Anyone is welcome to contribute to the competition free of charge, we have yet t
 
 <br/>
 
-We're planning to have some prizes for the winners, but that is also not finalized; if anyone has some ideas, drop them in the Discord!
+<img src="https://www.cs.mun.ca/~csclub/assets/posters/2022/feb2022-picoCAD-competition/picoCAD-hat.jpg">
+
+For our best submission, we will be giving away a MUNCS beanie!
 
 <br/>
 
