@@ -66,11 +66,21 @@ Feb. 18th: **Color**
 
 <br/>
 
-Feb. 20th: _???_
+Feb. 24th: **Computer, and Memorial University**
 
-Feb. 22nd: _???_
+<img src="https://www.cs.mun.ca/~csclub/assets/posters/2022/feb2022-picoCAD-competition/muncs-picoCAD-theme-computer-and-mun.png">
 
-Feb. 24th: _???_
+> We've been more silent than we planned, but we are _back_!
+>
+> Not with one theme, but _two_!
+>
+> Computer: a box with a screen!
+>
+> Memorial University: a building, logo, animal, etc.
+
+<br/>
+
+Feb. 25th: _???_
 
 Feb. 26th: _???_
 
