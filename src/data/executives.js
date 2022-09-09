@@ -87,6 +87,10 @@ export const EXECUTIVES = [
     name: "Zac Batten",
     roles: ["Event Coordinator"],
     username: "zbatten",
+    discord: {
+      username: "Dr.Swag",
+      discriminator: "9148"
+    }
   },
   {
     name: "Mohammed Balfaqih",
@@ -100,7 +104,7 @@ export const EXECUTIVES = [
   {
     name: "Kanika Mathur",
     username: "kmathur",
-    roles: ["Science Society Representative", "Representative-at-Large"],
+    roles: ["Representative-at-Large"],
     discord: {
       username: "Kanika Mathur",
       discriminator: "5966",
@@ -116,30 +120,12 @@ export const EXECUTIVES = [
     },
   },
   {
-    name: "Kyle March",
-    roles: ["First Year Representative"],
-    username: "kdmarch",
-    discord: {
-      username: "Marchie",
-      discriminator: "4426",
-    },
-  },
-  {
     name: "Emily Dormody",
-    roles: ["First Year Representative"],
+    roles: ["Representative-at-Large", "Science Society Representative"],
     username: "emdormody",
     discord: {
       username: "emoly",
       discriminator: "4995",
-    },
-  },
-  {
-    name: "Mathew Emshey",
-    roles: ["Representative-at-Large"],
-    username: "memshey",
-    discord: {
-      username: "maegpi",
-      discriminator: "5707",
     },
   },
 ];
