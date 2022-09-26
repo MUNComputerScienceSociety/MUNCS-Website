@@ -30,6 +30,16 @@ export const EVENTS = [
     ],
   },
   {
+    link: "/events/september-2022-kattis-competition",
+    title: "Kattis Competition",
+    dates: [
+      {
+        time: new Date(2022, 8, 26),
+        title: "Begins @ 3pm",
+      },
+    ],
+  },
+  {
     link: "/events/february-2022-picoCAD-competition",
     title: "picoCAD Competition",
     dates: [
