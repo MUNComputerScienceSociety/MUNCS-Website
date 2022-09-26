@@ -1,5 +1,35 @@
 export const EVENTS = [
   {
+    link: "/events/fall-2022-election",
+    title: "Fall 2022 Election",
+    dates: [
+      {
+        time: new Date(2022, 8, 26),
+        title: "Applications Open",
+      },
+      {
+        time: new Date(2022, 8, 30),
+        title: "Applications Close",
+      },
+      {
+        time: new Date(2022, 9, 3),
+        title: "Campaigning Starts",
+      },
+      {
+        time: new Date(2022, 9, 5),
+        title: "Voting Starts",
+      },
+      {
+        time: new Date(2022, 9, 10),
+        title: "Voting & Campaigning End",
+      },
+      {
+        time: new Date(2022, 9, 13),
+        title: "Results posted",
+      },
+    ],
+  },
+  {
     link: "/events/february-2022-picoCAD-competition",
     title: "picoCAD Competition",
     dates: [
