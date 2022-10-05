@@ -35,7 +35,7 @@ Welcome to the Fall 2022 Election for the MUN Computer Science Society!
 <br/>
 
 
-# Voting (October 5th → October 10th)
+# Campaigning & Voting (October 5th → October 10th)
 
 [Vote here](https://docs.google.com/forms/d/e/1FAIpQLSd9ZPm0c-WYWDcpt40lNngy0v1LpCa3FcqVhxYaPLEEaaAHEQ/viewform?usp=sf_link)
 
