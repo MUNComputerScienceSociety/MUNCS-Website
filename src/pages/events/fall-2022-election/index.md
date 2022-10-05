@@ -26,4 +26,21 @@ Welcome to the Fall 2022 Election for the MUN Computer Science Society!
 
 # Applications for Candidacy (September 26th → September 30th)
 
-[Candidacy Application Form](https://docs.google.com/forms/d/e/1FAIpQLSfCpRmITzr_B-I2ShwyYU_vvSIE9neeizrEb-WXm6Bd-USf9Q/viewform?usp=sf_link)
+~~[Candidacy Application Form](https://docs.google.com/forms/d/e/1FAIpQLSfCpRmITzr_B-I2ShwyYU_vvSIE9neeizrEb-WXm6Bd-USf9Q/viewform?usp=sf_link)~~ Closed
+
+<br/>
+
+---
+
+<br/>
+
+
+# Voting (October 5th → October 10th)
+
+[Vote here](https://docs.google.com/forms/d/e/1FAIpQLSd9ZPm0c-WYWDcpt40lNngy0v1LpCa3FcqVhxYaPLEEaaAHEQ/viewform?usp=sf_link)
+
+<br />
+
+[Information about candidates can be found here](/events/fall-2022-election/candidates)
+
+<br />
