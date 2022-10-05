@@ -15,8 +15,8 @@ Welcome to the Fall 2022 Election for the MUN Computer Science Society!
 - **Friday, September 30th**: Applications for candidacy close
 - **Monday, October 3rd**: Campaigning starts
 - **Wednesday, October 5th**: Voting starts
-- **Monday, October 10th**: Voting & Campaigning end
-- **Tuesday, October 11th**: Results
+- **Wednesday, October 12th**: Last day for voting and campaigning
+- **Friday, October 14th**: Results are announced
 
 <br />
 
@@ -35,9 +35,9 @@ Welcome to the Fall 2022 Election for the MUN Computer Science Society!
 <br/>
 
 
-# Campaigning & Voting (October 5th → October 10th)
+# Campaigning & Voting (October 5th → October 12th)
 
-[Vote here](https://docs.google.com/forms/d/e/1FAIpQLSd9ZPm0c-WYWDcpt40lNngy0v1LpCa3FcqVhxYaPLEEaaAHEQ/viewform?usp=sf_link)
+[Vote here](https://docs.google.com/forms/d/e/1FAIpQLScOyickNoZs63LSTPfNxH7MSH2JVPdA6mS83DN5IPNt-b1e_Q/viewform)
 
 <br />
 
