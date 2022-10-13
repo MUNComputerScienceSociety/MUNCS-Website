@@ -1,4 +1,5 @@
-import { parse } from "papaparse";
+import papaparse from "papaparse";
+const { parse } = papaparse;
 
 const csv = `image,discord,fullName,year,whyInterested,csInterest,experience,roles
 hamzah,Hking,Hamzah Punjabi,Fourth Year,I've been involved with the society for too long to not be a part of it. ,"I've been doing CS for 5 years. At first, I wanted to do CS cuz I thought I was good at it. Now it has become my passion and future. ",,Representative At-large
