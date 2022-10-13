@@ -8,7 +8,7 @@
     "prettier": "prettier --write src/"
   },
   "devDependencies": {
-    "astro": "^0.20.12",
+    "astro": "^1.4.7",
     "date-fns": "^2.25.0",
     "tailwindcss": "^2.2.19"
   },
