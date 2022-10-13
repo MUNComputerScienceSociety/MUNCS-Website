@@ -35,7 +35,8 @@ h3 {
   }
 }
 
-.markdown a {
+.markdown a,
+.markdown a li {
   @apply text-blue-900 dark:text-blue-400 underline;
 }
 

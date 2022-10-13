@@ -1,25 +1,28 @@
 ---
-import { Markdown } from 'astro/components';
-import { LINKS } from '../data/links.js';
-import { EXECUTIVES } from '../data/executives.js';
-import Main from '../layouts/Main.astro';
-import { UpcomingEvents } from '../components/UpcomingEvents.jsx';
-import { LatestDocuments } from '../components/Documents.jsx';
-import TextLink from '../components/TextLink.jsx';
-import DISCORD from '../../public/assets/discord.svg';
+import { LINKS } from "../data/links.js";
+import { EXECUTIVES } from "../data/executives.js";
+import Main from "../layouts/Main.astro";
+import { UpcomingEvents } from "../components/UpcomingEvents.jsx";
+import { LatestDocuments } from "../components/Documents.jsx";
+import TextLink from "../components/TextLink.jsx";
 ---
+
 <Main title="Homepage">
-	<h1 class="text-xl font-semibold">Memorial University Computer Science Society</h1>
+	<h1 class="text-xl font-semibold">
+		Memorial University Computer Science Society
+	</h1>
 
-	<Markdown>
-		Representing the voice of Computer Science students!
-
-		We host social events and activities for students and society members.
-	</Markdown>
+	<p>
+		Representing the voice of Computer Science students! We host social events
+		and activities for students and society members.
+	</p>
 
 	<a href={LINKS.discord}>
-		<div class="w-[19rem] flex border border-black dark:border-white p-2 justify-center align-middle rounded-lg mx-auto my-6 hover:bg-hover dark:hover:bg-hover-dark">
-			<img src={DISCORD} class="mr-3 dark:invert" /> <p class="text-2xl self-center">Join our Discord!</p>
+		<div
+			class="w-[19rem] flex border border-black dark:border-white p-2 justify-center align-middle rounded-lg mx-auto my-6 hover:bg-hover dark:hover:bg-hover-dark"
+		>
+			<img src="/assets/discord.svg" class="mr-3 dark:invert" />
+			<p class="text-2xl self-center">Join our Discord!</p>
 		</div>
 	</a>
 
@@ -34,22 +37,26 @@ import DISCORD from '../../public/assets/discord.svg';
 	<TextLink href={LINKS.hackfrostnl}>Hackfrost NL</TextLink>
 	<TextLink href={LINKS.ctsnl}>Computer Technology Society NL</TextLink>
 
-	{ false && (
-		<>
-			<h2 class="font-semibold mt-4 mb-2">Current executives:</h2>
-			<a href="/society/executives">
-				<div class="h-16">
-					{EXECUTIVES.filter((exec) => exec.picture !== undefined).map((exec) => (
-						<img class="h-full rounded-full" key={exec.name} src={exec.picture} />
-					))}
-				</div>
-			</a>
-		</>
-	)}
+	{
+		false && (
+			<>
+				<h2 class="font-semibold mt-4 mb-2">Current executives:</h2>
+				<a href="/society/executives">
+					<div class="h-16">
+						{EXECUTIVES.filter((exec) => exec.picture !== undefined).map(
+							(exec) => (
+								<img class="h-full rounded-full" src={exec.picture} />
+							)
+						)}
+					</div>
+				</a>
+			</>
+		)
+	}
 
 	<h2 class="font-semibold mt-4 mb-2">Upcoming events</h2>
-	<UpcomingEvents client:only />
+	<UpcomingEvents client:only="react" />
 
 	<h2 class="font-semibold mt-4 mb-2">Latest documents</h2>
-	<LatestDocuments client:only />
+	<LatestDocuments client:only="react" />
 </Main>
