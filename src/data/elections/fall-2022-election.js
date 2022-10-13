@@ -1,4 +1,5 @@
-import { parse } from "papaparse";
+import papaparse from "papaparse";
+const { parse } = papaparse;
 
 const csv = `fullName,roles,whyInterested,experience,csInterest,currentExec,image
 Amelie Butler,"Representative-at-large, Treasurer","I've been kicking around here for just short of a year at this point, and I'd like to help keep the place running with more on-campus involvement.","I used to help run events at my high school, and that involved working with (some, we didn't have many resources) money that we'd budgeted. More generally, I think I've taken enough courses and been in contact with enough of my peers to have a pretty good sense for what does and doesn't work in the CS program from a student's perspective.","I've tinkered with programming since about 2019. I've been doing a lot of reading about game design and the like, and I'm hoping to keep chunking away at a game design project I've been playing with on and off for a while, but I'll try anything from web dev to data analysis at least once.",FALSE,amelie.png
