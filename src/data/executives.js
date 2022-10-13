@@ -1,5 +1,3 @@
-import JAHARRHY from "../../public/assets/execs/jaharrhy.jpg";
-
 function cleanJacksNameLol(input) {
   input = input.replace(/&/g, "&amp;");
   input = input.replace(/</g, "&lt;");
@@ -18,7 +16,7 @@ export const EXECUTIVES = [
       username: cleanJacksNameLol("<i>jack arthur null</i>"),
       discriminator: "7539",
     },
-    // picture: JAHARRHY,
+    // picture: "assets/execs/jaharrhy.jpg",
   },
   {
     name: "Madison Emshey",
@@ -89,8 +87,8 @@ export const EXECUTIVES = [
     username: "zbatten",
     discord: {
       username: "Dr.Swag",
-      discriminator: "9148"
-    }
+      discriminator: "9148",
+    },
   },
   {
     name: "Mohammed Balfaqih",

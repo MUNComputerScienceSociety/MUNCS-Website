@@ -1,7 +1,6 @@
 ---
-import Main from '../../layouts/Main.astro';
-import { EXECUTIVES } from '../../data/executives.js';
-import PLACEHOLDER from '../../../public/assets/placeholder.png';
+import Main from "../../layouts/Main.astro";
+import { EXECUTIVES } from "../../data/executives.js";
 
 const roleToExec = {};
 
@@ -14,28 +13,46 @@ EXECUTIVES.forEach((executive) => {
 		roleToExec[role].push(executive);
 	});
 });
-
 ---
-<Main title="Executives">
-<h1 class="text-lg font-semibold">Executives</h1>
 
-{
-	Object.entries(roleToExec).map(([role, execs]) => (
-		<>
-			<h2 class="font-semibold mt-4">{role}</h2>
-			{
-				execs.map((exec) => (
+<Main title="Executives">
+	<h1 class="text-lg font-semibold">Executives</h1>
+
+	{
+		Object.entries(roleToExec).map(([role, execs]: [any, any]) => (
+			<>
+				<h2 class="font-semibold mt-4">{role}</h2>
+				{execs.map((exec) => (
 					<div class="my-1 py-2">
-						{ false && <img src={exec.picture || PLACEHOLDER} class="float-left h-full mr-4" /> }
+						{false && (
+							<img
+								src={exec.picture || "/assets/placeholder.png"}
+								class="float-left h-full mr-4"
+							/>
+						)}
 						<p class="mt-2">{exec.name}</p>
 						<div class="pl-1">
-							{ exec.username && <p class="text-sm"><code>{exec.username}</code><span class="opacity-70"> at </span><code>mun</code><span class="opacity-70"> dot </span><code>ca</code></p> }
-							{ exec.discord && <p class="text-sm">{exec.discord.username}<span class="opacity-70"><code>#{exec.discord.discriminator}</code></span></p> }
+							{exec.username && (
+								<p class="text-sm">
+									<code>{exec.username}</code>
+									<span class="opacity-70"> at </span>
+									<code>mun</code>
+									<span class="opacity-70"> dot </span>
+									<code>ca</code>
+								</p>
+							)}
+							{exec.discord && (
+								<p class="text-sm">
+									{exec.discord.username}
+									<span class="opacity-70">
+										<code>#{exec.discord.discriminator}</code>
+									</span>
+								</p>
+							)}
 						</div>
 					</div>
-				))
-			}
-		</>
-	))
-}
+				))}
+			</>
+		))
+	}
 </Main>
