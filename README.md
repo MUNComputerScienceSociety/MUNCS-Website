@@ -1,6 +1,6 @@
 # MUNCS Website
 
-_work in progress_
+https://muncompsci.ca/
 
 This website is build using [Astro](https://astro.build).
 
