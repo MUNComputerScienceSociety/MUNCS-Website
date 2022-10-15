@@ -34,11 +34,11 @@ export const EVENTS = [
         title: "Voting Starts",
       },
       {
-        time: new Date(2022, 9, 10),
+        time: new Date(2022, 9, 12),
         title: "Voting & Campaigning End",
       },
       {
-        time: new Date(2022, 9, 13),
+        time: new Date(2022, 9, 14),
         title: "Results posted",
       },
     ],
