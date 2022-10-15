@@ -19,12 +19,12 @@ export const EXECUTIVES = [
     // picture: "assets/execs/jaharrhy.jpg",
   },
   {
-    name: "Madison Emshey",
+    name: "Matthew Emshey",
     roles: ["Vice President"],
-    username: "mbemshey",
+    username: "memshey",
     discord: {
-      username: "Modstrosus",
-      discriminator: "0001",
+      username: "maegpi",
+      discriminator: "5707",
     },
   },
   {
@@ -34,6 +34,15 @@ export const EXECUTIVES = [
     discord: {
       username: "dech",
       discriminator: "0089",
+    },
+  },
+  {
+    name: "Madison Emshey",
+    roles: ["Representative-at-Large"],
+    username: "mbemshey",
+    discord: {
+      username: "Modstrosus",
+      discriminator: "0001",
     },
   },
   {
@@ -55,15 +64,6 @@ export const EXECUTIVES = [
     },
   },
   {
-    name: "Rishi Gandhi",
-    roles: ["International Student Representative"],
-    username: "rrgandhi",
-    discord: {
-      username: "R1SH1",
-      discriminator: "6363",
-    },
-  },
-  {
     name: "Gizem Ensari",
     roles: ["International Student Representative"],
     username: "gensari",
@@ -82,12 +82,12 @@ export const EXECUTIVES = [
     },
   },
   {
-    name: "Zac Batten",
-    roles: ["Event Coordinator"],
-    username: "zbatten",
+    name: "Parsa Esmkhani",
+    roles: ["Social Representative"],
+    username: "pesmkhani",
     discord: {
-      username: "Dr.Swag",
-      discriminator: "9148",
+      username: "ComradeKarl",
+      discriminator: "3868",
     },
   },
   {
@@ -101,20 +101,20 @@ export const EXECUTIVES = [
   },
   {
     name: "Kanika Mathur",
-    username: "kmathur",
     roles: ["Representative-at-Large"],
+    username: "kmathur",
     discord: {
       username: "Kanika Mathur",
       discriminator: "5966",
     },
   },
   {
-    name: "Colton Fridgen",
-    roles: ["First Year Representative"],
-    username: "csttfridgen",
+    name: "Pratham",
+    roles: ["Representative-at-Large"],
+    username: "prathamn",
     discord: {
-      username: "ColtonFridgen",
-      discriminator: "8506",
+      username: "Pratham",
+      discriminator: "2477",
     },
   },
   {
