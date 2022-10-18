@@ -1,5 +1,19 @@
 export const EVENTS = [
   {
+    link: "/events/advent-of-code-2022",
+    title: "Advent of Code 2022",
+    dates: [
+      {
+        time: new Date(2022, 11, 1),
+        title: "AOC Starts",
+      },
+      {
+        time: new Date(2022, 11, 25),
+        title: "AOC Ends",
+      },
+    ],
+  },
+  {
     link: "/events/hacktoberfest-2022",
     title: "Hacktoberfest 2022",
     dates: [
