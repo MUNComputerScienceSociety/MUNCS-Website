@@ -19,7 +19,7 @@ export const EXECUTIVES = [
     // picture: "assets/execs/jaharrhy.jpg",
   },
   {
-    name: "Matthew Emshey",
+    name: "Mathew Emshey",
     roles: ["Vice President"],
     username: "memshey",
     discord: {
