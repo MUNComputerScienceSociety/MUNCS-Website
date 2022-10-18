@@ -73,7 +73,7 @@ https://github.com/MUNComputerScienceSociety/MUNCS-Website
 
 #### Contributions
 
-- _none yet_
+- 'Changed the opacity of slab EN 2036' from AminTaheri23, https://github.com/MUNComputerScienceSociety/MUNCS-Website/pull/134
 
 <br />
 
