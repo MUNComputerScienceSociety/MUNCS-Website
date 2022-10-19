@@ -10,11 +10,14 @@ export const SIDEBAR = [
     ],
   },
   {
-    text:"Awards",
-    link:"/awards/",
+    text: "Department",
+    link: "/department/",
     children: [
-      { text: "Teaching Excellence Awards", link: "/awards/teaching-excellence-award"},
-    ]
+      {
+        text: "Awards",
+        link: "/department/awards",
+      },
+    ],
   },
   {
     text: "Events",

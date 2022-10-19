@@ -1,0 +1,19 @@
+---
+import Main from "../../layouts/Main.astro";
+import { TEACHING_EXCELLENCE_AWARDS } from "../../data/department.js";
+---
+
+<Main title="Awards">
+	<h1 class="text-lg font-semibold mb-4">Awards</h1>
+	<h2 class="text-lg">Teaching Excellence Awards</h2>
+	<div class="flex flex-col mx-1 mt-3 gap-y-1">
+		{
+			TEACHING_EXCELLENCE_AWARDS.map((data) => (
+				<div>
+					<h2 class="font-semibold mt-2 underline">{data.name}</h2>
+					<p class="mt-2">{data.year}</p>
+				</div>
+			))
+		}
+	</div>
+</Main>
