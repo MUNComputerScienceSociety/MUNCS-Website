@@ -8,16 +8,15 @@
     "prettier": "prettier --write src/"
   },
   "dependencies": {
-    "@astrojs/react": "^1.2.0",
-    "@astrojs/tailwind": "^2.1.0",
     "astro": "^1.5.0",
     "date-fns": "^2.29.3",
-    "node": "^18.11.0",
+    "tailwindcss": "^3.1.8",
+    "@astrojs/react": "^1.2.0",
+    "@astrojs/tailwind": "^2.1.0",
     "papaparse": "^5.3.2",
     "prettier": "^2.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-image-gallery": "^1.2.11",
-    "tailwindcss": "^3.1.8"
+    "react-image-gallery": "^1.2.11"
   }
 }
