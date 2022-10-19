@@ -10,6 +10,13 @@ export const SIDEBAR = [
     ],
   },
   {
+    text:"Awards",
+    link:"/awards/",
+    children: [
+      { text: "Teaching Excellence Awards", link: "/awards/teaching-excellence-award"},
+    ]
+  },
+  {
     text: "Events",
     link: "/events",
   },
