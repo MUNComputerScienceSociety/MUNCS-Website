@@ -23,6 +23,6 @@ The session will conclude with a Q&A for questions related to the job opportunit
 
 <br />
 
-_Once in our Discord server, join the stage to listen in, and use the text chat for questions during the session!_
+_Once in our Discord server, join the voice chat to listen in, and use the text chat for questions during the session!_
 
 <img src="https://imgur.com/YWV7lsX.png" class="mt-2">
