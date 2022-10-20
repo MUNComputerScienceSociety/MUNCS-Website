@@ -15,7 +15,7 @@ EWA-Canada will be holding an info session on **October 26th (Wednesday) @ 7:00 
 
 <br />
 
-This session will include an introduction of EWA-Canada, and the available job opportunities in IoT security testing, hosted by Zachary Cheema, and Joe Daws (both MUN graduates!).
+This session will include an introduction of EWA-Canada, and the available job opportunities in IoT security testing.
 
 <br />
 
@@ -25,4 +25,4 @@ The session will conclude with a Q&A for questions related to the job opportunit
 
 _Once in our Discord server, join the voice chat to listen in, and use the text chat for questions during the session!_
 
-<img src="https://imgur.com/YWV7lsX.png" class="mt-2">
+<img src="https://imgur.com/kRfHQrv.png" class="mt-2">
