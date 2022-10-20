@@ -11,6 +11,6 @@ https://adventofcode.com/
 
 <br />
 
-<code style="color: #00cc00;">
+<div class="bg-black text-[#00cc00] p-3">
 > The first puzzles will unlock on December 1st at midnight EST (UTC-5). See you then!
-</code>
+</div>
