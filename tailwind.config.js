@@ -2,7 +2,7 @@ module.exports = {
   darkMode: "media",
   content: [
     "./public/**/*.html",
-    "./src/**/*.{astro,js,jsx,svelte,ts,tsx,vue}",
+    "./src/**/*.{astro,js,jsx,svelte,ts,tsx,vue,md}",
   ],
   theme: {
     extend: {
