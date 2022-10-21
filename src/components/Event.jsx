@@ -19,7 +19,7 @@ export const EventDates = ({ dates }) => (
 
 const Event = ({ event }) => (
   <a href={event.link}>
-    <div className="border px-3 py-2 rounded-sm mb-2 pb-2.5">
+    <div className="border px-3 py-2 rounded-sm mb-2 pb-2.5 hover:bg-hover-dark">
       <h2 className="font-semibold mb-1">{event.title}</h2>
       <EventDates dates={event.dates} />
     </div>
