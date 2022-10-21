@@ -14,6 +14,16 @@ export const EVENTS = [
     ],
   },
   {
+    link: "/events/october-2022-job-opportunities-in-iot-security-testing",
+    title: "Job Opportunities in IoT Security Testing - EWA Canada",
+    dates: [
+      {
+        time: new Date(2022, 9, 26),
+        title: "Online Session (Discord) @ 7pm",
+      },
+    ],
+  },
+  {
     link: "/events/hacktoberfest-2022",
     title: "Hacktoberfest 2022",
     dates: [
