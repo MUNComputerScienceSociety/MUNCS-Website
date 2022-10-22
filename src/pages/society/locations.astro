@@ -5,12 +5,12 @@ import { LOCATION_PICS, LOCATION_LINKS } from "../../data/locations.js";
 ---
 
 <Main title="Locations">
-	<h1 class="text-lg font-semibold">Locations</h1>
-
-	<div class="flex gap-2 md:flex-row flex-col my-5 items-center justify-center">
-		<div class="w-52">
+	<div class="w-52">
 			<img alt="Pixel Art Animated Gif" src="/assets/slab.gif" />
-		</div>
+	</div>
+	<br>
+	<h1 class="text-lg font-semibold">Locations</h1>
+	<div class="flex gap-2 md:flex-row flex-col my-5 items-center justify-center">
 		<div class="flex flex-col gap-2 mx-3 my-auto col-span-2">
 			<div class="flex gap-2 items-center">
 				<span
@@ -25,6 +25,7 @@ import { LOCATION_PICS, LOCATION_LINKS } from "../../data/locations.js";
 				>
 			</div>
 			<div class="flex flex-col gap-2 mx-3 my-auto col-span-2">
+			</div>
 			<div class="flex gap-2 items-center">
 				<span
 					class="font-semibold px-3 py-1 bg-black text-white dark:bg-white dark:text-black"
@@ -49,24 +50,23 @@ import { LOCATION_PICS, LOCATION_LINKS } from "../../data/locations.js";
 					>Computer Science Society room, shared space with the Alexander Murray Society. Currently not available.</span
 				>
 			</div>
+			<!-- TODO fix <Gallery originalHeight="300" items={LOCATION_PICS} client:load="react" />-->
+
+			<h3 class="font-semibold">📷 Picture Vault</h3>
+			<ul>
+				{
+					LOCATION_LINKS.map(([title, link]) => (
+						<li>
+							-{" "}
+							<i>
+								<a href={link} class="hover:underline">
+									{title}
+								</a>
+							</i>
+						</li>
+					))
+				}
+			</ul>
 		</div>
 	</div>
-
-	<!-- TODO fix <Gallery originalHeight="300" items={LOCATION_PICS} client:load="react" />-->
-
-	<h3 class="font-semibold">📷 Picture Vault</h3>
-	<ul>
-		{
-			LOCATION_LINKS.map(([title, link]) => (
-				<li>
-					-{" "}
-					<i>
-						<a href={link} class="hover:underline">
-							{title}
-						</a>
-					</i>
-				</li>
-			))
-		}
-	</ul>
 </Main>
