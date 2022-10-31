@@ -14,6 +14,16 @@ export const EVENTS = [
     ],
   },
   {
+    link: "/events/november-2022-mixer",
+    title: "Comp Sci Mixer",
+    dates: [
+      {
+        time: new Date(2022, 10, 4),
+        title: "6-9pm @ The Breezeway",
+      },
+    ],
+  },
+  {
     link: "/events/october-2022-job-opportunities-in-iot-security-testing",
     title: "Job Opportunities in IoT Security Testing - EWA Canada",
     dates: [
