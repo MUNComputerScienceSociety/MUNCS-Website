@@ -15,7 +15,7 @@ export const EVENTS = [
   },
   {
     link: "/events/nov-2022-random-drops",
-    title: "MUN MC Club X MUNCS - Random Drops Event",
+    title: "MUN MC Club X MUNCS - Random Crafts + Drops Event",
     dates: [
       {
         time: new Date(2022, 10, 6),
