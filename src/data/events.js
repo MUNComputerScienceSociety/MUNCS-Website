@@ -14,6 +14,16 @@ export const EVENTS = [
     ],
   },
   {
+    link: "/events/nov-2022-random-drops",
+    title: "MUN MC Club X MUNCS - Random Drops Event",
+    dates: [
+      {
+        time: new Date(2022, 10, 6),
+        title: "8 pm @ MUN MC Club Discord",
+      },
+    ],
+  },
+  {
     link: "/events/november-2022-mixer",
     title: "Comp Sci Mixer",
     dates: [
