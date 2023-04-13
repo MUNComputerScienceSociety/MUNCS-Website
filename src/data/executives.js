@@ -20,6 +20,15 @@ export const EXECUTIVES = [
     },
   },
   {
+    name: "Pratham",
+    roles: ["Vice President"],
+    username: "prathamn",
+    discord: {
+      username: "Pratham",
+      discriminator: "2477",
+    },
+  },
+  {
     name: "Emily Dormody",
     roles: ["Executive Assistant", "Science Society Representative"],
     username: "emdormody",
@@ -126,15 +135,6 @@ export const EXECUTIVES = [
     discord: {
       username: "manche",
       discriminator: "5603",
-    },
-  },
-  {
-    name: "Pratham",
-    roles: ["Representative-at-Large"],
-    username: "prathamn",
-    discord: {
-      username: "Pratham",
-      discriminator: "2477",
     },
   },
 ];
