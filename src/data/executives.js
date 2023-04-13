@@ -2,18 +2,8 @@
 // TODO previous executives
 export const EXECUTIVES = [
   {
-    name: "Jack Harrhy",
-    roles: ["President"],
-    username: "jaharrhy",
-    discord: {
-      username: "<i>jack arthur null</i>",
-      discriminator: "7539",
-    },
-    // picture: "assets/execs/jaharrhy.jpg",
-  },
-  {
     name: "Mathew Emshey",
-    roles: ["Vice President"],
+    roles: ["President"],
     username: "memshey",
     discord: {
       username: "maegpi",
@@ -21,21 +11,21 @@ export const EXECUTIVES = [
     },
   },
   {
-    name: "David Chicas",
-    roles: ["Executive Assistant"],
-    username: "dchicasduena",
-    discord: {
-      username: "dech",
-      discriminator: "0089",
-    },
-  },
-  {
     name: "Madison Emshey",
-    roles: ["Representative-at-Large"],
+    roles: ["Vice President"],
     username: "mbemshey",
     discord: {
       username: "Modstrosus",
       discriminator: "0001",
+    },
+  },
+  {
+    name: "Emily Dormody",
+    roles: ["Executive Assistant", "Science Society Representative"],
+    username: "emdormody",
+    discord: {
+      username: "emoly",
+      discriminator: "4995",
     },
   },
   {
@@ -84,13 +74,41 @@ export const EXECUTIVES = [
     },
   },
   {
-    name: "Mohammed Balfaqih",
-    roles: ["Event Coordinator"],
-    username: "mbalfaqih",
-    discord: {
-      username: "HaMoOoOd25",
-      discriminator: "0001",
+    name: "Amelie",
+      roles: ["Representative-at-Large"],
+      username: "amelierb",
+      discord: {
+        username: "dunningkrugerkid",
+        discriminator: "2597",
+      },
     },
+  {
+    name: "David Chicas",
+    roles: ["Representative-at-Large"],
+    username: "dchicasduena",
+    discord: {
+      username: "dech",
+      discriminator: "0089",
+    },
+  },
+  {
+  name: "Ethan Denny",
+    roles: ["Representative-at-Large"],
+    username: "egdenny",
+    discord: {
+      username: "ethandenny709",
+      discriminator: "0717",
+    },
+  },
+  {
+    name: "Jack Harrhy",
+    roles: ["Representative-at-Large"],
+    username: "jaharrhy",
+    discord: {
+      username: "<i>jack arthur null</i>",
+      discriminator: "7539",
+    },
+    // picture: "assets/execs/jaharrhy.jpg",
   },
   {
     name: "Kanika Mathur",
@@ -102,21 +120,21 @@ export const EXECUTIVES = [
     },
   },
   {
+    name: "manche",
+    roles: ["Representative-at-Large"],
+    username: "manche",
+    discord: {
+      username: "manche",
+      discriminator: "5603",
+    },
+  },
+  {
     name: "Pratham",
     roles: ["Representative-at-Large"],
     username: "prathamn",
     discord: {
       username: "Pratham",
       discriminator: "2477",
-    },
-  },
-  {
-    name: "Emily Dormody",
-    roles: ["Representative-at-Large", "Science Society Representative"],
-    username: "emdormody",
-    discord: {
-      username: "emoly",
-      discriminator: "4995",
     },
   },
 ];
