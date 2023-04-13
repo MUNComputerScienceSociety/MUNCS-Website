@@ -1,10 +1,3 @@
-function cleanJacksNameLol(input) {
-  input = input.replace(/&/g, "&amp;");
-  input = input.replace(/</g, "&lt;");
-  input = input.replace(/>/g, "&gt;");
-  return input;
-}
-
 // TODO executive avatars
 // TODO previous executives
 export const EXECUTIVES = [
@@ -13,7 +6,7 @@ export const EXECUTIVES = [
     roles: ["President"],
     username: "jaharrhy",
     discord: {
-      username: cleanJacksNameLol("<i>jack arthur null</i>"),
+      username: "<i>jack arthur null</i>",
       discriminator: "7539",
     },
     // picture: "assets/execs/jaharrhy.jpg",
