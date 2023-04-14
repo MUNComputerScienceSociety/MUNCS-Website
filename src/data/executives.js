@@ -129,9 +129,9 @@ export const EXECUTIVES = [
     },
   },
   {
-    name: "manche",
+    name: "Mahek Parmar",
     roles: ["Representative-at-Large"],
-    username: "manche",
+    username: "mbparmar",
     discord: {
       username: "manche",
       discriminator: "5603",
