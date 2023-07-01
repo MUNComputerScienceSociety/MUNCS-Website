@@ -2,66 +2,45 @@
 // TODO previous executives
 export const EXECUTIVES = [
   {
-    name: "Mathew Emshey",
+    name: "Ethan Denny",
     roles: ["President"],
-    username: "memshey",
+    username: "egdenny",
     discord: {
-      username: "maegpi",
-      discriminator: "5707",
-    },
-  },
-  {
-    name: "Madison Emshey",
-    roles: ["Vice President"],
-    username: "mbemshey",
-    discord: {
-      username: "Modstrosus",
-      discriminator: "0001",
-    },
-  },
-  {
-    name: "Pratham",
-    roles: ["Vice President"],
-    username: "prathamn",
-    discord: {
-      username: "Pratham",
-      discriminator: "2477",
+      username: "ethandenny709",
     },
   },
   {
     name: "Emily Dormody",
-    roles: ["Executive Assistant", "Science Society Representative"],
+    roles: ["Vice President", "Science Society Representative"],
     username: "emdormody",
     discord: {
       username: "emoly",
-      discriminator: "4995",
+      discriminator: "#4995",
     },
   },
   {
-    name: "Ripudaman Singh",
-    roles: ["Treasurer"],
-    username: "ripudamans",
+    name: "Amelie",
+    roles: ["Executive Assistant"],
+    username: "amelierb",
     discord: {
-      username: "Hubris",
-      discriminator: "1909",
-    },
-  },
-  {
-    name: "Zach Vaters",
-    roles: ["Tech Officer"],
-    username: "zcvaters",
-    discord: {
-      username: "zach.",
-      discriminator: "8828",
+      username: "dunningkrugerkid",
     },
   },
   {
     name: "Gizem Ensari",
-    roles: ["International Student Representative"],
+    roles: ["Treasurer"],
     username: "gensari",
     discord: {
       username: "Gizem Ensari",
-      discriminator: "7063",
+      discriminator: "#7063",
+    },
+  },
+  {
+    name: "Pratham",
+    roles: ["International Student Representative"],
+    username: "prathamn",
+    discord: {
+      username: "ikel24",
     },
   },
   {
@@ -70,43 +49,14 @@ export const EXECUTIVES = [
     username: "lmurphy19",
     discord: {
       username: "pornosynthesis",
-      discriminator: "3869",
     },
   },
   {
     name: "Parsa Esmkhani",
-    roles: ["Social Representative"],
+    roles: ["Hack Frost Representative"],
     username: "pesmkhani",
     discord: {
-      username: "ComradeKarl",
-      discriminator: "3868",
-    },
-  },
-  {
-    name: "Amelie",
-      roles: ["Representative-at-Large"],
-      username: "amelierb",
-      discord: {
-        username: "dunningkrugerkid",
-        discriminator: "2597",
-      },
-    },
-  {
-    name: "David Chicas",
-    roles: ["Representative-at-Large"],
-    username: "dchicasduena",
-    discord: {
-      username: "dech",
-      discriminator: "0089",
-    },
-  },
-  {
-  name: "Ethan Denny",
-    roles: ["Representative-at-Large"],
-    username: "egdenny",
-    discord: {
-      username: "ethandenny709",
-      discriminator: "0717",
+      username: "comradekarl",
     },
   },
   {
@@ -114,18 +64,16 @@ export const EXECUTIVES = [
     roles: ["Representative-at-Large"],
     username: "jaharrhy",
     discord: {
-      username: "<i>jack arthur null</i>",
-      discriminator: "7539",
+      username: "jackharrhy",
     },
     // picture: "assets/execs/jaharrhy.jpg",
   },
   {
-    name: "Kanika Mathur",
+    name: "Ripudaman Singh",
     roles: ["Representative-at-Large"],
-    username: "kmathur",
+    username: "ripudamans",
     discord: {
-      username: "Kanika Mathur",
-      discriminator: "5966",
+      username: "ripu_da_man",
     },
   },
   {
@@ -134,7 +82,7 @@ export const EXECUTIVES = [
     username: "mbparmar",
     discord: {
       username: "manche",
-      discriminator: "5603",
+      discriminator: "#5603",
     },
   },
 ];
