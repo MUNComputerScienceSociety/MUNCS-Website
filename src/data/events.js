@@ -1,5 +1,15 @@
 export const EVENTS = [
   {
+    link: "/events/welcome-mixer-sept-2023",
+    title: "Welcome Mixer Sept 2023",
+    dates: [
+      {
+        time: new Date(2023, 8, 16),
+        title: "5-9pm @ ER 4068",
+      },
+    ],
+  },
+  {
     link: "/events/advent-of-code-2022",
     title: "Advent of Code 2022",
     dates: [
