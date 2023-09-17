@@ -85,4 +85,13 @@ export const EXECUTIVES = [
       discriminator: "#5603",
     },
   },
+  {
+    name: "Kanika Mathur",
+    roles: ["Representative-at-Large"],
+    username: "kmathur",
+    discord: {
+      username: "Kanika Mathur",
+      discriminator: "#5966",
+    },
+  },
 ];
