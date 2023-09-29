@@ -257,7 +257,7 @@ In the event that a position is vacant either:
 ## 10.1. Date and Time
 
 - Only the President or Vice President may call an executive meeting;
-- Notice of time and place of each meeting of the Executive shall be sent to each executive, not less than seventy-two before the time of the meeting, or twenty-four hours in case of an emergency;
+- Notice of time and place of each meeting of the Executive shall be sent to each executive, not less than seventy-two hours before the time of the meeting, or twenty-four hours in case of an emergency;
 - The Executive shall strive for bi-weekly Executive meetings except during the months of April - August and December. Meetings during these months shall be called as necessary;
 - Between August 1st, and September 30th there shall be an annual general meeting, which must be open to the public;
 - Any executive may participate in a meeting remotely, so long as:
