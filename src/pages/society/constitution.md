@@ -19,6 +19,7 @@ In this constitution,
 - _"MUNSU"_ means the Memorial University Students Union;
 - _"Executive"_ refers to an executive member of the society in accordance with [§5](#5-executive-positions);
 - _"Majority"_ means 50% plus 1 of the votes;
+- _"Voting Role"_ means an executive who has the power to cast votes during an executive meeting;
 
 ## 2. Name
 
@@ -51,15 +52,14 @@ The executive positions in the society are as follows:
 - Executive Assistant
 - Treasurer
 - Event Coordinator
-- Social Representative
+- Outreach Coordinator
+- Marketing Officer
 - International Student Representative
 - Technology Officer
-- Representative Advisor
+- Executive Alumni (multiple)
 - Computer Science Undergraduate Committee (CSUGC) Representative
 - Science Society Representative
-- Hack Frost NL Representative
-- First Year Representative (multiple)
-- Representative At-large (multiple)
+- Society Volunteer (multiple)
 
 At minimum, the positions of President and Vice-President must be occupied.
 
@@ -71,6 +71,7 @@ All executive members are required to:
 - Adhere to the the society constitution;
 - Have or plan to have CompSci declared as either their major or minor;
 - Hold no more than one executive position, unless secondary positions or interim.
+- Adhere to the same role description as Society Volunteer ([§5.14](#514-duties-of-the-society-volunteer));
 
 ## 5.2. Presidential Duties
 
@@ -82,7 +83,6 @@ The President shall:
 - Manage the society financial matters, including serving as a co-signing authority for all society financial transactions;
 - Call an election in accordance with [§6](#6-executive-elections), to ensure that the society continues to run in the following year;
 - Must live or reside in St. John’s, Newfoundland or the Avalon Peninsula;
-- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large));
 - Must have previously held a role on the executive.
 
 ## 5.3. Vice Presidential Duties
@@ -94,7 +94,6 @@ The Vice President shall:
 - Handle society financial matters, and serve as a co-signing authority for all society financial transactions.
 - Assume the duties of President in their absence or at their request.
 - Must live or reside in St. John’s, Newfoundland or the Avalon Peninsula
-- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large));
 - Must have previously held a role on the executive
 
 ## 5.4. Duties of the Executive Assistant
@@ -103,7 +102,6 @@ The Executive Assistant shall:
 
 - Be responsible for taking meeting minutes;
 - Assist the society with general administrative tasks;
-- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large));
 - Must have previously held a role on the executive.
 
 ## 5.5. Duties of the Treasurer
@@ -113,7 +111,6 @@ The Treasurer shall:
 - Handle society financial matters, and serve as a co-signing authority for all society financial transactions;
 - Be accountable to the society and MUNSU for the finances of the society. This includes accounting for all income and expenses on a permanent record.
 - Must live or reside in St. John’s, Newfoundland or the Avalon Peninsula;
-- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large)).
 
 ## 5.6. Duties of the Event Coordinator
 
@@ -121,83 +118,76 @@ The Event Coordinator shall:
 
 - Organize social events;
 - Select bartenders and ensure that they are licensed with Student Affairs and Services.
-- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large));
 
-## 5.7. Duties of the Social Representative
+## 5.7. Duties of the Marketing Representative
 
 The Social Representative shall:
 
 - Manage our social media accounts;
 - Produce posters and other graphics to advertise the society and events;
-- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large)).
 
-## 5.8. Duties of the International Student Representative
+## 5.8. Duties of the Outreach Coordinator
+
+The Outreach Coordinator shall:
+
+- Put up posters;
+- Interact with and assist other students both online (Discord etc.) and in-person;
+- Advertise the society to other students;
+
+## 5.9. Duties of the International Student Representative
 
 The International Student Representative executive shall:
 
 - Represent primarily international CompSci students of any year;
 - Ensure the inclusivity of society events / executive decisions;
-- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large)).
 
-## 5.9. Duties of the Technology Officer
+## 5.10. Duties of the Technology Officer
 
 The Technology Officer shall:
 
 - Assist with setting up necessary equipment for society events;
-- Assist with managing the society's technological infrastructure, such as site hosting;
-- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large)).
+- Assist with managing the society's technological infrastructure, such as site hosting, Discord bot management, and ensuring that appropriate records of passwords etc. are kept;
+- Be responsible, along with the president and vice president, for the management of the society’s Discord server, with the necessary access or privileges required to do so;
 
-## 5.10 Duties of the Representative Advisor
 
-The Representative Advisor shall:
+## 5.11. Duties of the Executive Alumni
 
-- Aid in providing a smooth transition between a First Year Representative, and Representative at large role to a more defined role;
-- Can be a previous President, Vice President or Executive Assistant;
-- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large)).
+The Executive Alumni shall:
 
-## 5.11 Duties of the Computer Science Undergraduate Committee Representative
+- Be a previous executive member who is unable to perform regular executive duties but still wishes to support the society;
+- Serve as an advisor to current executive members;
+
+This is a NON-VOTING role. This role is open to any previous executive member with a Voting Role who still wishes to assist in the running of the society.
+
+## 5.12. Duties of the Computer Science Undergraduate Committee Representative
 
 The CSUGC Representative shall:
 
 - Attend all meetings of the Computer Science Undergraduate Committee;
 - Take accurate minutes to relay information to the society;
 - Application based only;
-- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large));
 - May be a secondary role.
 
-## 5.12 Duties of the Science Society Representative
+## 5.13. Duties of the Science Society Representative
 
 The Science Society Representative shall:
 
 - Attend all meetings of the Science Society;
 - Take accurate minutes to relay information to the society;
-- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large));
 - May be a secondary role.
 
-## 5.13 Duties of the Hack Frost NL Representative
+## 5.14. Duties of the Society Volunteer
 
-The Hack Frost NL Representative shall:
-
-- Attend at least 75% meetings of Hack Frost NL;
-- Take accurate minutes to relay information to the society;
-- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large));
-- May be a secondary role.
-
-## 5.14. Duties of the First Year Representatives
-
-The First Year Representatives executives shall:
-
-- Represent primarily first-year CompSci students;
-- Adhere to the same role description as the Representatives-at-Large ([§5.15](#515-duties-of-the-representatives-at-large)).
-
-## 5.15. Duties of the Representatives-at-Large
-
-The Representative-at-large executives shall:
+Society Volunteers shall:
 
 - Represent CompSci students of any year;
 - Be available to speak to students about their issues with the CompSci program and department;
 - Ensure that any issues referred to above are brought to the attention of the society;
 - Assist with the day-to-day operations of the society.
+
+This is a NON-VOTING role. This role is open to any CompSci student who wishes to assist in the running of the society.
+
+Society Volunteer shall be a role appointed at the discretion of the president and vice-president.
 
 ## 6. Executive Elections
 
@@ -221,6 +211,7 @@ The Chief Election Officer shall:
 
 - Nominations must be open for a minimum of one week;
 - Votes shall be cast using a secret ballot;
+- If there is only one nominee (incumbent or incoming) for a position, then that nominee shall be acclaimed for that position;
 - If there are more than three nominees for any one position, a preferential ballot voting system shall be used;
 - All elected members shall be placed to a vote of confidence, voted on by the Vice President and Executive Assistant. In the event of a tie the President shall have final say;
 - Each member may cast one ballot for each position in the election.
@@ -266,8 +257,8 @@ In the event that a position is vacant either:
 ## 10.1. Date and Time
 
 - Only the President or Vice President may call an executive meeting;
-- Notice of time and place of each meeting of the Executive shall be sent to each executive, not less than twenty-four hours before the time of the meeting;
-- There shall be at least one Executive meeting per month during the academic year, excluding the months of April, May, June, July, August, and December;
+- Notice of time and place of each meeting of the Executive shall be sent to each executive, not less than seventy-two hours before the time of the meeting, or twenty-four hours in case of an emergency;
+- The Executive shall strive for bi-weekly Executive meetings except during the months of April - August and December. Meetings during these months shall be called as necessary;
 - Between August 1st, and September 30th there shall be an annual general meeting, which must be open to the public;
 - Any executive may participate in a meeting remotely, so long as:
   - The executive was unable to attend the meeting otherwise;
@@ -292,7 +283,7 @@ A majority of the executive present, whether or not a quorum is present, may adj
 There should be three (3) signing authorities at all time. President, Vice President and Treasurer.
 
 - Two (2) signing authorities shall sign each cheque;
-- Two (2) or more of the signing authorities can not be siblings, common law, married, or have at any point had or currently have a romantic relationship;
+- Two (2) or more of the signing authorities can not be siblings, common law, married, or have at any point had or currently have a romantic relationship, or can not have a conflict of interest;
 - If two or more of the President, Vice President and Treasurer are any of those things, they must decide amongst themselves who gets to be signing authority;
 - If they can not decide, neither will be allowed to sign. Another member of the executive will be chosen to replace them by the executive;
 - All signing authorities must be living in St. John's or the Avalon Peninsula;
