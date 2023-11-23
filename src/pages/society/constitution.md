@@ -5,7 +5,7 @@ title: Constitution
 
 # Constitution
 
-_Last updated: August 15th, 2021, during [this meeting](https://www.cs.mun.ca/~csclub/executive-documents/Minutes/2021/August/Minutes_08_15_2021.pdf)._
+_Last updated: [November 23rd, 2023](https://github.com/MUNComputerScienceSociety/MUNCS-Website/pull/150)._
 
 ## 1. Definitions
 
