@@ -11,19 +11,11 @@ export const EXECUTIVES = [
   },
   {
     name: "Emily Dormody",
-    roles: ["Vice President", "Science Society Representative"],
+    roles: ["Vice President"],
     username: "emdormody",
     discord: {
       username: "emoly",
       discriminator: "#4995",
-    },
-  },
-  {
-    name: "Amelie",
-    roles: ["Executive Assistant"],
-    username: "amelierb",
-    discord: {
-      username: "dunningkrugerkid",
     },
   },
   {
@@ -36,11 +28,11 @@ export const EXECUTIVES = [
     },
   },
   {
-    name: "Pratham",
-    roles: ["International Student Representative"],
-    username: "prathamn",
+    name: "Natalie Cashin",
+    roles: ["Event Coordinator"],
+    username: "ncashin",
     discord: {
-      username: "ikel24",
+      username: "lor.__"
     },
   },
   {
@@ -53,7 +45,7 @@ export const EXECUTIVES = [
   },
   {
     name: "Parsa Esmkhani",
-    roles: ["Hack Frost Representative"],
+    roles: ["Outreach Coordinator", "Science Society Representative"],
     username: "pesmkhani",
     discord: {
       username: "comradekarl",
@@ -61,7 +53,7 @@ export const EXECUTIVES = [
   },
   {
     name: "Jack Harrhy",
-    roles: ["Representative-at-Large"],
+    roles: ["Society Volunteer"],
     username: "jaharrhy",
     discord: {
       username: "jackharrhy",
@@ -69,25 +61,24 @@ export const EXECUTIVES = [
     // picture: "assets/execs/jaharrhy.jpg",
   },
   {
+    name: "Pratham",
+    roles: ["Society Volunteer"],
+    username: "prathamn",
+    discord: {
+      username: "ikel24",
+    },
+  },
+  {
     name: "Ripudaman Singh",
-    roles: ["Representative-at-Large"],
+    roles: ["Society Volunteer"],
     username: "ripudamans",
     discord: {
       username: "ripu_da_man",
     },
   },
   {
-    name: "Mahek Parmar",
-    roles: ["Representative-at-Large"],
-    username: "mbparmar",
-    discord: {
-      username: "manche",
-      discriminator: "#5603",
-    },
-  },
-  {
     name: "Kanika Mathur",
-    roles: ["Representative-at-Large"],
+    roles: ["Society Volunteer"],
     username: "kmathur",
     discord: {
       username: "Kanika Mathur",
