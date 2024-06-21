@@ -2,11 +2,11 @@
 // TODO previous executives
 export const EXECUTIVES = [
   {
-    name: "Ethan Denny",
-    roles: ["President"],
-    username: "egdenny",
+    name: "Jack Harrhy",
+    roles: ["Interim President"],
+    username: "jaharrhy",
     discord: {
-      username: "ethandenny709",
+      username: "jackharrhy",
     },
   },
   {
@@ -52,11 +52,11 @@ export const EXECUTIVES = [
     },
   },
   {
-    name: "Jack Harrhy",
+    name: "Ethan Denny",
     roles: ["Society Volunteer"],
-    username: "jaharrhy",
+    username: "egdenny",
     discord: {
-      username: "jackharrhy",
+      username: "ethandenny709",
     },
     // picture: "assets/execs/jaharrhy.jpg",
   },
