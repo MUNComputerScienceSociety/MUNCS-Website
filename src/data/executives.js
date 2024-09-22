@@ -8,6 +8,7 @@ export const EXECUTIVES = [
     discord: {
       username: "jackharrhy",
     },
+    // picture: "assets/execs/jaharrhy.jpg",
   },
   {
     name: "Emily Dormody",
@@ -52,13 +53,20 @@ export const EXECUTIVES = [
     },
   },
   {
+    name: "Grey Seaward",
+    roles: ["CSUGC Representative"],
+    username: "gseaward",
+    discord: {
+      username: "verdlegeese",
+    },
+  },
+  {
     name: "Ethan Denny",
     roles: ["Society Volunteer"],
     username: "egdenny",
     discord: {
       username: "ethandenny709",
     },
-    // picture: "assets/execs/jaharrhy.jpg",
   },
   {
     name: "Pratham",
