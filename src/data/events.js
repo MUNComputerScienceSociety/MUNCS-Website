@@ -1,5 +1,10 @@
 export const EVENTS = [
   {
+    link: "/events/fall-2024-election",
+    title: "Fall 2024 Election",
+    dates: [],
+  },
+  {
     link: "/events/welcome-mixer-sept-2023",
     title: "Welcome Mixer Sept 2023",
     dates: [
