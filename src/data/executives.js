@@ -1,55 +1,40 @@
 // TODO executive avatars
 // TODO previous executives
+
+const EXAMPLE = {
+  name: "Bob Computers",
+  roles: ["Society Member"],
+  username: "bmcomputers", // MUN email minus @mun.ca
+  discord: {
+    username: "computerbob",
+    discriminant: undefined, // Not needed in most cases
+  },
+  picture: "assets/execs/bmcomputers.jpg", // Not currently used
+};
+
 export const EXECUTIVES = [
   {
+    name: "Ethan Denny",
+    roles: ["President"], // Until Fall 2025, unless replaced sooner
+    username: "egdenny",
+    discord: {
+      username: "ethandenny709",
+    },
+  },
+  {
     name: "Jack Harrhy",
-    roles: ["Interim President"],
+    roles: ["Vice President"], // Until Spring 2025, unless replaced sooner
     username: "jaharrhy",
     discord: {
       username: "jackharrhy",
     },
-    // picture: "assets/execs/jaharrhy.jpg",
-  },
-  {
-    name: "Emily Dormody",
-    roles: ["Vice President"],
-    username: "emdormody",
-    discord: {
-      username: "emoly",
-      discriminator: "#4995",
-    },
   },
   {
     name: "Gizem Ensari",
-    roles: ["Treasurer"],
+    roles: ["Treasurer"], // Until Spring 2025, unless replaced sooner
     username: "gensari",
     discord: {
-      username: "Gizem Ensari",
-      discriminator: "#7063",
-    },
-  },
-  {
-    name: "Natalie Cashin",
-    roles: ["Event Coordinator"],
-    username: "ncashin",
-    discord: {
-      username: "lor.__"
-    },
-  },
-  {
-    name: "Leah Murphy",
-    roles: ["Social Representative"],
-    username: "lmurphy19",
-    discord: {
-      username: "pornosynthesis",
-    },
-  },
-  {
-    name: "Parsa Esmkhani",
-    roles: ["Outreach Coordinator", "Science Society Representative"],
-    username: "pesmkhani",
-    discord: {
-      username: "comradekarl",
+      username: "gizemensari",
     },
   },
   {
@@ -61,36 +46,19 @@ export const EXECUTIVES = [
     },
   },
   {
-    name: "Ethan Denny",
-    roles: ["Society Volunteer"],
-    username: "egdenny",
+    name: "Parsa Esmkhani",
+    roles: ["Science Society Representative"],
+    username: "pesmkhani",
     discord: {
-      username: "ethandenny709",
+      username: "cinderelmo",
     },
   },
   {
-    name: "Pratham",
+    name: "Natalie Cashin",
     roles: ["Society Volunteer"],
-    username: "prathamn",
+    username: "ncashin",
     discord: {
-      username: "ikel24",
-    },
-  },
-  {
-    name: "Ripudaman Singh",
-    roles: ["Society Volunteer"],
-    username: "ripudamans",
-    discord: {
-      username: "ripu_da_man",
-    },
-  },
-  {
-    name: "Kanika Mathur",
-    roles: ["Society Volunteer"],
-    username: "kmathur",
-    discord: {
-      username: "Kanika Mathur",
-      discriminator: "#5966",
+      username: "lor.__",
     },
   },
 ];
