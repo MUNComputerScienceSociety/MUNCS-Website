@@ -61,4 +61,12 @@ export const EXECUTIVES = [
       username: "lor.__",
     },
   },
+  {
+    name: "Amy Rose",
+    roles: ["Society Volunteer"],
+    username: "aerose",
+    discord: {
+      username: "amye.rose",
+    },
+  },
 ];
