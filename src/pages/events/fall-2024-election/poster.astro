@@ -1,0 +1,63 @@
+---
+import "../../../styles/base.css";
+---
+
+<html lang="en" class="h-full">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>MUNCSS | Fall 2024 Poster</title>
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+	</head>
+	<body class="h-full dark:bg-background-dark">
+		<p class="main-header">MUN Computer Science Society</p>
+		<p class="main-event">Fall 2024 Elections</p>
+	</body>
+</html>
+
+<style>
+	body {
+		margin: 3rem;
+	}
+
+	:root {
+		font-size: 30px;
+		--black: #000000;
+		--red: #cc0000;
+		--green: #4e9a06;
+		--yellow: #c4a000;
+		--blue: #729fcf;
+		--magenta: #75507b;
+		--cyan: #06989a;
+		--white: #d3d7cf;
+		--bright-black: #555753;
+		--bright-red: #ef2929;
+		--bright-green: #8ae234;
+		--bright-yellow: #fce94f;
+		--bright-blue: #32afff;
+		--bright-magenta: #ad7fa8;
+		--bright-cyan: #34e2e2;
+		--bright-white: #ffffff;
+	}
+
+	@font-face {
+		font-family: "DepartureMono-Regular";
+		src: url(https://cdn.jsdelivr.net/gh/rektdeckard/departure-mono@v1.420/public/assets/DepartureMono-Regular.woff2);
+	}
+
+	* {
+		font-family: "DepartureMono-Regular";
+		color: var(--white);
+	}
+
+	.main-header {
+		font-size: 1.5rem;
+		font-weight: bold;
+	}
+
+	.main-event {
+		font-size: 1.3rem;
+		font-weight: bold;
+		text-shadow: 1px 1px 4px var(--blue);
+	}
+</style>
