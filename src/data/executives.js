@@ -74,7 +74,7 @@ export const EXECUTIVES = [
     roles: ["Society Volunteer"],
     username: "swatsonjones",
     discord: {
-      username: "saph",
+      username: "saaaaaaph",
     },
   },
 ];
