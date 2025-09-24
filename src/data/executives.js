@@ -30,11 +30,11 @@ export const EXECUTIVES = [
     },
   },
   {
-    name: "Gizem Ensari",
+    name: "Girish Verma",
     roles: ["Treasurer"], // Until Spring 2025, unless replaced sooner
-    username: "gensari",
+    username: "gverma",
     discord: {
-      username: "gizemensari",
+      username: "girish9983",
     },
   },
   {
