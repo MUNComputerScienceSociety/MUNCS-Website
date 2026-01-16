@@ -22,13 +22,12 @@ export const EXECUTIVES = [
     }
   },
   {
-    name: "N/A",
-    roles: ["Vice President"], // Position needs to be filled by Winter 2026
-    username: "N/A",
+    name: "Sam Watson-Jones",
+    roles: ["Vice President"],
+    username: "swatsonjones",
     discord: {
-      username: "N/A",
+      username: "saaaaaaph",
     },
-  },
   {
     name: "Girish Verma",
     roles: ["Treasurer"], 
@@ -68,13 +67,5 @@ export const EXECUTIVES = [
     discord: {
       username: "amye.rose",
     },
-  },
-  {
-    name: "Sam Watson-Jones",
-    roles: ["Society Volunteer"],
-    username: "swatsonjones",
-    discord: {
-      username: "saaaaaaph",
-    },
-  },
+  }
 ];
