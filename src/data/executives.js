@@ -19,14 +19,14 @@ export const EXECUTIVES = [
     username: "rtheresam",
     discord: {
       username: "robbie3598",
-    }
+    },
   },
   {
-    name: "N/A",
+    name: "Sam Watson-Jones",
     roles: ["Vice President"], // Position needs to be filled by Winter 2026
-    username: "N/A",
+    username: "swatsonjones",
     discord: {
-      username: "N/A",
+      username: "saaaaaaph",
     },
   },
   {
@@ -46,11 +46,11 @@ export const EXECUTIVES = [
     },
   },
   {
-    name: "Parsa Esmkhani",
+    name: "Aidan Decker",
     roles: ["Science Society Representative"],
-    username: "pesmkhani",
+    username: "adanield",
     discord: {
-      username: "cinderelmo",
+      username: "kruxer",
     },
   },
   {
