@@ -4,20 +4,20 @@ import "../styles/base.css";
 const { title } = Astro.props;
 ---
 
-<html lang="en" class="h-full">
+<html lang="en" class="min-h-full">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<title>MUNCSS | {title}</title>
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 	</head>
-	<body class="h-full dark:bg-background-dark">
+	<body class="min-h-full dark:bg-background-dark">
 		<main
-			class="h-full w-11/12 md:w-3/4 xl:w-7/12 2xl:w-1/2 m-auto flex flex-col md:flex-row"
+			class="min-h-full w-11/12 md:w-3/4 xl:w-7/12 2xl:w-1/2 m-auto flex flex-col md:flex-row"
 		>
 			<LeftSidebar />
 			<div
-				class="py-5 px-4 w-full md:w-9/12 h-full overflow-y-visible md:overflow-y-auto"
+				class="py-5 px-4 w-full md:w-9/12"
 			>
 				<slot />
 			</div>

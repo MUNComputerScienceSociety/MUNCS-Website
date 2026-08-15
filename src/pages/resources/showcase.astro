@@ -1,0 +1,13 @@
+---
+import Main from "../../layouts/Main.astro";
+import { ShowcaseGallery } from "../../components/ShowcaseGallery.jsx";
+---
+
+<Main title="Alumni & Student Showcase">
+	<h1 class="text-xl font-bold">Alumni & Student Showcase</h1>
+	<p class="text-sm text-gray-600 dark:text-gray-300 mt-1">
+		Connect with Memorial University Computer Science students, society executives, and alumni across the tech industry.
+	</p>
+
+	<ShowcaseGallery client:only="react" />
+</Main>

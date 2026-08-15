@@ -1,0 +1,13 @@
+---
+import Main from "../../layouts/Main.astro";
+import { CourseList } from "../../components/CourseList.jsx";
+---
+
+<Main title="Course Guides & Notes">
+	<h1 class="text-xl font-bold">MUN CS Course Guides & Study Directory</h1>
+	<p class="text-sm text-gray-600 dark:text-gray-300 mt-1">
+		Recommended textbooks, video tutorials, past project ideas, and exam study prep curated by the MUN Computer Science Society.
+	</p>
+
+	<CourseList client:only="react" />
+</Main>
