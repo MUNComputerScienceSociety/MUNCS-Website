@@ -116,6 +116,10 @@ export const SIDEBAR = [
   {
     text: "Resources",
     link: "/resources/",
-    children: [{ text: "Archives", link: "/resources/archives" }],
+    children: [
+      { text: "Course Guides & Notes", link: "/resources/courses" },
+      { text: "Alumni & Student Showcase", link: "/resources/showcase" },
+      { text: "Archives", link: "/resources/archives" },
+    ],
   },
 ];

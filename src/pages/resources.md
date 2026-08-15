@@ -5,6 +5,14 @@ title: Resources
 
 # Resources
 
+## Course Guides & Study Directory
+
+Explore our curated [Course Guides & Notes](/resources/courses) for MUN Computer Science courses, including recommended textbooks, video playlists, past projects, and exam study tips.
+
+## Alumni & Student Showcase
+
+Discover and connect with MUN CS students, executives, and alumni across the tech industry in our [Alumni & Student Showcase](/resources/showcase).
+
 ## Computer Technology Society (CTS)
 
 The [Computer Technology Society Newfoundland Labrador](https://ctsnl.ca/) generally

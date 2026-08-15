@@ -20,6 +20,20 @@ h6 {
   @apply text-foreground dark:text-foreground-dark;
 }
 
+.showcase-card,
+.showcase-card span:not(.badge-pill),
+.showcase-card p,
+.showcase-card h3,
+.showcase-card div:not(.badge-pill) {
+  color: #000000 !important;
+}
+
+.badge-pill,
+.showcase-card .badge-pill {
+  color: #ffffff !important;
+  background-color: #000000 !important;
+}
+
 h3 {
   margin: 0.75rem 0 0.4rem 0;
 }
@@ -37,7 +51,7 @@ h3 {
 
 .markdown a,
 .markdown a li {
-  @apply text-blue-900 dark:text-blue-400 underline;
+  @apply text-black dark:text-white font-semibold underline decoration-neutral-400 hover:decoration-black dark:hover:decoration-white;
 }
 
 .markdown h1 {

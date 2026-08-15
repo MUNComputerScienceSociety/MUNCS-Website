@@ -1,5 +1,5 @@
 const TextLink = ({ href, children }) => (
-  <a href={href} className="textlink hover:underline text-blue-900">
+  <a href={href} className="textlink hover:underline text-black dark:text-white font-semibold">
     <p>{children}</p>
   </a>
 );
