@@ -1,11 +1,13 @@
 export const LINKS = {
-  discord: "https://discord.muncompsci.ca/",
+  // discord: "https://discord.muncompsci.ca/",
+  discord: "https://discord.gg/6VkJ8K3kam",
   github: "https://github.com/MUNComputerScienceSociety/",
   githubExecDocs:
     "https://github.com/MUNComputerScienceSociety/Executive-Docs/",
-  csclubExecDocs: "https://www.cs.mun.ca/~csclub/executive-documents/",
+  // csclubExecDocs: "https://www.cs.mun.ca/~csclub/executive-documents/",
   instagram: "https://www.instagram.com/muncssociety/",
   twitter: "https://twitter.com/muncssociety/",
   ctsnl: "https://ctsnl.ca/",
-  hackfrostnl: "https://hackfrostnl.ca/",
+  // hackfrostnl: "https://hackfrostnl.ca/",
+  siliconHarbour: "https://siliconharbour.dev/",
 };

@@ -7,7 +7,10 @@ title: Job Opportunities in IoT Security Testing - EWA Canada
 
 <br />
 
+<!-- Previously:
 EWA-Canada will be holding an info session on **October 26th (Wednesday) @ 7:00 PM (NST)** live on the [MUNCS Discord](https://discord.gg/6RpvsCFC?event=1034094276843425793).
+-->
+EWA-Canada will be holding an info session on **October 26th (Wednesday) @ 7:00 PM (NST)** live on the MUNCS Discord.
 
 <br />
 
@@ -23,7 +26,10 @@ The session will conclude with a Q&A for questions related to the job opportunit
 
 <br />
 
+<!-- Previously:
 [Join our Discord server to attend the event!](https://discord.gg/6RpvsCFC?event=1034094276843425793).
+-->
+
 
 _Once in our Discord server, join the voice chat to listen in, and use the text chat for questions during the session!_
 

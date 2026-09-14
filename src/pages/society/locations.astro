@@ -1,7 +1,7 @@
 ---
-import Gallery from "../../components/Gallery.jsx";
+// import Gallery from "../../components/Gallery.jsx";
 import Main from "../../layouts/Main.astro";
-import { LOCATION_PICS, LOCATION_LINKS } from "../../data/locations.js";
+// import { LOCATION_PICS, LOCATION_LINKS } from "../../data/locations.js";
 ---
 
 <Main title="Locations">
@@ -50,6 +50,7 @@ import { LOCATION_PICS, LOCATION_LINKS } from "../../data/locations.js";
 					>Computer Science Society room, shared space with the Alexander Murray Society.</span
 				>
 			</div>
+{/* Previously:
 			<!-- TODO fix <Gallery originalHeight="300" items={LOCATION_PICS} client:load="react" />-->
 
 			<h3 class="font-semibold">📷 Picture Vault</h3>
@@ -67,6 +68,9 @@ import { LOCATION_PICS, LOCATION_LINKS } from "../../data/locations.js";
 					))
 				}
 			</ul>
+*/}
+			<p class="mt-3"><a href="/resources/archives/" class="underline">Photos from past society gatherings</a> are linked on our Archives page.</p>
+
 		</div>
 	</div>
 </Main>

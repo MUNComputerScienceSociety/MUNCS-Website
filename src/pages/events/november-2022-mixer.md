@@ -7,7 +7,11 @@ title: Comp Sci Mixer
 
 <br />
 
+<!-- Previously:
 <img src="https://www.cs.mun.ca/~csclub/assets/posters/2022/mixer-nov2022/compsci-mixer-nov2022.jpg" class="mx-auto my-4 w-full max-w-[40rem]" />
+-->
+
+[View the event poster (Internet Archive)](https://web.archive.org/web/20250803133126/https://www.cs.mun.ca/~csclub/assets/posters/2022/mixer-nov2022/compsci-mixer-nov2022.jpg)
 
 <br />
 
@@ -23,4 +27,6 @@ This is being organized by both the undergraduate and graduate computer science 
 
 <br />
 
+<!-- Previously:
 [For updates on the event (or if you have any questions), join our Discord!](https://discord.gg/kT3Az8c6?event=1036619998766043188)
+-->

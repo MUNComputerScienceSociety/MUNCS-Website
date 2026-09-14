@@ -67,18 +67,265 @@
   @apply text-blue-900 dark:text-blue-400 underline;
 }
 
-.markdown h1 {
-  @apply text-lg font-semibold;
+/* Shared spacing keeps the same typeface and palette across every route. */
+.site-shell {
+  display: grid;
+  grid-template-columns: 13rem minmax(0, 1fr);
+  width: min(68rem, calc(100% - 3rem));
+  min-height: 100dvh;
+  margin-inline: auto;
 }
 
+.site-nav {
+  position: sticky;
+  top: 0;
+  align-self: start;
+  height: 100dvh;
+  overflow-y: auto;
+  padding: 1.5rem 1.25rem 1.5rem 0;
+  border-right: 1px solid var(--color-gray-200);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.site-logo {
+  width: 8.5rem;
+  margin: 0 0 1.25rem;
+}
+
+.site-nav > ul > li + li {
+  margin-top: 0.375rem;
+}
+
+.site-nav h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.site-nav ul ul {
+  padding-left: 0.75rem;
+}
+
+.site-nav ul ul li + li {
+  margin-top: 0.125rem;
+}
+
+.site-nav a {
+  display: inline-block;
+  min-height: 1.5rem;
+  text-underline-offset: 0.2em;
+}
+
+.page-content {
+  min-width: 0;
+  padding: 1.75rem 0 3rem 1.75rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.page-content h1,
+.page-content h2,
+.page-content h3 {
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.page-content h1 {
+  font-size: 1.375rem;
+  margin-block: 1.25rem 0.75rem;
+}
+
+.page-content > h1,
+.page-content > .markdown > h1:first-child {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: clamp(1.75rem, 2.5vw, 2rem);
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+}
+
+.page-content > h2,
 .markdown h2 {
-  @apply font-semibold mt-3 mb-2;
+  margin-block: 1.25rem 0.5rem;
+  font-size: 1.1875rem;
+}
+
+.page-content h3 {
+  margin-block: 1rem 0.5rem;
+  font-size: 1.0625rem;
+}
+
+.page-content p {
+  line-height: 1.6;
+}
+
+.page-content a {
+  text-underline-offset: 0.2em;
+}
+
+.page-content :is(h1, h2, h3)[id] {
+  scroll-margin-top: 2rem;
+}
+
+.page-content iframe {
+  max-width: 100%;
+}
+
+.markdown > p {
+  margin-block: 0.625rem;
+}
+
+.markdown ul,
+.markdown ol {
+  padding-left: 1.5rem;
+  margin-block: 0.75rem;
 }
 
 .markdown ul {
-  @apply list-disc pl-6;
+  list-style-type: disc;
+}
+
+.markdown ol {
+  list-style-type: decimal;
+}
+
+.markdown li + li {
+  margin-top: 0.125rem;
+}
+
+.markdown li > ul,
+.markdown li > ol {
+  margin-block: 0.5rem;
 }
 
 .markdown blockquote {
-  @apply pl-3;
+  padding-left: 1.25rem;
+  margin-block: 0.875rem;
+}
+
+.markdown hr {
+  margin-block: 1.25rem;
+}
+
+.home-page > h1 {
+  max-width: 24ch;
+  margin-bottom: 0.875rem;
+}
+
+.home-page > p {
+  max-width: 58ch;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+
+.home-page > h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.625rem;
+  font-size: 1.125rem;
+}
+
+.home-page > ul {
+  margin-top: 0;
+  padding-left: 1.5rem;
+}
+
+.home-page > ul > li + li {
+  margin-top: 0.25rem;
+}
+
+.discord-cta {
+  width: fit-content;
+  max-width: 100%;
+  padding: 0.75rem 1.125rem;
+  margin-block: 1.25rem 1.5rem;
+}
+
+.discord-cta p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.discord-cta img {
+  width: 2.75rem;
+  height: auto;
+  flex-shrink: 0;
+  margin-right: 1rem;
+}
+
+.event-card {
+  padding: 0.875rem 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.event-card h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.125rem;
+}
+
+.event-date {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.event-date + .event-date {
+  margin-top: 0.125rem;
+}
+
+.event-date span {
+  flex-shrink: 0;
+}
+
+a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+@media (max-width: 767px) {
+  .site-shell {
+    display: block;
+    width: calc(100% - 2.5rem);
+  }
+
+  .site-nav {
+    position: static;
+    height: auto;
+    padding: 1.25rem 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--color-gray-200);
+    overflow: visible;
+  }
+
+  .site-logo {
+    width: 6.5rem;
+    margin: 0 0 1rem;
+  }
+
+  .site-nav > ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.375rem 1.25rem;
+  }
+
+  .site-nav > ul > li + li {
+    margin-top: 0;
+  }
+
+  .page-content {
+    padding: 1.5rem 0 2.5rem;
+  }
+
+  .home-page > h1 {
+    font-size: 1.75rem;
+  }
+
+  .event-card {
+    padding: 0.75rem;
+  }
+
+  .discord-cta {
+    padding: 0.75rem 1rem;
+  }
 }

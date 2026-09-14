@@ -68,4 +68,6 @@ Welcome to the Fall 2022 Election for the MUN Computer Science Society!
 
 <br />
 
+<!-- Previously:
 [Livestream's React slideshow](https://github.com/MUNComputerScienceSociety/election-2022).
+-->

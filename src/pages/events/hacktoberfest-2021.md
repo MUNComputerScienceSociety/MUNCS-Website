@@ -132,7 +132,10 @@ https://github.com/MUNComputerScienceSociety/MUNCS-Website
 ### Executive-Docs
 
 - Executive documents for the society
+<!-- Previously:
 - GitHub actions to build all documents as PDF, and host them on www.cs.mun.ca
+-->
+- GitHub actions to build all documents as PDF
 
 https://github.com/MUNComputerScienceSociety/Executive-Docs
 

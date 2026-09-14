@@ -2,16 +2,22 @@
 layout: ../../layouts/Markdown.astro
 title: February 2022 Garry's Mod Prop Hunt Night
 ---
+<!-- Previously:
 <style>
     img {
         margin: 1.25rem;
         height: 25rem;
     }
 </style>
+-->
 
 # Garry's Mod Prop Hunt Night
 
+<!-- Previously:
 <img src="https://www.cs.mun.ca/~csclub/assets/posters/2022/muncs-gmod-feb-2022.png" />
+-->
+
+[View the event poster (Internet Archive)](https://web.archive.org/web/20250803133158/https://www.cs.mun.ca/~csclub/assets/posters/2022/muncs-gmod-feb-2022.png)
 
 The server has been setup to be 99.9% Counter Strike Source content free, only the base Gmod should be required to play.
 

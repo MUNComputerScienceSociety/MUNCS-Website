@@ -1,13 +1,14 @@
 ---
+import { Image } from "astro:assets";
 import { LINKS } from "../data/links.js";
-import { EXECUTIVES } from "../data/executives.js";
+// import { EXECUTIVES } from "../data/executives.js";
 import Main from "../layouts/Main.astro";
-import { UpcomingEvents } from "../components/UpcomingEvents.jsx";
-import { LatestDocuments } from "../components/Documents.jsx";
+// import { UpcomingEvents } from "../components/UpcomingEvents.jsx";
+// import { LatestDocuments } from "../components/Documents.jsx";
 import TextLink from "../components/TextLink.jsx";
 ---
 
-<Main title="Homepage">
+<Main title="Homepage" contentClass="home-page">
 	<h1 class="text-xl font-semibold">
 		Memorial University Computer Science Society
 	</h1>
@@ -19,21 +20,30 @@ import TextLink from "../components/TextLink.jsx";
 
 	<a href={LINKS.discord}>
 		<div
-			class="w-[19rem] flex border border-black dark:border-white p-2 justify-center align-middle rounded-lg mx-auto my-6 hover:bg-hover dark:hover:bg-hover-dark"
+			class="discord-cta flex border border-black dark:border-white items-center justify-center rounded-lg hover:bg-hover dark:hover:bg-hover-dark"
 		>
-			<img src="/assets/discord.svg" class="mr-3 dark:invert" />
+			<!-- Previously: <img src="/assets/discord.svg" class="mr-3 dark:invert" /> -->
+			<Image src="/assets/discord.svg" width="71" height="55" alt="" loading="eager" class="mr-3 dark:invert" />
 			<p class="text-2xl self-center">Join our Discord!</p>
 		</div>
 	</a>
 
 	<h2 class="font-semibold mt-4">Check us out:</h2>
-	<TextLink href={LINKS.github}>GitHub Organization</TextLink>
-	<TextLink href={LINKS.instagram}>Instagram</TextLink>
-	<TextLink href={LINKS.twitter}>Twitter</TextLink>
+	<ul class="list-disc pl-6 mt-2">
+		<li><TextLink href={LINKS.github}>GitHub Organization</TextLink></li>
+		<li><TextLink href={LINKS.instagram}>Instagram</TextLink></li>
+		<li><TextLink href={LINKS.twitter}>Twitter</TextLink></li>
+	</ul>
 
 	<h2 class="font-semibold mt-4">Also check out:</h2>
-	<TextLink href={LINKS.hackfrostnl}>Hackfrost NL</TextLink>
-	<TextLink href={LINKS.ctsnl}>Computer Technology Society NL</TextLink>
+	<ul class="list-disc pl-6 mt-2">
+		{/* Previously: <TextLink href={LINKS.hackfrostnl}>Hackfrost NL</TextLink> */}
+		<li><TextLink href={LINKS.siliconHarbour}>Silicon Harbour</TextLink></li>
+		{/* Previously: <TextLink href={LINKS.ctsnl}>Computer Technology Society NL</TextLink> */}
+		<li><TextLink href={LINKS.ctsnl}>CTSNL</TextLink></li>
+	</ul>
+
+{/* Previously:
 
 	{
 		false && (
@@ -52,9 +62,25 @@ import TextLink from "../components/TextLink.jsx";
 		)
 	}
 
+*/}
+{/* Previously:
+
 	<h2 class="font-semibold mt-4 mb-2">Upcoming events</h2>
 	<UpcomingEvents client:only="react" />
 
 	<h2 class="font-semibold mt-4 mb-2">Latest documents</h2>
 	<LatestDocuments client:only="react" />
+*/}
+{/* Previously:
+	<h2 class="font-semibold mt-4 mb-2">Events</h2>
+	<ul class="list-disc pl-6 mt-2">
+		<li><TextLink href="/events/">View events</TextLink></li>
+	</ul>
+
+	<h2 class="font-semibold mt-4 mb-2">Meeting documents</h2>
+	<ul class="list-disc pl-6 mt-2">
+		<li><TextLink href={LINKS.githubExecDocs}>Meeting agendas and minutes</TextLink></li>
+	</ul>
+*/}
+
 </Main>

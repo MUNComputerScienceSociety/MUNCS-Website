@@ -5,13 +5,20 @@ title: MUN MC Club X MUNCS - Random Crafts + Drops Event
 
 # MUN Minecraft Club X MUNCS - Random Crafts + Drops Event
 
+<!-- Previously:
 <img src="https://www.cs.mun.ca/~csclub/assets/posters/2022/random-drops-nov-2022/random-drops-nov-2022.jpg" class="mx-auto my-5 w-full max-w-[35rem] rounded-xl" />
+-->
+
+[View the event poster (Internet Archive)](https://web.archive.org/web/20250803133119/https://www.cs.mun.ca/~csclub/assets/posters/2022/random-drops-nov-2022/random-drops-nov-2022.jpg)
 
 We're partnering with the MUN Minecraft Club for a 'Random Crafts + Drops' Event!
 
 <br />
 
+<!-- Previously:
 <span class="text-xl">**November 6th, 8 pm, on the [MUN MC Club Discord](https://discord.gg/SEj78GfZ?event=1037155598648741898)**</span>
+-->
+<span class="text-xl">**November 6th, 8 pm, on the MUN MC Club Discord**</span>
 
 <br />
 
