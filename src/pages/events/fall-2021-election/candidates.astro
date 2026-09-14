@@ -2,6 +2,10 @@
 import Main from "../../../layouts/Main.astro";
 import { data } from "../../../data/elections/fall-2021-election.js";
 
+const archivedPhotos = {
+  "somaditya": "https://web.archive.org/web/20250803133302/https://www.cs.mun.ca/~csclub/assets/elections/fall-2021/candidates/somaditya.jpg"
+};
+
 const roleToCandidates = {};
 
 data.forEach((candidate) => {
@@ -25,7 +29,8 @@ data.forEach((candidate) => {
 			Object.entries(roleToCandidates).map(([role, candidates]: [any, any]) => (
 				<>
 					<h2 class="font-semibold mt-4">{role}</h2>
-					{candidates.map(({ fullName, image }) => (
+					{/* Previously:
+{candidates.map(({ fullName, image }) => (
 						<>
 							{image !== "" && (
 								<>
@@ -39,6 +44,12 @@ data.forEach((candidate) => {
 							)}
 						</>
 					))}
+*/}
+                    <ul class="list-disc pl-6">
+                        {candidates.map(({ fullName }) => (
+                            <li><a href={`#${fullName}`} class="underline">{fullName}</a></li>
+                        ))}
+                    </ul>
 				</>
 			))
 		}
@@ -69,12 +80,20 @@ data.forEach((candidate) => {
 						</h1>
 					</a>
 
-					{image !== "" && (
+					{/* Previously:
+{image !== "" && (
 						<img
 							class="my-4 w-[16rem] mx-auto"
 							src={`https://www.cs.mun.ca/~csclub/assets/elections/fall-2021/candidates/${image}.jpg`}
 						/>
 					)}
+*/}
+
+                    {archivedPhotos[image] && (
+                        <p class="my-4">
+                            <a href={archivedPhotos[image]} class="underline">View candidate photo (Internet Archive)</a>
+                        </p>
+                    )}
 
 					<div class="px-1">
 						{whyInterested !== "" && (

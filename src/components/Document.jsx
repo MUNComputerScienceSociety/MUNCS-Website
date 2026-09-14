@@ -1,3 +1,4 @@
+/* Retired feature; previous implementation retained for reference.
 import { format } from "date-fns";
 import Card from "./Card.jsx";
 
@@ -19,3 +20,5 @@ const Document = ({ data: { path, time, type } }) => {
 };
 
 export default Document;
+
+*/

@@ -1,3 +1,4 @@
+/* Retired feature; previous implementation retained for reference.
 const DOCS_JSON = "https://www.cs.mun.ca/~csclub/executive-documents/docs.json";
 
 const fetchDocuments = async () => {
@@ -6,3 +7,5 @@ const fetchDocuments = async () => {
 };
 
 export default fetchDocuments;
+
+*/

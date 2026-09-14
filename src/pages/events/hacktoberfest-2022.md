@@ -19,7 +19,11 @@ More information regarding Hacktoberfest itself can be found [here](https://hack
 
 If the project you're contributing to is associated with us, we'll hook you up with a free sticker as well!
 
+<!-- Previously:
 <img class="w-1/2 mx-auto my-4" src="https://www.cs.mun.ca/~csclub/archive/posters/hacktoberfest2022/muncss-hacktoberfest-2022-pumpkin.png" />
+-->
+
+[View the event poster (Internet Archive)](https://web.archive.org/web/20250803133131/https://www.cs.mun.ca/~csclub/archive/posters/hacktoberfest2022/muncss-hacktoberfest-2022-pumpkin.png)
 
 Once you've made your contribution, reach out to one of our executives, and we will make note of that contribution.
 
@@ -85,7 +89,10 @@ https://github.com/MUNComputerScienceSociety/MUNCS-Website
 ### Executive-Docs
 
 - Executive documents for the society
+<!-- Previously:
 - GitHub actions to build all documents as PDF, and host them on www.cs.mun.ca
+-->
+- GitHub actions to build all documents as PDF
 
 https://github.com/MUNComputerScienceSociety/Executive-Docs
 

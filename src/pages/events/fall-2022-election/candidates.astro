@@ -2,6 +2,17 @@
 import Main from "../../../layouts/Main.astro";
 import { data } from "../../../data/elections/fall-2022-election.js";
 
+const archivedPhotos = {
+  "ethan.jpg": "https://web.archive.org/web/20250803133220/https://www.cs.mun.ca/~csclub/assets/elections/fall-2022/ethan.jpg",
+  "jeff.jpeg": "https://web.archive.org/web/20250803133217/https://www.cs.mun.ca/~csclub/assets/elections/fall-2022/jeff.jpeg",
+  "amelie.png": "https://web.archive.org/web/20250803133204/https://www.cs.mun.ca/~csclub/assets/elections/fall-2022/amelie.png",
+  "kanika.jpg": "https://web.archive.org/web/20250803133208/https://www.cs.mun.ca/~csclub/assets/elections/fall-2022/kanika.jpg",
+  "parsa.jpg": "https://web.archive.org/web/20250803133214/https://www.cs.mun.ca/~csclub/assets/elections/fall-2022/parsa.jpg",
+  "ripu.jpg": "https://web.archive.org/web/20250803133229/https://www.cs.mun.ca/~csclub/assets/elections/fall-2022/ripu.jpg",
+  "muhammed.jpg": "https://web.archive.org/web/20250803133233/https://www.cs.mun.ca/~csclub/assets/elections/fall-2022/muhammed.jpg",
+  "leah.jpg": "https://web.archive.org/web/20250803133231/https://www.cs.mun.ca/~csclub/assets/elections/fall-2022/leah.jpg"
+};
+
 const roleToCandidates = {};
 
 data.forEach((candidate) => {
@@ -25,7 +36,8 @@ data.forEach((candidate) => {
 			Object.entries(roleToCandidates).map(([role, candidates]: [any, any]) => (
 				<>
 					<h2 class="font-semibold mt-4">{role}</h2>
-					{candidates.map(({ fullName, image }) => (
+					{/* Previously:
+{candidates.map(({ fullName, image }) => (
 						<>
 							{image !== "" && (
 								<>
@@ -39,6 +51,12 @@ data.forEach((candidate) => {
 							)}
 						</>
 					))}
+*/}
+                    <ul class="list-disc pl-6">
+                        {candidates.map(({ fullName }) => (
+                            <li><a href={`#${fullName}`} class="underline">{fullName}</a></li>
+                        ))}
+                    </ul>
 				</>
 			))
 		}
@@ -68,12 +86,20 @@ data.forEach((candidate) => {
 						</h1>
 					</a>
 
-					{image !== "" && (
+					{/* Previously:
+{image !== "" && (
 						<img
 							class="my-4 w-[16rem] mx-auto"
 							src={`https://www.cs.mun.ca/~csclub/assets/elections/fall-2022/${image}`}
 						/>
 					)}
+*/}
+
+                    {archivedPhotos[image] && (
+                        <p class="my-4">
+                            <a href={archivedPhotos[image]} class="underline">View candidate photo (Internet Archive)</a>
+                        </p>
+                    )}
 
 					<div class="px-1">
 						{whyInterested !== "" && (

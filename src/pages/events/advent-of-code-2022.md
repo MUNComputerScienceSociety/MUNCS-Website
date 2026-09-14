@@ -7,7 +7,11 @@ title: Advent of Code 2022
 
 <br />
 
+<!-- Previously:
 <img src="https://www.cs.mun.ca/~csclub/assets/posters/2022/aoc-2022/muncs-aoc-2022.png" class="mx-auto my-4 w-full max-w-[40rem]" />
+-->
+
+[View the event poster (Internet Archive)](https://web.archive.org/web/20250803133114/https://www.cs.mun.ca/~csclub/assets/posters/2022/aoc-2022/muncs-aoc-2022.png)
 
 <br />
 
@@ -46,9 +50,13 @@ Here are some repositories of people taking part in advent of code this year:
 - [krbarter/Advent-Of-Code-2022](https://github.com/krbarter/Advent-Of-Code-2022)
 - [nint8835/AdventOfCode2022](https://github.com/nint8835/AdventOfCode2022)
 - [hamzahap/AdventOfCode2022](https://github.com/hamzahap/AdventOfCode2022)
+<!-- Previously:
 - [TheCrypticCanadian/advent-of-code-2022](https://github.com/TheCrypticCanadian/advent-of-code-2022)
+-->
 - [STollenaar/AdventOfCode2022](https://github.com/STollenaar/AdventOfCode2022)
+<!-- Previously:
 - [DanielPower/AdventOfCode2022](https://github.com/DanielPower/AdventOfCode2022)
+-->
 - [emilydormody/advent-of-code](https://github.com/emilydormody/advent-of-code)
 - [ecumene/advent_of_code](https://github.com/ecumene/advent_of_code)
 - [zcvaters/adventofcode2022](https://github.com/zcvaters/adventofcode2022)

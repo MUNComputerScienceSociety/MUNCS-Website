@@ -1,3 +1,4 @@
+/* Retired feature; previous implementation retained for reference.
 import { useState, useEffect } from "react";
 import fetchDocuments from "../utils/fetchDocuments";
 import Document from "./Document";
@@ -43,3 +44,5 @@ export const AllDocuments = () => {
     <Document key={index} data={document} />
   ));
 };
+
+*/

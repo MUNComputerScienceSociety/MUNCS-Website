@@ -2,6 +2,7 @@
 layout: ../../layouts/Markdown.astro
 title: February 2022 picoCAD Competition
 ---
+<!-- Previously:
 <style>
     img {
         margin: 0.75rem;
@@ -13,12 +14,17 @@ title: February 2022 picoCAD Competition
         height: 20rem;
     }
 </style>
+-->
 
 # picoCAD Competition
 
 We're hosting a [picoCAD](https://johanpeitz.itch.io/picocad) competition, from February 18th to the 27th!
 
+<!-- Previously:
 <video autoplay muted controls src="https://www.cs.mun.ca/~csclub/assets/posters/2022/feb2022-picoCAD-competition/muncs-picoCAD-comp.mp4"></video>
+-->
+
+[Watch the picoCAD video (Internet Archive)](https://web.archive.org/web/20250803133142/https://www.cs.mun.ca/~csclub/assets/posters/2022/feb2022-picoCAD-competition/muncs-picoCAD-comp.mp4)
 
 picoCAD itself is _technically_ free, although it is encouraged during checkout to send a few $$$ to its creator.
 
@@ -28,7 +34,11 @@ Anyone is welcome to contribute to the competition free of charge, we have yet t
 
 <br/>
 
+<!-- Previously:
 <img src="https://www.cs.mun.ca/~csclub/assets/posters/2022/feb2022-picoCAD-competition/picoCAD-hat.jpg">
+-->
+
+[View the MUNCS beanie (Internet Archive)](https://web.archive.org/web/20250803133146/https://www.cs.mun.ca/~csclub/assets/posters/2022/feb2022-picoCAD-competition/picoCAD-hat.jpg)
 
 For our best submission, we will be giving away a MUNCS beanie!
 
@@ -52,7 +62,11 @@ Feb. 18th: **Color**
 
 <br/>
 
+<!-- Previously:
 <img src="https://www.cs.mun.ca/~csclub/assets/posters/2022/feb2022-picoCAD-competition/muncs-picoCAD-theme-color.png">
+-->
+
+[View the Color theme image (Internet Archive)](https://web.archive.org/web/20250803133153/https://www.cs.mun.ca/~csclub/assets/posters/2022/feb2022-picoCAD-competition/muncs-picoCAD-theme-color.png)
 
 <br/>
 
@@ -70,7 +84,11 @@ Feb. 18th: **Color**
 
 Feb. 24th: **Computer, and Memorial University**
 
+<!-- Previously:
 <img src="https://www.cs.mun.ca/~csclub/assets/posters/2022/feb2022-picoCAD-competition/muncs-picoCAD-theme-computer-and-mun.png">
+-->
+
+[View the Computer and Memorial University theme image (Internet Archive)](https://web.archive.org/web/20250803133156/https://www.cs.mun.ca/~csclub/assets/posters/2022/feb2022-picoCAD-competition/muncs-picoCAD-theme-computer-and-mun.png)
 
 > We've been more silent than we planned, but we are _back_!
 >

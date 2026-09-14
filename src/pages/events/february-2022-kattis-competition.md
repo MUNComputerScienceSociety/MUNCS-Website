@@ -27,7 +27,10 @@ Once you have joined the competition, you can then form a team (if you wish) wit
 
 Kattis itself also expects you to write your solution such that it accepts input through standard input, and output through standard output (printing).
 
+<!-- Previously:
 There is an explanation of how you’d read input found here: [https://open.kattis.com/contests/nq4xis/help/python3](https://open.kattis.com/contests/nq4xis/help/python3) , but **we will be hosting an info session an hour beforehand** so people can checkout some basic problem solving before actually jumping into the real competition.
+-->
+An info session was held an hour beforehand to introduce basic problem solving before the competition.
 
 <br />
 

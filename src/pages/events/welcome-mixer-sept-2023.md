@@ -7,7 +7,11 @@ title: Welcome Mixer Sept 2023
 
 <br />
 
+<!-- Previously:
 <img src="https://www.cs.mun.ca/~csclub/assets/posters/2023/welcome-mixer-sept-2023.png" class="mx-auto my-4 w-full max-w-[40rem]" />
+-->
+
+[View the event poster (Internet Archive)](https://web.archive.org/web/20250803133108/https://www.cs.mun.ca/~csclub/assets/posters/2023/welcome-mixer-sept-2023.png)
 
 <br />
 

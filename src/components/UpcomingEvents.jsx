@@ -1,3 +1,4 @@
+/* Retired feature; previous implementation retained for reference.
 import { EVENTS } from "../data/events";
 import Event from "../components/Event";
 
@@ -21,3 +22,5 @@ export const UpcomingEvents = () => (
     ))}
   </>
 );
+
+*/
