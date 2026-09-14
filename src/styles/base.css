@@ -1,27 +1,54 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@layer theme, base;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+/* Keep utility specificity above the existing Markdown pages' global styles. */
+@import "tailwindcss/utilities.css";
 
-* {
-  font-family: "Inter", sans-serif;
+@theme {
+  --color-background: white;
+  --color-background-dark: #18191a;
+  --color-foreground: black;
+  --color-foreground-dark: #ededed;
+  --color-hover: #f3f4f6;
+  --color-hover-dark: #2f2f30;
+
+  /* Preserve the Tailwind 3 colors and small corner radius used by the site. */
+  --color-blue-900: #1e3a8a;
+  --color-blue-400: #60a5fa;
+  --color-gray-200: #e5e7eb;
+  --radius-sm: 0.125rem;
 }
 
-span,
-p,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  @apply text-foreground dark:text-foreground-dark;
-}
+@layer base {
+  *,
+  ::before,
+  ::after,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200);
+  }
 
-h3 {
-  margin: 0.75rem 0 0.4rem 0;
+  * {
+    font-family: "Inter", sans-serif;
+  }
+
+  span,
+  p,
+  li,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-foreground dark:text-foreground-dark;
+  }
+
+  h3 {
+    margin: 0.75rem 0 0.4rem 0;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
