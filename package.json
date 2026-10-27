@@ -11,7 +11,7 @@
   "dependencies": {
     "@astrojs/react": "^6.0.5",
     "@tailwindcss/vite": "^4.3.3",
-    "astro": "^7.3.2",
+    "astro": "^7.3.3",
     "date-fns": "^4.4.0",
     "papaparse": "^5.7.0",
     "prettier": "^3.9.6",
